@@ -11,7 +11,7 @@ import Head from "next/head";
 import AOSProvider from "@/helpers/AOSProvider/AOSProvider";
 import { ToastContainer } from "react-toastify";
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from 'lenis';
 
 export default function App({ Component, pageProps }) {
 

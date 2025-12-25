@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from 'lenis';
 
 export default function ScrollProgress() {
   const [scroll, setScroll] = useState(0);
