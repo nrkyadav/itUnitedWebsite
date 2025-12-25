@@ -14,33 +14,6 @@ import { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 
 export default function App({ Component, pageProps }) {
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Samyotech",
-    url: "https://samyotech.com",
-    logo: "https://samyotech.com/logo.png",
-    description:
-      "Leading software development company offering web, mobile, and AI-driven solutions globally.",
-    sameAs: [
-      "https://www.facebook.com/samyotech/",
-      "https://www.linkedin.com/company/samyotech-technologies/",
-      "https://twitter.com/samyotech",
-    ],
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: "+91XXXXXXXXXX",
-      contactType: "customer service",
-      areaServed: "IN",
-      availableLanguage: ["English", "Hindi"],
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "IN",
-      addressRegion: "Madhya Pradesh",
-      addressLocality: "Indore",
-    },
-  };
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -85,16 +58,9 @@ export default function App({ Component, pageProps }) {
     <ConfigProvider>
       <AOSProvider>
         <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
-          }}
-        />
-      </Head>
+          <link rel="icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        </Head>
         <ToastContainer />
         <Component {...pageProps} />
       </AOSProvider>

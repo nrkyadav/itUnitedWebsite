@@ -98,7 +98,7 @@ export default function SEO({ seoData }) {
         </>
       )}
 
-      {alternateLanguages && alternateLanguages.length > 0 && 
+      {alternateLanguages && alternateLanguages.length > 0 &&
         alternateLanguages.map((lang, index) => (
           <link
             key={index}

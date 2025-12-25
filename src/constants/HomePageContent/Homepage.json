@@ -16,9 +16,9 @@
       ],
       "title": "Accelerate Growth with Custom AI & Automation",
       "highlight": "Custom AI & Automation",
-      "descriptionBefore": "At ",
-      "highlightText": "IT United Solutions,",
-      "description": "we help businesses harness the power of Artificial Intelligence to transform operations, enhance efficiency, and scale faster. Our intelligent AI agents, custom automation systems, and enterprise-grade AI applications enable organizations to unlock new opportunities and accelerate growth.",
+      "descriptionBefore": "The ",
+"highlightText": "IT United,",
+"description": "empowers businesses to leverage cutting-edge Artificial Intelligence solutions to optimize operations, improve efficiency, and drive growth. With our advanced AI agents, tailored automation systems, and enterprise-grade applications, we help organizations unlock new opportunities and accelerate their success.",
       "image": "/assets/Images/aiBanner.jpg"
     },
 
@@ -28,10 +28,10 @@
       "descrriptionBold":"The IT United",
       "description": "is a leading provider of mobile app development, software development, and IT consulting services. We create innovative, custom solutions that drive digital transformation for businesses worldwide. From startups to enterprises, IT United is a trusted partner helping organizations scale, innovate, and lead.",
       "stats": [
-        { "label": "Customers", "value": "930+" },
-        { "label": "Developers", "value": "120+" },
+        { "label": "Customers", "value": "30+" },
+        { "label": "Developers", "value": "50+" },
         { "label": "Years", "value": "5+" },
-        { "label": "In Countries", "value": "10+" }
+        { "label": "In Countries", "value": "3+" }
       ],
       "clients": [
         "/assets/Images/artbeatz.webp",
@@ -279,7 +279,7 @@
 
   "seoData": {
     "metadata": {
-      "title": "IT United | Leading Software Development & AI Solutions Company",
+      "title": "The IT United | Leading Software Development & AI Solutions Company",
       "description": "IT United is a leading software development company offering web, mobile, and AI-driven solutions globally. We turn ideas into powerful digital products.",
       "keywords": "software development, AI solutions, web development, mobile apps, IT United, custom software development, enterprise software, MVP development",
       "canonical": "https://samyotech.com",
@@ -294,7 +294,7 @@
       "locale": "en_US",
       "url": "https://samyotech.com",
       "siteName": "IT United",
-      "title": "IT United | Leading Software Development & AI Solutions Company",
+      "title": "The IT United | Leading Software Development & AI Solutions Company",
       "description": "Transform your business with IT United — experts in web, mobile, and AI innovation.",
       "image": "https://samyotech.com/og-image.jpg",
       "imageWidth": "1200",
@@ -303,9 +303,9 @@
     },
     "twitter": {
       "card": "summary_large_image",
-      "site": "@samyotech",
-      "creator": "@samyotech",
-      "title": "IT United | Leading Software Development & AI Solutions Company",
+      "site": "@ITUnited",
+      "creator": "@ITUnited",
+      "title": "The IT United | Leading Software Development & AI Solutions Company",
       "description": "Transform your business with IT United — experts in web, mobile, and AI innovation.",
       "image": "https://samyotech.com/og-image.jpg",
       "imageAlt": "IT United - Software Development & AI Solutions"
