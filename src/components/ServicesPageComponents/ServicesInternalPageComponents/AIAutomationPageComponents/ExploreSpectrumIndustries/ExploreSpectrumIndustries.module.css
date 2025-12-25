@@ -1,0 +1,192 @@
+.wrapper {
+    width: 100%;
+    background: #ffffff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .subheading {
+    font-size: 18px;
+    color: #002c22;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #002c22;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #002c22;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+  }
+  
+  .card {
+    padding: 25px 15px;
+    border-radius: 16px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .gifBox {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .gif {
+    width: 50px;
+    height: auto;
+  }
+  
+  .cardTitle {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    padding: 20px 10px;
+    min-height: 140px;
+  }
+
+  .gifBox {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .gif {
+    width: 45px;
+  }
+
+  .cardTitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .wrapper {
+    padding: 40px 15px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    padding: 15px 10px;
+    min-height: 120px;
+  }
+
+  .gifBox {
+    width: 45px;
+    height: 45px;
+  }
+
+  .gif {
+    width: 40px;
+  }
+
+  .cardTitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .wrapper {
+    padding: 30px 10px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .subheading {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    padding: 12px 10px;
+    min-height: 110px;
+  }
+
+  .gifBox {
+    width: 40px;
+    height: 40px;
+  }
+
+  .gif {
+    width: 35px;
+  }
+
+  .cardTitle {
+    font-size: 13px;
+  }
+}

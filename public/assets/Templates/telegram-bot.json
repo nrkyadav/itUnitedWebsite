@@ -1,0 +1,180 @@
+{
+  "name": "Telegram Bot",
+  "nodes": [
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.message.text }}",
+        "options": {
+          "systemMessage": "=You are an expert Developer Interview Assistant.  \nYou help users prepare for technical interviews in Python, JavaScript, MERN Stack, and AI/ML and all related fields.\nYour style:\n- Answer in short Hinglish (mix of Hindi + English).  \n- Keep the tone clear, confident, and helpful.  \n- Give short and to-the-point answers (3–6 lines).  \n- Add a small example or short code snippet whenever possible.  \n- Focus on explaining concepts like an interview mentor.  \n- If question is unclear, politely ask for clarification.  \n- Don’t write long essays — just explain key points with clarity.  \n\nExamples:\nUser: \"AI aur ML me kya difference hai?\"  \nBot: \"AI ek broad concept hai jisme machines human-like decisions leti hain. ML AI ka subset hai jo data se seekhta hai.  \nExample: AI = Chatbot, ML = Recommendation system.\"\n\nUser: \"Overfitting kya hota hai ML me?\"  \nBot: \"Jab model training data pe accha perform kare but new data pe fail ho jaye.  \nExample: Model training data ke noise ko bhi learn kar leta hai.\"\n\nUser: \"JavaScript me hoisting kya hoti hai?\"  \nBot: \"Hoisting ka matlab hai JS code execution ke time variables aur functions top pe move ho jaate hain.  "
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        752,
+        1200
+      ],
+      "id": "c6f91e43-7be0-47cc-b8cb-adecc354d707",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        704,
+        1392
+      ],
+      "id": "2f9f91df-7f6c-492d-a363-590db5f23f92",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "bPXpM3TIhIltSRHF",
+          "name": "Google Gemini(PaLM) Api account-Neer_Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Telegram Trigger').item.json.message.from.id }}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        848,
+        1392
+      ],
+      "id": "c1772b65-c2eb-4fa9-92fd-9bcb35a125bd",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        528,
+        1200
+      ],
+      "id": "93e355de-c704-43db-a009-03419c0d1e34",
+      "name": "Telegram Trigger",
+      "webhookId": "9b8a0e82-8824-43db-8521-6ac84450167a",
+      "credentials": {
+        "telegramApi": {
+          "id": "Fh4fVfW36H0oINuU",
+          "name": "Telegram Prsnl"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
+        "text": "={{ $json.output }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1104,
+        1200
+      ],
+      "id": "b289f678-06d0-414b-b93d-0c2d293784d5",
+      "name": "Send Reply",
+      "webhookId": "ed9b9c39-3ce3-4fc4-86c8-c288d6440c24",
+      "credentials": {
+        "telegramApi": {
+          "id": "Fh4fVfW36H0oINuU",
+          "name": "Telegram Prsnl"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Personalize Bot\nchatbot for interview preparation \n ",
+        "height": 512,
+        "width": 944
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        384,
+        1040
+      ],
+      "typeVersion": 1,
+      "id": "d8e432d2-3168-4eeb-85cd-f9a57f7db5de",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Send Reply",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "5f1f8a94-34d9-44cc-a7c8-d796fe1d6a05",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2083038fbc253b4180eadb9a1e5ddf461c6f5eebcbb33388217161be06e63baf"
+  },
+  "id": "N9eR59KEs4cjILSi",
+  "tags": [
+    {
+      "createdAt": "2025-10-28T13:25:36.596Z",
+      "updatedAt": "2025-10-28T13:25:36.596Z",
+      "id": "pzeJECDOglrnRuQ6",
+      "name": "telegram"
+    }
+  ]
+}

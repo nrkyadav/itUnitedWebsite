@@ -1,0 +1,138 @@
+{
+    "id": "linkedin-auto-post-ai",
+    "name": "LinkedIn Auto Post AI Agent",
+    "version": "1.0.0",
+    "description": "An AI-powered automation agent that generates, schedules, and posts high-performing LinkedIn content automatically based on user preferences and niche.",
+    "author": "Samyotech",
+    "type": "automation-workflow",
+    "category": "Social Media",
+    "platforms": ["Make", "Voiceflow"],
+    "tags": ["linkedin", "automation", "content-generation", "social-media", "ai-agent"],
+    "setup_time": "30 minutes",
+    "difficulty": "Beginner",
+  
+    "workflow": {
+      "trigger": {
+        "type": "scheduled",
+        "frequency": "daily",
+        "time": "09:00 AM",
+        "action": "generate_and_post_content"
+      },
+  
+      "steps": [
+        {
+          "step": 1,
+          "name": "Collect Content Preferences",
+          "description": "Ask the user about the niche, posting tone, content type, target audience, and examples of preferred posts.",
+          "tool": "Voiceflow",
+          "fields_collected": [
+            "niche",
+            "tone",
+            "content_type",
+            "target_audience",
+            "post_examples"
+          ]
+        },
+  
+        {
+          "step": 2,
+          "name": "Generate LinkedIn Content",
+          "description": "Create a LinkedIn-optimized post using OpenAI with hooks, value points, storytelling, and a CTA.",
+          "tool": "OpenAI GPT-4",
+          "outputs": {
+            "post_text": "A polished LinkedIn post tailored to the user's niche",
+            "hashtags": "Trending and niche-relevant hashtags"
+          }
+        },
+  
+        {
+          "step": 3,
+          "name": "Generate Image / Carousel",
+          "description": "Create an eye-catching image or carousel for the post using an AI image generator.",
+          "tool": "Make.com",
+          "outputs": {
+            "image_url": "Generated content graphic"
+          }
+        },
+  
+        {
+          "step": 4,
+          "name": "Schedule or Auto-Post",
+          "description": "Automatically post the generated content on LinkedIn or schedule it for later.",
+          "tool": "Make.com",
+          "actions": ["post_to_linkedin", "schedule_post"]
+        },
+  
+        {
+          "step": 5,
+          "name": "Send Confirmation",
+          "description": "User receives a WhatsApp notification confirming posting or scheduling.",
+          "tool": "Voiceflow",
+          "report_contents": [
+            "post_text",
+            "schedule_time",
+            "post_url"
+          ]
+        }
+      ]
+    },
+  
+    "requirements": {
+      "accounts_needed": [
+        "Make.com",
+        "Voiceflow",
+        "OpenAI API key",
+        "LinkedIn Developer App (for posting)"
+      ],
+      "technical_skills": [
+        "Basic API knowledge",
+        "Understanding of content creation",
+        "Simple automation setup"
+      ]
+    },
+  
+    "features": [
+      "Daily automated LinkedIn posts",
+      "AI-generated content ideas",
+      "Automatic image/carousel generation",
+      "Post scheduling",
+      "Trending hashtag suggestions",
+      "Niche-based content optimization",
+      "WhatsApp instant confirmation"
+    ],
+  
+    "configuration": {
+      "environment_variables": {
+        "OPENAI_API_KEY": "your_openai_api_key",
+        "LINKEDIN_ACCESS_TOKEN": "linkedin_api_token"
+      },
+      "settings": {
+        "post_time": "09:00",
+        "timezone": "UTC",
+        "auto_post": true,
+        "content_tone": "Professional"
+      }
+    },
+  
+    "customization_options": {
+      "content_type": "Short posts, storytelling, tips, carousels",
+      "tone": "Professional, inspiring, friendly, thought-leadership",
+      "post_frequency": "Daily, weekly, custom",
+      "hashtag_style": "Minimal, trending, niche-focused"
+    },
+  
+    "use_cases": [
+      "Personal branding",
+      "Startup founders",
+      "Coaches & consultants",
+      "Job seekers building visibility",
+      "Agencies managing multiple LinkedIn accounts"
+    ],
+  
+    "support": {
+      "documentation": "https://samyotech.com/docs/linkedin-auto-post-ai",
+      "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
+      "contact": "https://wa.me/917869996639"
+    }
+  }
+  

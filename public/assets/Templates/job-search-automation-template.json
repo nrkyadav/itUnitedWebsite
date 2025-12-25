@@ -1,0 +1,150 @@
+{
+    "id": "job-search-automation",
+    "name": "Job Search Automation Agent",
+    "version": "1.0.0",
+    "description": "An AI automation agent that automatically finds job opportunities, customizes resumes, applies to jobs, and keeps users updated with daily job application reports.",
+    "author": "Samyotech",
+    "type": "automation-workflow",
+    "category": "Productivity",
+    "platforms": ["Make", "Voiceflow"],
+    "tags": ["jobs", "automation", "resume", "career", "job-search", "ai-agent"],
+    "setup_time": "45 minutes",
+    "difficulty": "Intermediate",
+  
+    "workflow": {
+      "trigger": {
+        "type": "scheduled",
+        "frequency": "daily",
+        "time": "08:00 AM",
+        "action": "start_job_scan"
+      },
+  
+      "steps": [
+        {
+          "step": 1,
+          "name": "Ask User Preferences",
+          "description": "Collect job preferences such as role, experience, location, salary range, job type, and resume.",
+          "tool": "Voiceflow",
+          "fields_collected": [
+            "job_title",
+            "experience_level",
+            "preferred_locations",
+            "salary_expectation",
+            "job_type",
+            "skills",
+            "resume_document"
+          ]
+        },
+  
+        {
+          "step": 2,
+          "name": "Scan Job Platforms",
+          "description": "Agent automatically searches top platforms using APIs and scrapers.",
+          "tool": "Make.com",
+          "platforms_scanned": [
+            "LinkedIn Jobs",
+            "Indeed",
+            "Naukri",
+            "Glassdoor",
+            "Monster"
+          ],
+          "outputs": {
+            "matching_jobs": "Filtered list of job openings matching the user's preferences"
+          }
+        },
+  
+        {
+          "step": 3,
+          "name": "Generate Tailored Resume",
+          "description": "AI customizes the resume and cover letter for each matched job role.",
+          "tool": "OpenAI GPT-4",
+          "outputs": {
+            "resume": "Optimized resume highlighting key skills and experience",
+            "cover_letter": "AI-crafted cover letter tailored to job description"
+          }
+        },
+  
+        {
+          "step": 4,
+          "name": "Auto Apply to Jobs",
+          "description": "Agent applies to selected job platforms automatically using form-filling automations.",
+          "tool": "Make.com",
+          "actions": ["submit_application", "upload_resume", "upload_cover_letter"],
+          "tracking": "Each successful application is logged with job URL and timestamp"
+        },
+  
+        {
+          "step": 5,
+          "name": "Daily Job Report",
+          "description": "User receives a WhatsApp message summarizing new job opportunities and applications submitted today.",
+          "tool": "Voiceflow",
+          "report_contents": [
+            "new_jobs_found",
+            "applications_submitted",
+            "pending_responses",
+            "company_names"
+          ]
+        }
+      ]
+    },
+  
+    "requirements": {
+      "accounts_needed": [
+        "Make.com (Free or Paid)",
+        "Voiceflow (Free tier available)",
+        "OpenAI API key"
+      ],
+      "technical_skills": [
+        "Basic API usage knowledge",
+        "Resume writing understanding",
+        "Automation flow knowledge"
+      ]
+    },
+  
+    "features": [
+      "Daily job scanning and alerts",
+      "AI-powered resume optimization",
+      "Customized cover letter generation",
+      "Auto job application submission",
+      "Skill-based job matching",
+      "WhatsApp-based updates",
+      "User preference-based filtering",
+      "Application tracking dashboard"
+    ],
+  
+    "configuration": {
+      "environment_variables": {
+        "OPENAI_API_KEY": "your_openai_api_key",
+        "JOB_PLATFORM_API_TOKEN": "job_platform_token"
+      },
+      "settings": {
+        "scan_time": "08:00",
+        "timezone": "UTC",
+        "max_daily_applications": 10,
+        "require_user_approval": false
+      }
+    },
+  
+    "customization_options": {
+      "job_platforms": "Choose which portals to scan",
+      "resume_style": "ATS-friendly, creative, corporate, minimal",
+      "application_limit": "Limit number of daily applications",
+      "content_tone": "Professional, friendly, strong-impact",
+      "job_filters": "Customize job type, salary, and experience levels"
+    },
+  
+    "use_cases": [
+      "Freshers looking for entry-level jobs",
+      "Professionals seeking a job switch",
+      "Remote job seekers",
+      "Freelancers looking for project-based work",
+      "Agencies managing applications for multiple clients"
+    ],
+  
+    "support": {
+      "documentation": "https://samyotech.com/docs/job-search-automation",
+      "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
+      "contact": "https://wa.me/917869996639"
+    }
+  }
+  

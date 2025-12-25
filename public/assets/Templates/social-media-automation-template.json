@@ -1,0 +1,139 @@
+{
+    "name": "Social Media Automation Agent",
+    "version": "1.0.0",
+    "description": "An intelligent AI automation agent that helps users stay consistent with their social media presence by scheduling, optimizing, and analyzing posts.",
+    "author": "Samyotech",
+    "type": "automation-workflow",
+    "category": "Content Creation",
+    "platforms": ["Make", "Voiceflow"],
+    "tags": ["scheduling", "analytics", "social-media", "content-automation"],
+    "setup_time": "1 hour",
+    "difficulty": "Intermediate",
+    
+    "workflow": {
+      "trigger": {
+        "type": "scheduled",
+        "frequency": "daily",
+        "time": "09:00 AM",
+        "action": "send_whatsapp_reminder"
+      },
+      
+      "steps": [
+        {
+          "step": 1,
+          "name": "Send WhatsApp Reminder",
+          "description": "Sends personalized daily WhatsApp reminder with form link",
+          "tool": "Voiceflow",
+          "parameters": {
+            "message_template": "Good morning! Time to create today's social media post. Click here to get started: {form_link}",
+            "recipient": "{user_phone_number}"
+          }
+        },
+        {
+          "step": 2,
+          "name": "Collect Post Details",
+          "description": "User fills form with post brief and preferences",
+          "tool": "Google Forms / Typeform",
+          "fields_collected": [
+            "post_topic",
+            "target_platform",
+            "tone",
+            "key_points",
+            "call_to_action"
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Generate Content",
+          "description": "AI generates post caption, hashtags, and image",
+          "tool": "OpenAI GPT-4 + DALL-E",
+          "outputs": {
+            "caption": "AI-generated engaging caption",
+            "hashtags": "Relevant hashtags based on topic",
+            "image": "AI-generated visual or suggested stock image"
+          }
+        },
+        {
+          "step": 4,
+          "name": "Send Preview",
+          "description": "Share preview via WhatsApp for approval",
+          "tool": "Voiceflow",
+          "actions": ["approve", "regenerate", "edit"]
+        },
+        {
+          "step": 5,
+          "name": "Publish Post",
+          "description": "Automatically publish approved post to social media",
+          "tool": "Make.com",
+          "supported_platforms": [
+            "LinkedIn",
+            "Instagram",
+            "Facebook",
+            "Twitter"
+          ]
+        }
+      ]
+    },
+    
+    "requirements": {
+      "accounts_needed": [
+        "Make.com (Free or Paid)",
+        "Voiceflow (Free tier available)",
+        "OpenAI API key",
+        "Social media API access"
+      ],
+      "technical_skills": [
+        "Basic automation knowledge",
+        "API integration understanding",
+        "Form builder experience"
+      ]
+    },
+    
+    "features": [
+      "Personalized daily WhatsApp reminders",
+      "Simple form-based content collection",
+      "AI-powered caption and hashtag generation",
+      "Automated image creation or suggestion",
+      "Preview and approval workflow",
+      "Multi-platform posting support",
+      "Content regeneration option",
+      "Scheduling capabilities"
+    ],
+    
+    "configuration": {
+      "environment_variables": {
+        "OPENAI_API_KEY": "your_openai_api_key",
+        "WHATSAPP_API_TOKEN": "your_whatsapp_token",
+        "SOCIAL_MEDIA_ACCESS_TOKEN": "platform_specific_token"
+      },
+      "settings": {
+        "reminder_time": "09:00",
+        "timezone": "UTC",
+        "default_platform": "LinkedIn",
+        "auto_publish": false,
+        "require_approval": true
+      }
+    },
+    
+    "customization_options": {
+      "posting_schedule": "Customize reminder time and frequency",
+      "content_style": "Adjust tone, length, and format",
+      "platforms": "Choose which social media platforms to post to",
+      "ai_model": "Select GPT model for content generation",
+      "image_style": "Configure visual content preferences"
+    },
+    
+    "use_cases": [
+      "Content creators maintaining consistent posting",
+      "Small businesses managing social media",
+      "Marketing agencies handling multiple clients",
+      "Personal brands building online presence",
+      "Influencers optimizing engagement"
+    ],
+    
+    "support": {
+      "documentation": "https://samyotech.com/docs/social-media-automation",
+      "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
+      "contact": "https://wa.me/917869996639"
+    }
+  }

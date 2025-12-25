@@ -1,0 +1,98 @@
+.subscribeSection {
+    background-color: #002c22;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .textBlock {
+    flex: 1;
+    min-width: 280px;
+    color: #ffffff;
+  }
+  
+  .heading {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .subText {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+  
+  .formWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 5px 5px 5px 20px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+  }
+  
+  .emailInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    padding: 10px;
+    color: #222e50;
+  }
+  
+  .submitButton {
+    background-color: rgb(34, 46, 80);
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1a223d;
+  }
+  
+  @media (max-width: 768px) {
+    .contentWrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .heading{
+      font-size: 1.6rem;
+    }
+
+    .subText{
+      font-size: 1rem;
+    }
+  
+    .textBlock {
+      text-align: center;
+    }
+  
+    .formWrapper {
+      justify-content: space-between;
+      max-width: 100%;
+    }
+  }
+  

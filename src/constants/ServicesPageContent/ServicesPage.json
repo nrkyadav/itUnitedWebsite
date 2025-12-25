@@ -1,0 +1,432 @@
+{
+  "page": "services",
+  "components": {
+    "bannerData": {
+      "heading": "Services",
+      "description": "Unleash the full potential of your business with cutting-edge technology solutions tailored to your needs. At IT United, we offer a comprehensive suite of services, including Software Development, App Development, Hardware Integration, and Dedicated Development Teams. Whether you’re innovating with new products, scaling operations, or streamlining processes, our expert team delivers solutions that empower your growth and ensure you stay ahead in a competitive landscape.",
+      "image": "/assets/Images/servicesBanner.webp"
+    },
+
+    "servicesPageSoftwareDevelopmentServicesLandscape": [
+      {
+        "title": "Software Development Services",
+        "description": "Transform your ideas into robust, scalable, and innovative software solutions tailored to meet your business goals.",
+        "link": "/software-services-company/software-development-services"
+      },
+      {
+        "title": "App Development Services",
+        "description": "Create intuitive, high-performing mobile and web apps designed to enhance user experiences across all platforms.",
+        "link": "/software-services-company/app-development-services"
+      },
+      {
+        "title": "Hardware Integration Services",
+        "description": "Seamlessly connect software with hardware, delivering smarter, more efficient, and integrated system solutions.",
+        "link": "/software-services-company/hardware-integration-services"
+      },
+      {
+        "title": "Dedicated Development Teams",
+        "description": "Empower your projects with skilled developers working exclusively to bring your vision to life.",
+        "link": "/software-services-company/dedicated-development-teams"
+      },
+      {
+        "title": "Blockchain Development Services",
+        "description": "Blockchain development services create secure, decentralized applications and solutions to enhance transparency, efficiency, and security.",
+        "link": "/software-services-company/blockchain-development-services"
+      },
+      {
+        "title": "Talk to Us",
+        "description": "Book an appointment with our solution consultant to know more about our service offerings.",
+        "link": "#"
+      }
+    ],
+
+    "provenDevelopmentMethodologyData": {
+      "headingBefore": "Our Proven",
+      "heading": " 5-Step Development Methodology",
+      "subTextbefore": "At IT United, we follow a structured, results-driven approach to software development. Our",
+      "gradientText": "5-Step Development Methodology",
+      "subText": "ensures that every project is handled with precision, from initial discovery to final delivery.",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "text": "Understanding your goals, audience, and project vision to set the foundation for success.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 2,
+          "title": "Planning",
+          "text": "Defining scope, timelines, and strategies to deliver results efficiently and effectively.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 3,
+          "title": "Design",
+          "text": "Crafting intuitive, engaging, and visually appealing user experiences that drive results.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 4,
+          "title": "Development",
+          "text": "Building robust, scalable, and high-performance digital solutions tailored to your needs.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 5,
+          "title": "Delivery",
+          "text": "Testing, deployment, and continuous support to ensure your product performs flawlessly.",
+          "icon": "/assets/Images/dark-ball.png"
+        }
+      ]
+    },
+
+    "engagementModelsData": {
+      "heading": "Flexible & Tailored Engagement Models",
+      "description": "We offer flexible engagement models to suit your specific project needs. Whether you’re looking for a fixed-cost solution, a dedicated team, or a hybrid approach, we have the right model to drive your success.",
+      "models": [
+        {
+          "id": 1,
+          "title": "Fixed-Cost Model",
+          "text": "Perfect for projects with a clear scope and timeline, offering cost predictability and well-defined deliverables.",
+          "img": "/assets/Images/fsm.png"
+        },
+        {
+          "id": 2,
+          "title": "Dedicated Team Model",
+          "text": "Hire dedicated experts for flexible, exclusive, and collaborative project support.",
+          "img": "/assets/Images/dtm.png"
+        },
+        {
+          "id": 3,
+          "title": "Hybrid Model",
+          "text": "Get a dedicated team with fixed milestones and costs for each project phase.",
+          "img": "/assets/Images/hybrid.png"
+        }
+      ]
+    },
+
+    "ourInsightsData": {
+      "headingBefore": "Our",
+      "heading": "Insights",
+      "description": "Explore the best of chronicles leading to our tech-powered triumphs. From startup to star to behind-the-scenes, walk through our groundbreaking insights.",
+      "articles": [
+        {
+          "image": "/assets/Images/autmating-test-suites.avif",
+          "title": "Automating Test Suites with AI: Dos and Don’ts",
+          "description": "Automating test suites with AI enhances speed, accuracy, and scalability in software testing.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/ai-code-review.avif",
+          "title": "AI in Code Review: Improving Quality and Speed",
+          "description": "AI in code review is transforming software development by improving quality and speed.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/emerging-tech.avif",
+          "title": "Emerging Tech in Mobile: AR, VR, and Beyond",
+          "description": "Emerging tech in mobile—spanning AR, VR, and beyond—is transforming industries with immersive experiences.",
+          "link": "#",
+          "tagTitle": "Mobile App Development"
+        }
+      ]
+    },
+
+    "someHappyClients": {
+      "clients": [
+        "/assets/Images/artbeatz.webp",
+        "/assets/Images/bartanwala.webp",
+        "/assets/Images/blueturtle.webp",
+        "/assets/Images/byloapp.webp",
+        "/assets/Images/fannan.webp",
+        "/assets/Images/felix.webp",
+        "/assets/Images/inciem.webp",
+        "/assets/Images/mgo.webp",
+        "/assets/Images/techteam.webp",
+        "/assets/Images/ustaska.webp"
+      ]
+    }
+  },
+
+  "seoData": {
+    "metadata": {
+      "title": "Samyotech Services | Software Development, App Development & AI Solutions",
+      "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
+      "keywords": "software development services, app development services, hardware integration, dedicated development teams, blockchain development, AI solutions, Samyotech",
+      "canonical": "https://samyotech.com/software-services-company",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "language": "en-US",
+      "author": "Samyotech",
+      "publisher": "Samyotech",
+      "viewport": "width=device-width, initial-scale=1"
+    },
+    "openGraph": {
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://samyotech.com/software-services-company",
+      "siteName": "Samyotech",
+      "title": "Samyotech Services | Software Development, App Development & AI Solutions",
+      "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
+      "image": "https://samyotech.com/assets/Images/logo.svg",
+      "imageWidth": "1200",
+      "imageHeight": "630",
+      "imageAlt": "Samyotech Services - Software, App, AI & Blockchain Solutions"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@samyotech",
+      "creator": "@samyotech",
+      "title": "Samyotech Services | Software Development, App Development & AI Solutions",
+      "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
+      "image": "https://samyotech.com/assets/Images/logo.svg",
+      "imageAlt": "Samyotech Services"
+    },
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://samyotech.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Software Services",
+            "item": "https://samyotech.com/software-services-company"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Software Development Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Samyotech",
+          "url": "https://samyotech.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://samyotech.com/assets/Images/logo.svg",
+            "width": "250",
+            "height": "60"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 786 999 8739",
+            "contactType": "Sales",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English"]
+          },
+          "sameAs": [
+            "https://www.facebook.com/samyotech",
+            "https://www.linkedin.com/company/samyotech",
+            "https://twitter.com/samyotech",
+            "https://www.instagram.com/samyotech"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "850",
+            "reviewCount": "850"
+          }
+        },
+        "name": "Software Development Services",
+        "description": "Comprehensive software development services including web, mobile, AI, blockchain, and hardware integration solutions.",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Worldwide"
+        },
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://samyotech.com/software-services-company"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Samyotech Services Catalog",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Software Development Services",
+                "description": "Transform your ideas into robust, scalable, and innovative software solutions tailored to meet your business goals."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "App Development Services",
+                "description": "Create intuitive, high-performing mobile and web apps designed to enhance user experiences across all platforms."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Hardware Integration Services",
+                "description": "Seamlessly connect software with hardware, delivering smarter, more efficient, and integrated system solutions."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Dedicated Development Teams",
+                "description": "Empower your projects with skilled developers working exclusively to bring your vision to life."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Blockchain Development Services",
+                "description": "Blockchain development services create secure, decentralized applications and solutions to enhance transparency, efficiency, and security."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Samyotech Services",
+        "url": "https://samyotech.com/software-services-company",
+        "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Samyotech",
+          "url": "https://samyotech.com"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Samyotech",
+        "url": "https://samyotech.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://samyotech.com/assets/Images/logo.svg"
+        },
+        "description": "Leading software development company specializing in MVP development, mobile apps, and web applications with 850+ successful projects delivered.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91 786 999 8739",
+          "contactType": "Customer Service",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English"]
+        },
+        "sameAs": [
+          "https://www.facebook.com/samyotech",
+          "https://www.linkedin.com/company/samyotech",
+          "https://twitter.com/samyotech",
+          "https://www.instagram.com/samyotech"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What services does Samyotech offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Samyotech offers a comprehensive suite of software services including Software Development, Mobile App Development, Web App Development, Hardware Integration, Blockchain Development, and AI Automation Solutions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide dedicated development teams?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we provide dedicated development teams that work exclusively on your project. You can hire skilled developers, designers, and QA experts who integrate seamlessly with your in-house team."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What industries do you serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We serve a wide range of industries including Healthcare, Finance & Banking, E-commerce & Retail, Education, Real Estate, Logistics, and Manufacturing, providing tailored technology solutions for each sector."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you ensure project quality?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We follow a rigorous 5-Step Development Methodology including Discovery, Planning, Design, Development, Testing, and Delivery. Our QA team ensures every deliverable meets high standards of performance, security, and reliability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you help with digital transformation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. We specialize in digital transformation, helping businesses modernize their legacy systems, automate processes with AI, and adopt cutting-edge technologies to stay competitive."
+            }
+          }
+        ]
+      }
+    ],
+    "alternateLanguages": [
+      {
+        "hreflang": "en",
+        "href": "https://samyotech.com/software-services-company"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://samyotech.com/software-services-company"
+      }
+    ],
+    "additionalMetaTags": [
+      {
+        "name": "theme-color",
+        "content": "#0066cc"
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "content": "yes"
+      },
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      },
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "default"
+      },
+      {
+        "name": "geo.region",
+        "content": "WORLDWIDE"
+      },
+      {
+        "name": "coverage",
+        "content": "Worldwide"
+      },
+      {
+        "name": "distribution",
+        "content": "Global"
+      },
+      {
+        "name": "rating",
+        "content": "General"
+      },
+      {
+        "name": "referrer",
+        "content": "no-referrer-when-downgrade"
+      }
+    ]
+  }
+
+}

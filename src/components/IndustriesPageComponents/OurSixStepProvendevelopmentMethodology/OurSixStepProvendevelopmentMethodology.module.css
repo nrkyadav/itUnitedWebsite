@@ -1,0 +1,276 @@
+.smartSection {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px 5% 40px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.smartSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  text-align: left;
+  color: #002c22;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #002c22;
+  margin-bottom: 10px;
+}
+
+.gradientText {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.headingUnderline {
+  width: 500px;
+  height: 4px;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.subText {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  border: 1px solid #10101029;
+  border-radius: 25px;
+  overflow: hidden;
+  min-height: 240px;
+  position: relative;
+  perspective: 1200px;
+}
+
+.card {
+  flex-shrink: 0;
+  will-change: transform;
+  transform-origin: center;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.card:hover {
+  z-index: 5;
+  transform: scale(1.02);
+}
+
+.cardContent {
+  transform: none !important; 
+  will-change: auto !important;
+}
+
+.inactive {
+  width: 220px;
+  background: #ffffff;
+  border-right: 1px solid #ddd;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 30px;
+}
+
+.inactive .cardContent {
+  display: none;
+}
+
+.inactive .count {
+  font-size: 7rem;
+  color: #101010;
+  opacity: 0.15;
+  margin-left: 20px;
+}
+
+.active {
+  width: 480px;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  padding: 30px;
+  color: #fff;
+}
+
+.active .cardContent {
+  display: block;
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.cardText {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.6;
+  max-width: 70%;
+  text-align: left;
+}
+
+.active .count {
+  color: #fff;
+  opacity: 0.3;
+  font-size: 7rem;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.callToAction {
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 1200px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .headingUnderline {
+    width: 300px;
+  }
+
+  .cardsWrapper {
+    min-height: auto;
+  }
+
+  .inactive {
+    width: 180px;
+  }
+
+  .active {
+    width: 380px;
+    padding: 25px;
+  }
+
+  .cardText {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .headingUnderline {
+    width: 200px;
+    height: 3px;
+  }
+
+  .subText {
+    font-size: 1rem;
+  }
+
+  .cardsWrapper {
+    flex-direction: column;
+    border-radius: 15px;
+  }
+
+  .card {
+    width: 100% !important;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .inactive {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .inactive .count {
+    font-size: 4rem;
+  }
+
+  .active {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .active .count {
+    font-size: 5rem;
+    right: 15px;
+  }
+
+  .cardText {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .headingUnderline {
+    width: 150px;
+    height: 3px;
+  }
+
+  .subText {
+    font-size: 0.95rem;
+  }
+
+  .cardText {
+    font-size: 13px;
+  }
+
+  .inactive .count {
+    font-size: 3rem;
+  }
+
+  .active .count {
+    font-size: 4rem;
+  }
+}

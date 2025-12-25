@@ -1,0 +1,180 @@
+.engagementSection {
+    background: rgb(0, 44, 34);
+    padding: 80px 5% 50px 5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlay {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .headingUnderline {
+    width: 180px;
+    height: 4px;
+    margin: 15px 0px;
+    background: rgb(255, 193, 7);
+    border-radius: 4px;
+  }
+  
+  .description {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 0 60px 50px 0px;
+    text-align: left;
+  }
+  
+  .cardsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: white; 
+    color: #000000;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 44, 34, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(0, 44, 34, 0.35);
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+  
+  .cardDesc {
+    font-size: 1rem;
+    line-height: 1.6;
+    flex-grow: 1;
+    color: #000000;
+    text-align: left;
+  }
+
+
+  .productCard {
+    background-color: #ffc107;
+    color: #002c22;
+  }
+  
+  .productTitle,
+  .productDesc {
+    color: #002c22;
+  }
+  
+  .productBtn {
+    background-color: #002c22;
+    color: #ffc107;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .productBtn:hover {
+    background-color: #013a6f;
+  }
+  
+  
+  .cardFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    gap: 10px;
+  }
+  
+.cardFooter a{
+  text-decoration: none !important;
+}
+
+  .viewServices {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #013a6f;
+    text-decoration: none;
+  }
+  
+  .arrowIcon {
+    color: #013a6f;
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s ease;
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+  
+
+  .callToAction {
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  .gradientText {
+    background: rgb(255, 193, 7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  
+  .cardText {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 20px 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  
+    .cardsWrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

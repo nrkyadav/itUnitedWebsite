@@ -1,0 +1,163 @@
+.bannerSection {
+  background-color: #002c22;
+  padding: 50px 5%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1250px;
+  width: 100%;
+  gap: 60px;
+}
+
+.leftContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #4FC3F7;
+}
+
+.calendlyButton {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ffffff !important;
+  color: #002c22 !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 40%;
+}
+
+.calendlyButton:hover {
+  background-color: #e6e6e6 !important;
+}
+
+.rightImage {
+  position: relative;
+  height: auto;
+  min-height: 400px;
+  width: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bannerImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .rightImage {
+    width: 80%;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .leftContent {
+    max-width: 700px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .calendlyButton {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerSection {
+    padding: 40px 4%;
+  }
+
+  .leftContent {
+    align-items: center;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .calendlyButton {
+    width: 80%;
+    font-size: 0.95rem;
+  }
+
+  .rightImage {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerSection {
+    padding: 30px 3%;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .calendlyButton {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .rightImage {
+    width: 100%;
+    height: 200px;
+  }
+}

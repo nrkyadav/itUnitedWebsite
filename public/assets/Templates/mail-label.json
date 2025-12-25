@@ -1,0 +1,268 @@
+{
+  "name": "Mail Label & Reply",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyHour"
+            }
+          ]
+        },
+        "filters": {}
+      },
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        48,
+        112
+      ],
+      "id": "5dd69110-0e3b-4252-bbc8-5fca5d83d79e",
+      "name": "Gmail Trigger",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "BZGud3z6OV2wJi0b",
+          "name": "Gmail account neer0604"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "inputText": "={{ $json.snippet }}",
+        "categories": {
+          "categories": [
+            {
+              "category": "Marketing",
+              "description": "Emails promoting products, services, offers, or discounts — including newsletters, advertisements, and brand updates."
+            },
+            {
+              "category": "Work",
+              "description": "Emails related to office work, meetings, tasks, projects, EOD updates, leave requests, or internal team communication."
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.textClassifier",
+      "typeVersion": 1.1,
+      "position": [
+        224,
+        112
+      ],
+      "id": "c475f1f8-cf89-403f-ae9a-a9d45cddabfd",
+      "name": "Text Classifier"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        608,
+        320
+      ],
+      "id": "47f104bd-d4df-4950-b89c-3c226847e3d7",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "bPXpM3TIhIltSRHF",
+          "name": "Google Gemini(PaLM) Api account-Neer_Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "addLabels",
+        "messageId": "={{ $('Gmail Trigger').item.json.id }}",
+        "labelIds": [
+          "Label_2989176968636495848"
+        ]
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        384,
+        352
+      ],
+      "id": "30b64731-b398-4fbf-bb7c-95554e3bf721",
+      "name": "work label",
+      "webhookId": "2226e4ea-aabf-4ce0-ada5-f683fc0f0c3d",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "BZGud3z6OV2wJi0b",
+          "name": "Gmail account neer0604"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "addLabels",
+        "messageId": "={{ $('Gmail Trigger').item.json.id }}",
+        "labelIds": [
+          "Label_6084202222210801180"
+        ]
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        144,
+        352
+      ],
+      "id": "4c5af1d9-6f4b-41bd-9da8-cd40cd1f90dd",
+      "name": "marketing  label",
+      "webhookId": "2226e4ea-aabf-4ce0-ada5-f683fc0f0c3d",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "BZGud3z6OV2wJi0b",
+          "name": "Gmail account neer0604"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=mail:{{ $('Gmail Trigger').item.json.snippet }}",
+        "options": {
+          "systemMessage": "You are an Personal AI email assistant for Neeraj.\n\nFirst, analyze the incoming email to understand the sender’s message, tone, and purpose.\n\nThen, write a short, polite, and professional reply on behalf of Neeraj.\n\nThe reply should mention that this is an auto-generated response from his agent.\n\nInform the sender that Neeraj will contact them soon.\n\nExample style:\n\n\"Thank you for your message. This is an automated reply from ai agent. Your email has been received, and Neeraj will get back to you soon.\""
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        608,
+        112
+      ],
+      "id": "7e3a17e5-77e5-4d4e-98a0-11660d83de87",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "resource": "draft",
+        "subject": "neeraj chouhan",
+        "message": "={{ $json.output }}",
+        "options": {
+          "replyTo": "={{ $('Gmail Trigger').item.json.From }}",
+          "sendTo": "={{ $('Gmail Trigger').item.json.From }}"
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        928,
+        112
+      ],
+      "id": "632a7e7a-8566-46f7-8387-bdd8178bc886",
+      "name": "Create a draft",
+      "webhookId": "ed5e8438-91d1-4d94-99ce-4663f06f9ec5",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "BZGud3z6OV2wJi0b",
+          "name": "Gmail account neer0604"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Agent For Analize mail\n\nonce received a mail it seprate and add a label after that for work related mail it also draft reply a message  ",
+        "height": 176,
+        "width": 512
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        288,
+        -128
+      ],
+      "typeVersion": 1,
+      "id": "1e2dcc48-66d4-4fc0-bcdd-ccdaf43986df",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Gmail Trigger": {
+      "main": [
+        [
+          {
+            "node": "Text Classifier",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Text Classifier",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Text Classifier": {
+      "main": [
+        [
+          {
+            "node": "marketing  label",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "work label",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "work label": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "marketing  label": {
+      "main": [
+        []
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Create a draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "cd62cc30-c289-491a-8820-e3d45fb6cd8a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2083038fbc253b4180eadb9a1e5ddf461c6f5eebcbb33388217161be06e63baf"
+  },
+  "id": "HUlDATInei7cF4Ng",
+  "tags": []
+}

@@ -1,0 +1,401 @@
+.engagementSection {
+  background: rgb(0, 44, 34);
+  padding: 80px 5% 50px 5%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.overlay {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.headingUnderline {
+  width: 180px;
+  height: 4px;
+  margin: 10px auto 25px;
+  background: rgb(255, 193, 7);
+  border-radius: 4px;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  flex: 1 1 300px;
+  max-width: 360px;
+  transition: all 0.4s ease-in-out;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  border-image: linear-gradient(135deg, #006633 0%, #00c84fe8 100%) 1;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.imageWrapper {
+  width: 100%;
+  overflow: hidden;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000000;
+  padding: 20px 20px 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover .cardTitle {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cardText {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 20px 25px;
+  flex-grow: 1;
+}
+
+.callToAction {
+  margin-top: 60px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradientText {
+  background: rgb(255, 193, 7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.gradientText:hover {
+  opacity: 0.8;
+}
+
+/* Tablet Screens */
+@media (max-width: 1024px) {
+  .engagementSection {
+    padding: 70px 5% 45px 5%;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1.05rem;
+    margin-bottom: 50px;
+  }
+
+  .cardsWrapper {
+    gap: 25px;
+  }
+
+  .card {
+    max-width: 340px;
+  }
+
+  .callToAction {
+    margin-top: 50px;
+    font-size: 1.05rem;
+  }
+}
+
+/* Mobile Landscape & Small Tablets */
+@media (max-width: 768px) {
+  .engagementSection {
+    padding: 60px 4% 40px 4%;
+  }
+
+  .heading {
+    font-size: 1.9rem;
+    margin-bottom: 8px;
+  }
+
+  .headingUnderline {
+    width: 140px;
+    height: 3px;
+    margin: 8px auto 20px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+
+  .cardsWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .imageWrapper {
+    height: 200px;
+  }
+
+  .cardTitle {
+    font-size: 1.25rem;
+    padding: 18px 18px 8px;
+  }
+
+  .cardText {
+    font-size: 0.95rem;
+    padding: 0 18px 20px;
+    line-height: 1.5;
+  }
+
+  .callToAction {
+    margin-top: 45px;
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 600px) {
+  .engagementSection {
+    padding: 50px 4% 35px 4%;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+
+  .headingUnderline {
+    width: 120px;
+    height: 3px;
+    margin: 8px auto 18px;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    padding: 0 5px;
+  }
+
+  .cardsWrapper {
+    gap: 18px;
+  }
+
+  .imageWrapper {
+    height: 180px;
+  }
+
+  .cardTitle {
+    font-size: 1.15rem;
+    padding: 16px 16px 8px;
+  }
+
+  .cardText {
+    font-size: 0.9rem;
+    padding: 0 16px 18px;
+  }
+
+  .callToAction {
+    margin-top: 40px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .engagementSection {
+    padding: 40px 3% 30px 3%;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .headingUnderline {
+    width: 100px;
+    height: 3px;
+    margin: 6px auto 15px;
+  }
+
+  .description {
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+  }
+
+  .cardsWrapper {
+    gap: 15px;
+  }
+
+  .card {
+    border-radius: 14px;
+  }
+
+  .imageWrapper {
+    height: 160px;
+  }
+
+  .cardTitle {
+    font-size: 1.05rem;
+    padding: 14px 14px 7px;
+  }
+
+  .cardText {
+    font-size: 0.85rem;
+    padding: 0 14px 16px;
+    line-height: 1.4;
+  }
+
+  .callToAction {
+    margin-top: 35px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 375px) {
+  .engagementSection {
+    padding: 35px 3% 28px 3%;
+  }
+
+  .heading {
+    font-size: 1.3rem;
+  }
+
+  .headingUnderline {
+    width: 90px;
+    height: 2.5px;
+  }
+
+  .description {
+    font-size: 0.8rem;
+    margin-bottom: 28px;
+  }
+
+  .imageWrapper {
+    height: 150px;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+    padding: 12px 12px 6px;
+  }
+
+  .cardText {
+    font-size: 0.8rem;
+    padding: 0 12px 14px;
+  }
+
+  .callToAction {
+    margin-top: 32px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Very Small Mobile */
+@media (max-width: 320px) {
+  .engagementSection {
+    padding: 30px 2.5% 25px 2.5%;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .headingUnderline {
+    width: 80px;
+    height: 2.5px;
+    margin: 5px auto 12px;
+  }
+
+  .description {
+    font-size: 0.75rem;
+    margin-bottom: 25px;
+  }
+
+  .cardsWrapper {
+    gap: 12px;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .imageWrapper {
+    height: 140px;
+  }
+
+  .cardTitle {
+    font-size: 0.95rem;
+    padding: 10px 10px 5px;
+  }
+
+  .cardText {
+    font-size: 0.75rem;
+    padding: 0 10px 12px;
+  }
+
+  .callToAction {
+    margin-top: 30px;
+    font-size: 0.8rem;
+  }
+}

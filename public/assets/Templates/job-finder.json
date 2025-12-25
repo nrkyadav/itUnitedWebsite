@@ -1,0 +1,345 @@
+{
+  "name": "job finder",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -464,
+        -32
+      ],
+      "id": "c877f719-8925-40da-b29d-d05eefd2d003",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "content": "# Retrieve Job Data from adzuna.com Via API",
+        "height": 100,
+        "width": 784,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -176,
+        -304
+      ],
+      "id": "19330b66-97f2-4cd3-9e9b-7d1440fc4062",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "job_title",
+              "value": "Frontend Developer"
+            }
+          ]
+        },
+        "options": {
+          "dotNotation": false
+        }
+      },
+      "name": "Set Job Title1",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [
+        -240,
+        -32
+      ],
+      "id": "c2779497-e01f-494f-8f2b-a0383bcac7bb"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=46d01e0c&app_key=465ae2c20530bd7820a6f8c512749945&results_per_page=5&what={{$json.job_title}}",
+        "options": {}
+      },
+      "name": "Get Jobs from Adzuna",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        -16,
+        -32
+      ],
+      "id": "52f8e2e3-e7ff-468e-ad55-3966c69002df"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "results",
+        "options": {}
+      },
+      "name": "Split Jobs",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        208,
+        -32
+      ],
+      "id": "dfc1d763-cbe8-4e81-b2cc-2955dd83cef0"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-3.5-turbo",
+          "mode": "list",
+          "cachedResultName": "GPT-3.5-TURBO"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "You're an AI that extracts key job info from the following JSON and returns it like this:\n{\"company_name\": \"\",\"location\": \"\",\"description\": \"(short summary max 200 chars)\"}",
+              "role": "system"
+            },
+            {
+              "content": "=Job data:\n{{ JSON.stringify($json) }}"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "name": "Summarize Job",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        432,
+        -32
+      ],
+      "id": "d92d29d3-3fdc-4a23-920d-c9dcf105a404",
+      "credentials": {
+        "openAiApi": {
+          "id": "urbtrva7Pu5dKh9S",
+          "name": "OpenAi Chaaabi"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1kBFXIqcUxABgGppaHwc7fFdU8ZBis2s45oCaV2JYwMw",
+          "mode": "list",
+          "cachedResultName": "Adzuna",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1kBFXIqcUxABgGppaHwc7fFdU8ZBis2s45oCaV2JYwMw/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1kBFXIqcUxABgGppaHwc7fFdU8ZBis2s45oCaV2JYwMw/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "title": "={{ $('Split Jobs').item.json.title }}",
+            "description": "={{ $('Split Jobs').item.json.description }}",
+            "location": "={{ $('Split Jobs').item.json.location.display_name }}",
+            "salary": "={{ $('Split Jobs').item.json.salary_min }}-{{ $('Split Jobs').item.json.salary_max }}",
+            "company": "={{ $('Split Jobs').item.json.company.display_name }}",
+            "sno": "#"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "sno",
+              "displayName": "sno",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "company",
+              "displayName": "company",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "salary",
+              "displayName": "salary",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "location",
+              "displayName": "location",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        784,
+        -32
+      ],
+      "id": "ae890bdd-b9d3-43fe-a6ad-a24680489c0b",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    }
+  ],
+  "pinData": {
+    "Summarize Job": [
+      {
+        "json": {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": {
+              "company_name": "Dutech Systems",
+              "location": "Austin, Travis County",
+              "description": "Java/JEE development UI/Front-End development REST/SOAP web services Enterprise JEE application platforms Responsive design Web security standards (JWT, OAuth), Angular & TypeScript (4 years SPA experience) HTML5, CSS3, Bootstrap, SASS, JavaScript, JQuery, AJAX Spring, JSP, Struts JSON, XML, Maven, OpenAPI v3 Job Title: Senior Full Stack Java Developer (Angular / RESTful Services) (short summary max 200 chars)"
+            },
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "json": {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": {
+              "company_name": "Dutech Systems",
+              "location": "Austin, Texas",
+              "description": "PeopleSoft FSCM 9.2 Accounts Receivable and Billing modules, PeopleCode, Application Packages, Application Engine, Cobol,REST, SOAP, JSON, XM, SQR, PL/SQL, AWE Job Title: Senior PeopleSoft FSCM Developer (AR & Billing Modules) Location: Austin, TX (Hybrid – 4 days remote, 1 day onsite every Wednesday) Work Hours: Monday – Friday, 8:00 AM – 5:00 PM Central Start Date: 09/15/2025 Eligibility: Local candidates only Job Description We are seeking a highly skilled Senior PeopleSoft FSCM Developer wi…"
+            },
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Set Job Title1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Job Title1": {
+      "main": [
+        [
+          {
+            "node": "Get Jobs from Adzuna",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Jobs from Adzuna": {
+      "main": [
+        [
+          {
+            "node": "Split Jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Jobs": {
+      "main": [
+        [
+          {
+            "node": "Summarize Job",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Summarize Job": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "b305e0e8-00b1-47f1-b1df-6bcc2334092f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2083038fbc253b4180eadb9a1e5ddf461c6f5eebcbb33388217161be06e63baf"
+  },
+  "id": "Yi8GvL3Izx2q3R8A",
+  "tags": []
+}

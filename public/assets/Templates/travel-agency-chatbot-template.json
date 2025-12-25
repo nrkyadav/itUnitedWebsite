@@ -1,0 +1,142 @@
+{
+    "name": "Travel Agency Chatbot",
+    "version": "1.0.0",
+    "description": "An intelligent AI chatbot that helps travel agencies handle customer queries, suggest destinations, generate itineraries, and automate booking workflows.",
+    "author": "Samyotech",
+    "type": "automation-workflow",
+    "category": "Customer Support",
+    "platforms": ["Make", "Voiceflow"],
+    "tags": ["travel", "chatbot", "automation", "itinerary-planner", "customer-support"],
+    "setup_time": "1 hour",
+    "difficulty": "Intermediate",
+  
+    "workflow": {
+      "trigger": {
+        "type": "user_interaction",
+        "source": "WhatsApp / Website Chat Widget",
+        "action": "start_conversation"
+      },
+  
+      "steps": [
+        {
+          "step": 1,
+          "name": "Capture User Requirements",
+          "description": "Chatbot asks user for travel details such as destination, dates, budget, preferences.",
+          "tool": "Voiceflow",
+          "fields_collected": [
+            "destination",
+            "travel_dates",
+            "no_of_travelers",
+            "budget",
+            "travel_preferences",
+            "hotel_rating",
+            "activities_interest"
+          ]
+        },
+  
+        {
+          "step": 2,
+          "name": "Generate Itinerary",
+          "description": "AI generates a full personalized trip itinerary using collected details.",
+          "tool": "OpenAI GPT-4",
+          "outputs": {
+            "itinerary_plan": "Detailed day-wise travel plan",
+            "recommended_hotels": "List of best hotels based on budget",
+            "local_activities": "Activities, attractions & food recommendations"
+          }
+        },
+  
+        {
+          "step": 3,
+          "name": "Share Itinerary Preview",
+          "description": "User receives itinerary preview via WhatsApp for approval.",
+          "tool": "Voiceflow",
+          "actions": ["approve", "regenerate", "edit_hotels", "edit_plan"]
+        },
+  
+        {
+          "step": 4,
+          "name": "Booking Assistance",
+          "description": "If user approves, chatbot helps in booking flights, hotels, and activities.",
+          "tool": "Make.com",
+          "supported_platforms": [
+            "Booking.com",
+            "Skyscanner",
+            "Expedia",
+            "Trip.com"
+          ]
+        },
+  
+        {
+          "step": 5,
+          "name": "Send Final Confirmation",
+          "description": "Chatbot sends confirmation message, tickets, invoice and itinerary.",
+          "tool": "Voiceflow",
+          "delivery": "WhatsApp / Email"
+        }
+      ]
+    },
+  
+    "requirements": {
+      "accounts_needed": [
+        "Make.com (Free or Paid)",
+        "Voiceflow (Free tier available)",
+        "OpenAI API key",
+        "Travel API access (Skyscanner / Booking / Amadeus)"
+      ],
+      "technical_skills": [
+        "Basic automation knowledge",
+        "API integration understanding",
+        "Conversational flow design"
+      ]
+    },
+  
+    "features": [
+      "Instant travel inquiry response",
+      "AI-powered itinerary generation",
+      "Hotel, flight & activity suggestions",
+      "WhatsApp-based chat support",
+      "Multi-language support",
+      "Booking automation via Make.com",
+      "Trip personalization",
+      "Regenerate or edit itinerary options"
+    ],
+  
+    "configuration": {
+      "environment_variables": {
+        "OPENAI_API_KEY": "your_openai_api_key",
+        "WHATSAPP_API_TOKEN": "your_whatsapp_token",
+        "TRAVEL_API_KEY": "travel_provider_key"
+      },
+      "settings": {
+        "default_destination": "Dubai",
+        "timezone": "UTC",
+        "preferred_hotel_rating": "4-star",
+        "auto_send_itinerary": false,
+        "require_user_approval": true
+      }
+    },
+  
+    "customization_options": {
+      "destination_filters": "Customize preferred destinations",
+      "budget_range": "Set minimum & maximum travel budgets",
+      "travel_style": "Adventure, Luxury, Family, Honeymoon, Budget",
+      "ai_model": "Choose GPT model for itinerary creation",
+      "booking_preference": "Choose preferred booking providers"
+    },
+  
+    "use_cases": [
+      "Travel agencies offering automated 24/7 support",
+      "Tour operators providing fast itinerary creation",
+      "Online travel platforms",
+      "Airlines & hotels offering automated suggestions",
+      "Businesses selling curated travel packages"
+    ],
+  
+    "support": {
+      "documentation": "https://samyotech.com/docs/travel-agency-chatbot",
+      "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
+      "contact": "https://wa.me/917869996639"
+    }
+  }
+  

@@ -1,0 +1,194 @@
+.engagementSection {
+    background: rgb(0, 44, 34);
+    padding: 80px 5% 50px 5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlay {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .headingUnderline {
+    width: 180px;
+    height: 4px;
+    margin: 15px 0px;
+    background: rgb(255, 193, 7);
+    border-radius: 4px;
+  }
+  
+  .description {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 0 60px 20px 0px;
+    text-align: left;
+  }
+
+
+
+
+.accordionWrapper {
+    margin-top: 30px;
+    max-width: 900px;
+    text-align: left;
+  }
+  
+  .accordionItem {
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    border: 1px solid #dce6f4;
+  }
+  
+  .accordionButton {
+    width: 100%;
+    background: #ffffff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #002c22;
+    text-align: left;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #002c22;
+  }
+  
+  .accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    background: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .accordionContent.open {
+    max-height: 200px;
+    padding: 15px 20px 20px 20px;
+  }
+  
+  .accordionContent p {
+    margin: 0;
+    color: #002c22;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .faqGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 40px;
+    margin-top: 30px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .heading {
+      font-size: 2.2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+      margin: 0 40px 20px 0;
+    }
+  
+    .accordionButton {
+      font-size: 1rem;
+      padding: 12px 18px;
+    }
+  
+    .accordionContent p {
+      font-size: 0.95rem;
+    }
+  
+    .faqGrid {
+      grid-template-columns: 1fr;
+      gap: 20px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .engagementSection {
+      padding: 60px 4% 40px 4%;
+    }
+  
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .headingUnderline {
+      width: 140px;
+    }
+  
+    .description {
+      font-size: 0.95rem;
+      margin: 0 0 15px 0;
+      text-align: left;
+    }
+  
+    .accordionButton {
+      font-size: 0.95rem;
+      padding: 10px 15px;
+    }
+  
+    .accordionContent p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .engagementSection {
+      padding: 40px 4% 30px 4%;
+    }
+  
+    .heading {
+      font-size: 1.8rem;
+    }
+  
+    .headingUnderline {
+      width: 120px;
+    }
+  
+    .description {
+      font-size: 0.85rem;
+      margin: 0 0 10px 0;
+    }
+  
+    .accordionButton {
+      font-size: 0.9rem;
+      padding: 10px 12px;
+    }
+  
+    .accordionContent p {
+      font-size: 0.85rem;
+    }
+  }
+  

@@ -1,0 +1,410 @@
+{
+  "page": "home",
+  "components": {
+    "bannerData": {
+      "logos": [
+        "/assets/Images/artbeatz.webp",
+        "/assets/Images/bartanwala.webp",
+        "/assets/Images/blueturtle.webp",
+        "/assets/Images/byloapp.webp",
+        "/assets/Images/fannan.webp",
+        "/assets/Images/felix.webp",
+        "/assets/Images/inciem.webp",
+        "/assets/Images/mgo.webp",
+        "/assets/Images/techteam.webp",
+        "/assets/Images/ustaska.webp"
+      ],
+      "title": "Accelerate Growth with Custom AI & Automation",
+      "highlight": "Custom AI & Automation",
+      "descriptionBefore": "At ",
+      "highlightText": "IT United Solutions,",
+      "description": "we help businesses harness the power of Artificial Intelligence to transform operations, enhance efficiency, and scale faster. Our intelligent AI agents, custom automation systems, and enterprise-grade AI applications enable organizations to unlock new opportunities and accelerate growth.",
+      "image": "/assets/Images/aiBanner.jpg"
+    },
+
+    "aboutSamyotechData": {
+      "heading": "Top Mobile Application Development, Software Development & IT Consulting Company, Building Solutions For A Global Clientele.",
+      "descriptionBefore":"Founded in 2020,",
+      "descrriptionBold":"The IT United",
+      "description": "is a leading provider of mobile app development, software development, and IT consulting services. We create innovative, custom solutions that drive digital transformation for businesses worldwide. From startups to enterprises, IT United is a trusted partner helping organizations scale, innovate, and lead.",
+      "stats": [
+        { "label": "Customers", "value": "930+" },
+        { "label": "Developers", "value": "120+" },
+        { "label": "Years", "value": "5+" },
+        { "label": "In Countries", "value": "10+" }
+      ],
+      "clients": [
+        "/assets/Images/artbeatz.webp",
+        "/assets/Images/bartanwala.webp",
+        "/assets/Images/blueturtle.webp",
+        "/assets/Images/byloapp.webp",
+        "/assets/Images/fannan.webp",
+        "/assets/Images/felix.webp",
+        "/assets/Images/inciem.webp",
+        "/assets/Images/mgo.webp",
+        "/assets/Images/techteam.webp",
+        "/assets/Images/ustaska.webp"
+      ]
+    },
+
+    "smartAiWorkflowsData": {
+      "headingeBefore":"Revolutionize Your Operations with ",
+      "heading": "Smart AI Workflows",
+      "subText": "Say goodbye to repetitive work. The IT United brings intelligent automation that saves time, boosts accuracy, and lets your team focus on innovation while AI handles the routine.",
+      "services": [
+        { "title": "Save 40+ Hours Every Week", "description": "Let AI handle onboarding, system setup, and support tasks — so your team can focus on real work.", "icon": "LuTimer" },
+        { "title": "Stay Ahead of Security Threats", "description": "AI watches your systems 24/7, catching and fixing issues before they cause damage.", "icon": "LuShieldCheck" },
+        { "title": "Launch Code 10x Faster", "description": "Write in plain English and let AI build production-ready code — faster, easier, and error-free.", "icon": "LuCode" },
+        { "title": "Grow Sales 3x Smarter", "description": "AI finds hidden insights in your data and turns them into actions that boost revenue.", "icon": "LuTrendingUp" }
+      ],
+      "image": "/assets/Images/aiagentsImage.png"
+    },
+
+    "provenDevelopmentMethodologyData": {
+      "headingBefore":"Our Proven",
+      "heading": " 5-Step Development Methodology",
+      "subTextbefore":"At IT United, we follow a structured, results-driven approach to software development. Our",
+      "gradientText":"5-Step Development Methodology",
+      "subText": "ensures that every project is handled with precision, from initial discovery to final delivery.",
+      "cards": [
+        { "id": 1, "title": "Discover", "text": "Understanding your goals, audience, and project vision to set the foundation for success.", "icon": "/assets/Images/dark-ball.png" },
+        { "id": 2, "title": "Planning", "text": "Defining scope, timelines, and strategies to deliver results efficiently and effectively.", "icon": "/assets/Images/dark-ball.png" },
+        { "id": 3, "title": "Design", "text": "Crafting intuitive, engaging, and visually appealing user experiences that drive results.", "icon": "/assets/Images/dark-ball.png" },
+        { "id": 4, "title": "Development", "text": "Building robust, scalable, and high-performance digital solutions tailored to your needs.", "icon": "/assets/Images/dark-ball.png" },
+        { "id": 5, "title": "Delivery", "text": "Testing, deployment, and continuous support to ensure your product performs flawlessly.", "icon": "/assets/Images/dark-ball.png" }
+      ]
+    },
+
+    "engagementModelsData": {
+      "heading": "Flexible & Tailored Engagement Models",
+      "description": "We offer flexible engagement models to suit your specific project needs. Whether you’re looking for a fixed-cost solution, a dedicated team, or a hybrid approach, we have the right model to drive your success.",
+      "models": [
+        { "id": 1, "title": "Fixed-Cost Model", "text": "Perfect for projects with a clear scope and timeline, offering cost predictability and well-defined deliverables.", "img": "/assets/Images/fsm.png" },
+        { "id": 2, "title": "Dedicated Team Model", "text": "Hire dedicated experts for flexible, exclusive, and collaborative project support.", "img": "/assets/Images/dtm.png" },
+        { "id": 3, "title": "Hybrid Model", "text": "Get a dedicated team with fixed milestones and costs for each project phase.", "img": "/assets/Images/hybrid.png" }
+      ]
+    },
+
+    "techStackFutureData": {
+      "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
+      "headingBefore":"At",
+      "gradientText": "IT United",
+      "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
+      "technologies": [
+        "AngularJS","React JS","Vue.js","JS","HTML","Android","iOS","Figma","Asana","Swift","Redis","Flutter","Ionic","Node","PHP","Java","CodeIgniter","Insta Connect","Python","MS SQL","DynamoDB","MySQL","Oracle","PostgreSQL","Mongo DB","MariaDB","SQL Lite","DB2","Sybase","WordPress","Drupal","Strapi","Umbraco","Kentico","Dotnetnuke","Sitecore","WooCommerce","Shopify","NopCommerce","Storefront","Zoom","Jira","Trello","Slack","GitHub","BitBucket","GitLab"
+      ]
+    },
+
+    "ourProductsLandscapeData": {
+      "products": [
+        {
+          "image": "/assets/Images/petstore.svg",
+          "title": "Petstore | E-commerce Platform for Pets",
+          "description": "Food, toys, grooming, and health—everything your pets need, delivered with care.",
+          "link": "/solutions/products/pet-store"
+        },
+        {
+          "image": "/assets/Images/hostel.svg",
+          "title": "Hostel ERP | Hostel Management System",
+          "description": "A digital system for managing hostel rooms, students, fees, attendance, visitors, and maintenance.",
+          "link": "/solutions/products/hostel-management-system"
+        },
+        {
+          "image": "/assets/Images/library.svg",
+          "title": "Smart Library | Library Management System",
+          "description": "A digital system that streamlines book management, member records, borrowing, and returns.",
+          "link": "/solutions/products/library-management-system"
+        }
+      ]
+    },
+
+    "ourIndustriesSolutionsLandscapeData": {
+      "products": [
+        {
+          "image": "/assets/Images/startup.webp",
+          "title": "Startups",
+          "description": "Empowering startups with agile, scalable solutions to turn innovative ideas into reality and drive growth.",
+          "link": "/industries/startups"
+        },
+        {
+          "image": "/assets/Images/education.webp",
+          "title": "Education",
+          "description": "Transforming learning with modern, tech-enabled platforms that enhance engagement and accessibility.",
+          "link": "/industries/education"
+        },
+        {
+          "image": "/assets/Images/healthcare.webp",
+          "title": "Healthcare",
+          "description": "Streamlining patient care and healthcare management with secure, data-driven solutions.",
+          "link": "/industries/healthcare"
+        }
+      ]
+    },
+
+    "ourSoftwareServicesLandscapeData": {
+      "services": [
+        {
+          "image": "/assets/Images/mvp.webp",
+          "title": "MVP Development Services",
+          "description": "Turn your idea into reality with a minimum viable product built for success—fast, efficient, and user-driven.",
+          "link": "/software-services-company/mvp-development-services"
+        },
+        {
+          "image": "/assets/Images/customsoftware.webp",
+          "title": "Custom Software Development",
+          "description": "Tailored software solutions designed to meet your unique business needs, empowering growth and innovation.",
+          "link": "/software-services-company/software-development-services/custom-software-development"
+        },
+        {
+          "image": "/assets/Images/enterprise.webp",
+          "title": "Enterprise Software Development",
+          "description": "Develop scalable, secure, and high-performance systems to optimize operations and boost business success.",
+          "link": "/software-services-company/software-development-services/enterprise-software-development"
+        }
+      ]
+    },
+
+    "ourSoftwareSolutionsLandscapeData": {
+      "solutions": [
+        {
+          "image": "/assets/Images/crmsolutions.webp",
+          "title": "CRM Solutions",
+          "description": "Enhance customer relationships with powerful tools for managing interactions and driving engagement.",
+          "link": "/solutions/crm"
+        },
+        {
+          "image": "/assets/Images/inventory.webp",
+          "title": "Inventory & Warehouse",
+          "description": "Simplify inventory tracking and warehouse management with real-time, efficient solutions.",
+          "link": "/solutions/inventory-and-warehouse"
+        },
+        {
+          "image": "/assets/Images/ecommerce.webp",
+          "title": "E-Commerce Solutions",
+          "description": "Build seamless, scalable online platforms to elevate your digital shopping experience.",
+          "link": "/solutions/e-commerce-solutions"
+        }
+      ]
+    },
+
+    "someCaseStudiesData": {
+      "caseStudies": [
+        {
+          "image": "/assets/Images/tcera.webp",
+          "title": "Emergency Response with TCERA for TCIF",
+          "description": "Trauma Care International Foundation (TCIF), a global NGO dedicated to improving trauma care and emergency response services.",
+          "industries": "NGO",
+          "client": "TCERA",
+          "link": "#"
+        },
+        {
+          "image": "/assets/Images/regenesysTransaction.avif",
+          "title": "Empowering Property Transactions for Regenesys",
+          "description": "Regenesys, a global leader in education and innovative business solutions, sought to expand its offerings with a robust Property Broker Website.",
+          "industries": "Real Estate",
+          "client": "Regenesys",
+          "link": "#"
+        },
+        {
+          "image": "/assets/Images/tradingPlatform.webp",
+          "title": "Transforming Financial Services with Indxx’s Trading Platform",
+          "description": "Indxx, a global leader in innovative indexing and calculation solutions, partnered with us to develop a state-of-the-art trading platform.",
+          "industries": "Fintech",
+          "client": "Indxx",
+          "link": "#"
+        }
+      ]
+    },
+
+    "ourInsightsData": {
+      "articles": [
+        {
+          "image": "/assets/Images/autmating-test-suites.avif",
+          "title": "Automating Test Suites with AI: Dos and Don’ts",
+          "description": "Automating test suites with AI enhances speed, accuracy, and scalability in software testing.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/ai-code-review.avif",
+          "title": "AI in Code Review: Improving Quality and Speed",
+          "description": "AI in code review is transforming software development by improving quality and speed.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/emerging-tech.avif",
+          "title": "Emerging Tech in Mobile: AR, VR, and Beyond",
+          "description": "Emerging tech in mobile—spanning AR, VR, and beyond—is transforming industries with immersive experiences.",
+          "link": "#",
+          "tagTitle": "Mobile App Development"
+        }
+      ]
+    },
+
+    "successStoriesData": {
+      "stories": [
+        {
+          "image": "/assets/Images/davidM.webp",
+          "name": "David M.",
+          "rating": 5,
+          "location": "New York, USA",
+          "text": "I’ve tried several similar services before, but none compare to IT United. The attention to detail and customer care is unmatched."
+        },
+        {
+          "image": "/assets/Images/emmaR.webp",
+          "name": "Emma R.",
+          "rating": 4,
+          "location": "London, UK",
+          "text": "Exceptional quality at a reasonable price! IT United delivers exactly what they promise."
+        },
+        {
+          "image": "/assets/Images/markt.webp",
+          "name": "Mark T.",
+          "rating": 5,
+          "location": "Sydney, Australia",
+          "text": "I needed a solution quickly, and IT United delivered on time with zero hassle."
+        },
+        {
+          "image": "/assets/Images/sarahl.webp",
+          "name": "Sarah L.",
+          "rating": 4,
+          "location": "Toronto, Canada",
+          "text": "I am beyond impressed with the quality and professionalism of IT United."
+        }
+      ]
+    }
+
+  },
+
+  "seoData": {
+    "metadata": {
+      "title": "IT United | Leading Software Development & AI Solutions Company",
+      "description": "IT United is a leading software development company offering web, mobile, and AI-driven solutions globally. We turn ideas into powerful digital products.",
+      "keywords": "software development, AI solutions, web development, mobile apps, IT United, custom software development, enterprise software, MVP development",
+      "canonical": "https://samyotech.com",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "language": "en-US",
+      "author": "IT United Technologies",
+      "publisher": "IT United",
+      "viewport": "width=device-width, initial-scale=1"
+    },
+    "openGraph": {
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://samyotech.com",
+      "siteName": "IT United",
+      "title": "IT United | Leading Software Development & AI Solutions Company",
+      "description": "Transform your business with IT United — experts in web, mobile, and AI innovation.",
+      "image": "https://samyotech.com/og-image.jpg",
+      "imageWidth": "1200",
+      "imageHeight": "630",
+      "imageAlt": "IT United - Leading Software Development & AI Solutions Company"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@samyotech",
+      "creator": "@samyotech",
+      "title": "IT United | Leading Software Development & AI Solutions Company",
+      "description": "Transform your business with IT United — experts in web, mobile, and AI innovation.",
+      "image": "https://samyotech.com/og-image.jpg",
+      "imageAlt": "IT United - Software Development & AI Solutions"
+    },
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What services does IT United offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IT United offers comprehensive software development services including AI-powered solutions, custom software development, enterprise software development, MVP development, mobile app development, web development, CRM solutions, e-commerce solutions, and IT consulting services. We specialize in building scalable, secure, and high-performance digital solutions tailored to your business needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What technologies does IT United use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IT United leverages cutting-edge technologies including React JS, Angular, Vue.js, Node.js, Python, Java, PHP, Flutter, React Native, Swift, Android, iOS, MySQL, PostgreSQL, MongoDB, Redis, AWS, Azure, and many more. We use a versatile tech stack tailored to each project's specific requirements to deliver future-ready solutions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What engagement models does IT United provide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IT United offers three flexible engagement models: Fixed-Cost Model for projects with clear scope and timeline, Dedicated Team Model for hiring dedicated experts with exclusive collaboration, and Hybrid Model combining dedicated teams with fixed milestones and costs for each project phase. We tailor our approach to suit your specific project needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to develop an MVP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The timeline for MVP development varies based on project complexity and requirements. Typically, a basic MVP can be developed in 8-12 weeks, while more complex solutions may take 12-16 weeks. We follow our proven 5-step development methodology to ensure efficient delivery without compromising quality."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does IT United provide post-launch support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, IT United provides comprehensive post-launch support including testing, deployment, maintenance, updates, bug fixes, and continuous optimization. We ensure your product performs flawlessly and evolves with your business needs through dedicated support and enhancement services."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is IT United's development methodology?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IT United follows a proven 5-step development methodology: Discover (understanding goals and vision), Planning (defining scope and strategies), Design (crafting intuitive user experiences), Development (building robust solutions), and Delivery (testing, deployment, and continuous support). This structured approach ensures precision from initial discovery to final delivery."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can AI-powered solutions benefit my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI-powered solutions from IT United can save 40+ hours every week through intelligent automation, enhance security with 24/7 monitoring, accelerate code deployment by 10x, and grow sales 3x smarter through data-driven insights. Our AI workflows handle repetitive tasks, allowing your team to focus on innovation and strategic initiatives."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which industries does IT United serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IT United serves diverse industries including Startups, Education, Healthcare, E-commerce, Real Estate, Fintech, NGOs, and more. We have successfully delivered 930+ projects across 30+ countries, providing tailored solutions that drive digital transformation for businesses worldwide, from startups to enterprises."
+            }
+          }
+        ]
+      }
+    ],
+    "alternateLanguages": [
+      {
+        "hreflang": "en",
+        "href": "https://samyotech.com"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://samyotech.com"
+      }
+    ],
+    "additionalMetaTags": [
+      {
+        "name": "theme-color",
+        "content": "#0066cc"
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "content": "yes"
+      },
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ]
+  }
+}

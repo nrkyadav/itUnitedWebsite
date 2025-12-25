@@ -1,0 +1,141 @@
+.container {
+  background-color: #002c22;
+  color: white;
+  text-align: center;
+  padding: 45px 5%;
+  font-family: "Albert Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.smallText {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.mainHeading {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.subText {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 40px 5%;
+  }
+
+  .mainHeading {
+    font-size: 2.1rem;
+    margin-bottom: 18px;
+  }
+
+  .subText {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .smallText {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 35px 4%;
+  }
+
+  .mainHeading {
+    font-size: 1.9rem;
+    margin-bottom: 16px;
+  }
+
+  .subText {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .smallText {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 30px 3%;
+  }
+
+  .mainHeading {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+
+  .subText {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .smallText {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 25px 3%;
+  }
+
+  .mainHeading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .subText {
+    font-size: 0.85rem;
+    margin-bottom: 18px;
+  }
+
+  .smallText {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 20px 2.5%;
+  }
+
+  .mainHeading {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+
+  .subText {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+
+  .smallText {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+}

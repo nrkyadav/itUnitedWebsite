@@ -1,0 +1,260 @@
+{
+  "page": "solutions",
+  "components": {
+    "bannerData": {
+      "heading": "Transformative Solutions for Your Business",
+      "descriptionBefore": "Empower your business with innovative, tech-driven solutions tailored to meet your operational and strategic goals. At",
+      "highlightText": "IT United",
+      "description": ", we deliver a suite of advanced solutions designed to optimize processes, improve efficiency, and drive growth. From streamlining inventory management to revolutionizing recruitment and payroll systems, our expertise ensures your business stays ahead in an ever-evolving marketplace. Let us help you turn challenges into opportunities with our cutting-edge technology solutions.",
+      "image": "/assets/Images/solutionsBanner.avif"
+    },
+
+    "solutionsSoftwareDevelopmentServicesLandscape": [
+      {
+        "title": "Inventory & Warehouse",
+        "description": "Simplify inventory tracking and warehouse management with real-time, efficient solutions.",
+        "link": "/solutions/inventory-and-warehouse"
+      },
+      {
+        "title": "CRM Solutions",
+        "description": "Enhance customer relationships with powerful tools for managing interactions and driving engagement.",
+        "link": "/solutions/crm"
+      },
+      {
+        "title": "E-Commerce Solutions",
+        "description": "Build seamless, scalable online platforms to elevate your digital shopping experience.",
+        "link": "/solutions/e-commerce-solutions"
+      },
+      {
+        "title": "Vehicle Tracking System",
+        "description": "Monitor fleet performance and enhance logistics with precise vehicle tracking technology.",
+        "link": "/solutions/vehicle-tracking-system"
+      },
+      {
+        "title": "Transport Management",
+        "description": "Streamline transport operations with solutions designed to improve efficiency and reduce costs.",
+        "link": "/solutions/transport-management"
+      },
+      {
+        "title": "HRMS",
+        "description": "Revolutionize HR management with a comprehensive system for tracking and managing employees.",
+        "link": "/solutions/hrms"
+      },
+      {
+        "title": "Sales & Invoice",
+        "description": "Simplify your sales cycle with streamlined invoicing and payment tracking systems.",
+        "link": "/solutions/sales-and-invoice"
+      },
+      {
+        "title": "Recruitment Management",
+        "description": "Simplify hiring with tools that streamline recruitment and candidate evaluation.",
+        "link": "/solutions/recruitment-management"
+      },
+      {
+        "title": "Payroll Management",
+        "description": "Automate payroll processes to ensure accuracy and compliance while saving time.",
+        "link": "/solutions/payroll-management-solution"
+      },
+      {
+        "title": "Smart Assist",
+        "description": "Leverage AI-powered assistance for smarter decision-making and task automation.",
+        "link": "/solutions/smart-assist"
+      },
+      {
+        "title": "Employee Performance",
+        "description": "Track and improve employee performance with data-driven analytics and feedback systems.",
+        "link": "/solutions/employee-performance"
+      },
+      {
+        "title": "Products",
+        "description": "Explore our most successful products, designed for clients from diverse industries.",
+        "link": "/solutions/products"
+      }
+    ],
+
+    "provenDevelopmentMethodologyData": {
+      "headingBefore": "Our Proven",
+      "heading": " 5-Step Development Methodology",
+      "subTextbefore": "At IT United, we follow a structured, results-driven approach to software development. Our",
+      "gradientText": "5-Step Development Methodology",
+      "subText": "ensures that every project is handled with precision, from initial discovery to final delivery.",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "text": "Understanding your goals, audience, and project vision to set the foundation for success.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 2,
+          "title": "Planning",
+          "text": "Defining scope, timelines, and strategies to deliver results efficiently and effectively.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 3,
+          "title": "Design",
+          "text": "Crafting intuitive, engaging, and visually appealing user experiences that drive results.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 4,
+          "title": "Development",
+          "text": "Building robust, scalable, and high-performance digital solutions tailored to your needs.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 5,
+          "title": "Delivery",
+          "text": "Testing, deployment, and continuous support to ensure your product performs flawlessly.",
+          "icon": "/assets/Images/dark-ball.png"
+        }
+      ]
+    },
+
+    "engagementModelsData": {
+      "heading": "Flexible & Tailored Engagement Models",
+      "description": "We offer flexible engagement models to suit your specific project needs. Whether you’re looking for a fixed-cost solution, a dedicated team, or a hybrid approach, we have the right model to drive your success.",
+      "models": [
+        {
+          "id": 1,
+          "title": "Fixed-Cost Model",
+          "text": "Perfect for projects with a clear scope and timeline, offering cost predictability and well-defined deliverables.",
+          "img": "/assets/Images/fsm.png"
+        },
+        {
+          "id": 2,
+          "title": "Dedicated Team Model",
+          "text": "Hire dedicated experts for flexible, exclusive, and collaborative project support.",
+          "img": "/assets/Images/dtm.png"
+        },
+        {
+          "id": 3,
+          "title": "Hybrid Model",
+          "text": "Get a dedicated team with fixed milestones and costs for each project phase.",
+          "img": "/assets/Images/hybrid.png"
+        }
+      ]
+    },
+
+    "ourInsightsData": {
+      "headingBefore": "Our",
+      "heading": "Insights",
+      "description": "Explore the best of chronicles leading to our tech-powered triumphs. From startup to star to behind-the-scenes, walk through our groundbreaking insights.",
+      "articles": [
+        {
+          "image": "/assets/Images/autmating-test-suites.avif",
+          "title": "Automating Test Suites with AI: Dos and Don’ts",
+          "description": "Automating test suites with AI enhances speed, accuracy, and scalability in software testing.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/ai-code-review.avif",
+          "title": "AI in Code Review: Improving Quality and Speed",
+          "description": "AI in code review is transforming software development by improving quality and speed.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/emerging-tech.avif",
+          "title": "Emerging Tech in Mobile: AR, VR, and Beyond",
+          "description": "Emerging tech in mobile—spanning AR, VR, and beyond—is transforming industries with immersive experiences.",
+          "link": "#",
+          "tagTitle": "Mobile App Development"
+        }
+      ]
+    },
+
+    "someHappyClients": {
+      "clients": [
+        "/assets/Images/artbeatz.webp",
+        "/assets/Images/bartanwala.webp",
+        "/assets/Images/blueturtle.webp",
+        "/assets/Images/byloapp.webp",
+        "/assets/Images/fannan.webp",
+        "/assets/Images/felix.webp",
+        "/assets/Images/inciem.webp",
+        "/assets/Images/mgo.webp",
+        "/assets/Images/techteam.webp",
+        "/assets/Images/ustaska.webp"
+      ]
+    }
+  },
+
+  "seoData": {
+    "metadata": {
+      "title": "IT United | CRM, E-Commerce, HRMS & AI-Powered Software",
+      "description": "Explore IT United's comprehensive software solutions including CRM, E-Commerce, HRMS, Inventory & Warehouse, Smart Assist, Payroll Management, and Employee Performance tools. Delivering innovative, scalable, and AI-driven solutions to empower businesses across industries.",
+      "keywords": "CRM solutions, E-Commerce solutions, HRMS software, Inventory management, Smart Assist, Payroll management, Employee performance, AI solutions, IT United",
+      "canonical": "https://samyotech.com/solutions",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "language": "en-US",
+      "author": "IT United Technologies",
+      "publisher": "IT United"
+    },
+    "openGraph": {
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://samyotech.com/solutions",
+      "siteName": "IT United",
+      "title": "IT United | CRM, E-Commerce, HRMS & AI-Powered Software",
+      "description": "Comprehensive software solutions for CRM, E-Commerce, HRMS, Inventory, and more to empower your business.",
+      "image": "https://samyotech.com/assets/Images/solutionsBanner.avif",
+      "imageWidth": "1200",
+      "imageHeight": "630",
+      "imageAlt": "IT United - Transformative Business Software"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@samyotech",
+      "creator": "@samyotech",
+      "title": "IT United | CRM, E-Commerce, HRMS & AI Software",
+      "description": "Innovative software solutions for modern businesses.",
+      "image": "https://samyotech.com/assets/Images/solutionsBanner.avif",
+      "imageAlt": "IT United"
+    },
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What solutions does IT United offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IT United offers 12+ comprehensive solutions including CRM, E-Commerce, HRMS, Inventory & Warehouse Management, Vehicle Tracking, Transport Management, Sales & Invoice, Recruitment Management, Payroll Management, Smart Assist, Employee Performance, and custom Products."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are IT United customizable?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all our solutions are highly customizable and tailored to meet your specific business needs and operational requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What industries can benefit from IT United solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our solutions serve diverse industries including retail, logistics, healthcare, education, fintech, real estate, manufacturing, and more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide ongoing support for your solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we provide comprehensive ongoing support, maintenance, updates, and 24/7 assistance to ensure your solutions perform optimally."
+            }
+          }
+        ]
+      }
+    ],
+    "alternateLanguages": [],
+    "additionalMetaTags": []
+  }
+}

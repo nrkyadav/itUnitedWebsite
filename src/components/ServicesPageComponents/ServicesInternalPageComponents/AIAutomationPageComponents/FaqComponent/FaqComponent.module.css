@@ -1,0 +1,173 @@
+/* Desktop styles (default) - keep as is */
+.smartSection {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 40px 5% 50px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.smartSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  text-align: center;
+}
+
+.smallHeading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #002c22;
+  margin-bottom: 15px;
+}
+
+.largeHeading {
+  font-size: 38px;
+  font-weight: 700;
+  color: #002c22;
+  margin-bottom: 40px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordionItem {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #d1d5db;
+  transition: all 0.3s ease;
+}
+
+.accordionHeader {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 18px 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: #002c22;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  color: #002c22;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.accordionContent {
+  max-height: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  transition: max-height 0.35s ease;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.accordionContent p {
+  color: #ffffff;
+  padding: 15px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.open {
+  max-height: 500px;
+}
+
+@media (max-width: 900px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .largeHeading {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .accordionHeader {
+    font-size: 15px;
+    padding: 16px 18px;
+  }
+
+  .accordionContent p {
+    font-size: 15px;
+    padding: 12px 0;
+  }
+
+  .arrow {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .smartSection {
+    padding: 20px 3% 25px 3%;
+  }
+
+  .largeHeading {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .smallHeading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .accordionHeader {
+    font-size: 13px;
+    padding: 14px 15px;
+  }
+
+  .accordionContent {
+    padding: 0 15px;
+  }
+
+  .accordionContent p {
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 1.4;
+  }
+
+  .arrow {
+    font-size: 12px;
+  }
+}

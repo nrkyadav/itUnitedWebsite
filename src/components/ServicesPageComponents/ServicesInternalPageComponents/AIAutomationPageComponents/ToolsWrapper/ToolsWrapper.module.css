@@ -1,0 +1,51 @@
+.wrapper {
+    width: 100%;
+    background-color: #002c22;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner {
+      width: 90%;
+      max-width: 1400px;
+  }
+  
+  :global(.swiper-wrapper) {
+      display: flex;
+      align-items: center;
+  }
+  
+  .imageBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image:hover {
+    opacity: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .image {
+      width: 90px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image {
+      width: 70px;
+    }
+  }
+  

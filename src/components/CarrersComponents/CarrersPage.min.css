@@ -1,0 +1,160 @@
+:root {
+          --color-dark-bg: #0b1c31;
+          --color-text-light: #ffffff;
+          --color-primary: #007bff; 
+          --color-stat-underline: #334d66;
+          --color-block-accent: #2c4d6e; 
+        }
+        
+        .careerHeader {
+            background-color: var(--color-dark-bg);
+            color: var(--color-text-light);
+            padding: 80px 5%;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden; 
+        }
+
+        .contentContainer {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        /* --- Left Content: Text and Stats --- */
+        .leftContent {
+            flex: 2;
+            padding-right: 50px;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 50px;
+        }
+
+        /* Stats Styling */
+        .statsRow {
+            display: flex;
+            gap: 40px;
+            padding-top: 10px;
+        }
+
+        .statItem {
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .statValue {
+            display: block;
+            font-size: 40px;
+            font-weight: 700;
+            color: var(--color-text-light);
+            margin-bottom: 5px;
+        }
+
+        .statLabel {
+            font-size: 16px;
+            font-weight: 400;
+            /* Add the subtle underline effect */
+            border-bottom: 2px solid var(--color-stat-underline); 
+            padding-bottom: 5px;
+            color: #a0a0a0; /* Slightly greyed-out text */
+        }
+
+        /* --- Right Content: Image with Overlay --- */
+        .rightImage {
+            flex: 1;
+            position: relative;
+            max-width: 450px; 
+            height: 600px;
+            /* Pulling the image out slightly to the right edge to match the design */
+            margin-right: -10%; 
+        }
+
+        .employeeImage {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px; 
+            position: relative;
+            z-index: 2; 
+        }
+
+        /* Custom Geometric Overlay/Frame using background properties for complex shapes */
+        .imageOverlay {
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: calc(100% + 100px);
+            height: calc(100% + 100px);
+            z-index: 1;
+            background: transparent; 
+            
+            /* Using box-shadows to create the white, curved and blocky shapes around the image */
+            box-shadow: 
+                /* Top Left Block */
+                -20px -20px 0 10px var(--color-block-accent),
+                /* Top Right Curved */
+                40px 10px 0 30px var(--color-block-accent),
+                /* Mid Right Block */
+                60px 200px 0 10px var(--color-block-accent),
+                /* Bottom Left Block */
+                -10px 450px 0 10px var(--color-block-accent),
+                /* Bottom Right Block */
+                -5px 550px 0 10px var(--color-block-accent);
+        }
+
+        /* --- Responsive Adjustments --- */
+        @media (max-width: 1024px) {
+            .contentContainer {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .leftContent {
+                padding-right: 0;
+            }
+
+            .rightImage {
+                width: 100%;
+                max-width: 500px;
+                height: 400px;
+                margin: 0 auto;
+            }
+            
+            .statsRow {
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+
+            .statItem {
+                flex-basis: 40%; /* Two items per row */
+            }
+            
+            .imageOverlay {
+                display: none; /* Hide the complex overlay on mobile */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .title {
+                font-size: 36px;
+            }
+
+            .statValue {
+                font-size: 32px;
+            }
+
+            .statItem {
+                flex-basis: 100%; /* One item per row on very small screens */
+            }
+        }

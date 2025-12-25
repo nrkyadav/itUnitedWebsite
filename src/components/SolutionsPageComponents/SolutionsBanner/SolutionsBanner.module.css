@@ -1,0 +1,176 @@
+.bannerSection {
+  background-color: #002c22;
+  padding: 50px 5%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1250px;
+  width: 100%;
+  gap: 60px;
+}
+
+.leftContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #00c84fe8;
+}
+
+.statsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.statBox {
+  text-align: center;
+}
+
+.statBox h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.statBox p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
+
+.rightImage {
+  position: relative;
+  height: auto;
+  min-height: 400px;
+  width: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bannerImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .rightImage {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .statsRow {
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerSection {
+    padding: 40px 4%;
+  }
+
+  .heading {
+    font-size: 1.9rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    width: 100%;
+  }
+
+  .statsRow {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .statBox h3 {
+    font-size: 1.8rem;
+  }
+
+  .statBox p {
+    font-size: 0.85rem;
+  }
+
+  .rightImage {
+    height: 250px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerSection {
+    padding: 30px 3%;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .statsRow {
+    gap: 12px;
+  }
+
+  .statBox h3 {
+    font-size: 1.5rem;
+  }
+
+  .statBox p {
+    font-size: 0.8rem;
+  }
+
+  .rightImage {
+    height: 200px;
+  }
+}

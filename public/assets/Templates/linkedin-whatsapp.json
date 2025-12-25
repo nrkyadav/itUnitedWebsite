@@ -1,0 +1,1879 @@
+{
+  "name": "Linkedin Post whatsapp integration",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "caption ": "={{ $('Message a model').item.json.message.content }}",
+            "status": "pending",
+            "image_url": "=",
+            "title": "={{ $('WhatsApp Trigger').item.json.messages[0].text.body }}",
+            "uniqueID": "={{ $json.uniqueId }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "uniqueID",
+              "displayName": "uniqueID",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -1360,
+        256
+      ],
+      "id": "8353e145-f447-48e1-9bdd-c2d3f93c8865",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "person": "U61sIwXn6W",
+        "text": "={{ $('Google Sheets Trigger').item.json['caption '] }}",
+        "shareMediaCategory": "IMAGE",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.linkedIn",
+      "typeVersion": 1,
+      "position": [
+        -496,
+        -400
+      ],
+      "id": "78ab5d58-bdb7-4b0e-8053-ae5e42da1c3c",
+      "name": "Create a post",
+      "credentials": {
+        "linkedInOAuth2Api": {
+          "id": "WYw2xTUkXwBZ8avI",
+          "name": "LinkedIn Neer"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "event": "rowUpdate",
+        "options": {
+          "columnsToWatch": [
+            "status"
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1664,
+        -240
+      ],
+      "id": "5095d2fd-848f-4523-a4ec-658070f38498",
+      "name": "Google Sheets Trigger",
+      "executeOnce": false,
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "X4Vy0A6LnkA45Joj",
+          "name": "Google Sheets Trigger account Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ $('Google Sheets Trigger').item.json.image_url }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -704,
+        -464
+      ],
+      "id": "e66bd0a4-250c-443a-b183-b9abbb36e49a",
+      "name": "HTTP Request",
+      "notesInFlow": false,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "d22b5e90-ebfd-41f2-a9ce-bef2c87a4d14",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "=approved",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1504,
+        -240
+      ],
+      "id": "e1e94816-ea9f-4c84-9337-05569955ac45",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=### GOAL:\nCreate social media captions that drive **high engagement** (comments, saves, shares) around trending tech topics to grow brand visibility and authority.\n\n### CONTEXT:\nThe posts target **tech-savvy professionals**, founders, and operations managers interested in **AI, automation, innovation, startups, and technology trends**.\n\nTone: **Energetic, Professional, and Solution-Focused**  \nVoice: **Authoritative yet conversational**  \nPlatform: **LinkedIn / X (Twitter)**\n\n### TASK:\nGenerate ONE compelling social media caption based on the provided topic.  \n(The topic will be user-selected, e.g., “AI innovation in India” or “Upcoming tech IPOs.”)\n\n### STRUCTURE:\n1. **The Hook (1st Line):**  \n   Start with an attention-grabbing question or bold statement related to the given topic. Use an emoji or two (⚙️🤖🚀💡) to grab attention.\n\n2. **The Insight / Value Section:**  \n   Share a short, meaningful perspective, trend insight, or takeaway around the topic — something that feels fresh, valuable, or conversation-worthy.\n\n3. **The Breakdown:**  \n   Optionally, use bullet points or short lines to highlight a few quick facts, shifts, or opportunities related to the topic.\n\n4. **The Call-to-Action (CTA):**  \n   End with a simple engagement or reflection cue (e.g., “What’s your take on this shift?” or “Would you adopt this in your business?”).\n\n### 🧾 CONSTRAINTS:\n- Entire caption must be **under 1000 characters**  \n- Include **4–6 relevant emojis** (🚀💡✅🧠⚙️🤖 etc.)  \n- Include **3–5 relevant hashtags** at the end (based on the topic; e.g., `#AI #Innovation #TechTrends #Startups`)  \n- Use **line breaks** for easy readability  \n- Keep it **value-driven**, **insightful**, and **non-salesy**\n\n### OUTPUT:\nA single, engaging social media caption about the provided topic — optimized for LinkedIn or X (Twitter) — with emojis, hashtags, and a strong hook.\n",
+              "role": "system"
+            },
+            {
+              "content": "=Topic for Today's Post: {{ $('WhatsApp Trigger').item.json.messages[0].text.body }}{{ $('WhatsApp Trigger').item.json.messages[0].interactive.button_reply.id }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1936,
+        256
+      ],
+      "id": "f05ea830-b8f2-492b-bb29-862e009ad8bf",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "urbtrva7Pu5dKh9S",
+          "name": "OpenAi Chaaabi"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -1296,
+        -256
+      ],
+      "id": "0f5ac6da-8b2c-46f2-aa85-d6a4bc3505ab",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "status": "posted",
+            "caption ": "={{ $('Google Sheets Trigger').item.json['caption '] }}"
+          },
+          "matchingColumns": [
+            "caption "
+          ],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -320,
+        -400
+      ],
+      "id": "46afa1f0-17bc-47b8-bd6a-6d5514e36b82",
+      "name": "Append or update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "defbc0a3-cc2a-490d-a1f4-7f1978621710",
+              "leftValue": "={{ $json.image_url }}",
+              "rightValue": "drive.google.com",
+              "operator": {
+                "type": "string",
+                "operation": "notContains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -912,
+        -400
+      ],
+      "id": "a0e04e03-cd3e-478c-8c6e-c10b004cef62",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "https://drive.google.com/file/d/10NnlkGGYWMkHRMjCaU_V_9KPwxSzHreD/view?usp=drive_link",
+          "mode": "url"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -704,
+        -304
+      ],
+      "id": "d33f8635-a47d-4649-a4b6-3bc08bd7f415",
+      "name": "Download file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "D8kCvfmn96wky0iD",
+          "name": "Google Drive Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "send",
+        "phoneNumberId": "=381472345039573",
+        "recipientPhoneNumber": "={{ $('WhatsApp Trigger').item.json.messages[0].from }}",
+        "textBody": "={{ $('Message a model').item.json.message.content }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [
+        -240,
+        256
+      ],
+      "id": "1817124c-a3c9-481a-a99e-2951285d22e3",
+      "name": "Send message",
+      "webhookId": "5e74bc05-0652-435a-9e8b-f963bcca9bcc",
+      "credentials": {
+        "whatsAppApi": {
+          "id": "72jehMbb8oIbjAHT",
+          "name": "WhatsApp account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [
+        -3024,
+        -384
+      ],
+      "id": "a4389482-aa6d-437a-aafd-c34f26407fea",
+      "name": "RSS — ET Tech"
+    },
+    {
+      "parameters": {
+        "url": "https://analyticsindiamag.com/feed/",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [
+        -3024,
+        -240
+      ],
+      "id": "d3abad00-357b-49c8-aa57-94a4eb84bfc2",
+      "name": "RSS — Analytics India Mag"
+    },
+    {
+      "parameters": {
+        "url": "https://inc42.com/feed/",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [
+        -3024,
+        -96
+      ],
+      "id": "72eb6077-e454-4b65-8686-21040b4d78e6",
+      "name": "RSS - Inc42"
+    },
+    {
+      "parameters": {
+        "numberInputs": 3
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -2848,
+        -256
+      ],
+      "id": "6fe98c90-bdab-430a-8e5c-79fc505495cb",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  const data = item.json;\n  return {\n    json: {\n      title: data.title || data.titleRendered || \"\"\n    }\n  };\n});\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2720,
+        -240
+      ],
+      "id": "50360e87-00f6-406a-8f03-18e7c8c2700b",
+      "name": "format article"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -2576,
+        -240
+      ],
+      "id": "1c960c83-aabe-473a-8169-7ea293fec113",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -3280,
+        -240
+      ],
+      "id": "6409c3df-c9da-4506-8aa5-64aef1a750f7",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.data }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are an AI content assistant.\nI will provide you with a JSON list of article titles extracted from an RSS feed.\nYour task is to:\n\n1. Analyze all the titles and identify which topics are most trending or popular right now — based on relevance, newsworthiness, and audience interest (especially for LinkedIn professionals).\n\n2. Group similar titles together if they talk about the same event or theme (e.g., IPOs, AI breakthroughs, tech policy, startups, etc.).\n\n3. Select the Top 10 most popular or high-impact topics from the entire list, giving **higher priority to technology-related topics** (AI, innovation, IT, startups, semiconductors, data, cloud, etc.).\n\nGuidelines:\n- Focus on topics that are trending, impactful, or insightful for professionals.\n- Give **tech-related topics** top priority when ranking popularity or impact.\n- Prioritize themes like AI, startups, innovation, IPOs, tech policy, and leadership.\n- Avoid duplicates or low-impact/local-only stories.\n- Output only a plain list of upto 10 topics — nothing else.\n\nsample output :\n```\n1. AI Innovation, Adoption & Ethics\n2. Startup Funding & IPO Market Trends\n3. Semiconductor & High-Tech Manufacturing Initiatives\n4. India's Emergence as a Global Tech & Deep Tech Hub\n5. Cloud Computing & AI Infrastructure Investments\n```"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -2432,
+        -240
+      ],
+      "id": "5e674c1d-e484-4848-ada2-f24f8ce002d3",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "updates": [
+          "messages"
+        ],
+        "options": {}
+      },
+      "type": "n8n-nodes-base.whatsAppTrigger",
+      "typeVersion": 1,
+      "position": [
+        -3488,
+        448
+      ],
+      "id": "53b6fae8-a36f-48ff-9328-6489ee59d805",
+      "name": "WhatsApp Trigger",
+      "webhookId": "5fe3c98a-c05b-45eb-bf34-4a34b2047f37",
+      "credentials": {
+        "whatsAppTriggerApi": {
+          "id": "KQoVZyD3Waoo0X5y",
+          "name": "WhatsApp_Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.5-flash",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.5-flash"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an assistant that classifies user messages as either a valid post topic or not.\n\nRules:\n1. If the message is a **concise topic idea** suitable for generating a post (usually 1-5 words or a short phrase), respond: TOPIC\n2. If the message is a **greeting**, random text, paragraph, long message, or anything vague/unclear, respond: NOT A TOPIC\n3. Do **not** change, summarize, or rephrase the user message. Only classify.\nUser:{{ $('WhatsApp Trigger').item.json.messages[0].text.body }}{{ $('WhatsApp Trigger').item.json.messages[0].interactive.button_reply.id}}\n"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        -2464,
+        400
+      ],
+      "id": "f1925ea6-7fcc-4a9f-8058-01285f1c5868",
+      "name": "message_analize",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "bPXpM3TIhIltSRHF",
+          "name": "Google Gemini(PaLM) Api account-Neer_Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "send",
+        "phoneNumberId": "=381472345039573",
+        "recipientPhoneNumber": "7745930380",
+        "textBody": "=Here are the Top 10 most popular or high-impact topics:\n\n{{ $json.output.data }}\n\nPlease select a topic from the list above or share your own idea for today’s post.",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [
+        -1952,
+        -240
+      ],
+      "id": "f6d5512a-da0e-47e8-b477-5ba364ca00a0",
+      "name": "Send Topic's",
+      "webhookId": "4e153b91-5c55-42ff-a797-411d483e731d",
+      "credentials": {
+        "whatsAppApi": {
+          "id": "72jehMbb8oIbjAHT",
+          "name": "WhatsApp account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "4766a484-7fee-445f-9b4b-9257abdeb74d",
+              "leftValue": "={{ $json.content.parts[0].text }}",
+              "rightValue": "TOPIC",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -2160,
+        400
+      ],
+      "id": "ccf100c7-0be7-43c7-add7-bb89587c44de",
+      "name": "analize"
+    },
+    {
+      "parameters": {
+        "operation": "send",
+        "phoneNumberId": "=381472345039573",
+        "recipientPhoneNumber": "={{ $('WhatsApp Trigger').item.json.messages[0].from }}",
+        "textBody": "=I couldn't detect a valid topic. Can you tell me in a few words what you want the post to be about?",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [
+        -1936,
+        512
+      ],
+      "id": "9765293c-9e5c-4029-a5f6-fa3fa4c60df3",
+      "name": "Again!",
+      "webhookId": "ab113e39-25f3-43b4-857d-d50ed1eeea0a",
+      "credentials": {
+        "whatsAppApi": {
+          "id": "72jehMbb8oIbjAHT",
+          "name": "WhatsApp account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v21.0/{{ $json.metadata.phone_number_id }}/messages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "whatsAppApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"messaging_product\": \"whatsapp\",\n  \"status\": \"read\",\n  \"message_id\": \"{{ $json.messages[0].id }}\",\n  \"typing_indicator\": { \"type\": \"text\" }\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2672,
+        272
+      ],
+      "id": "ed2b3b27-344c-457a-86fc-f8229f6a8981",
+      "name": "typing",
+      "credentials": {
+        "whatsAppApi": {
+          "id": "72jehMbb8oIbjAHT",
+          "name": "WhatsApp account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.messages[0].type }}",
+                    "rightValue": "text",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "b089d525-36f7-4590-b69b-b62f1c90dbbe"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "57f405fd-4a9b-4a5d-b649-ae4db00a7bfb",
+                    "leftValue": "={{ $json.messages[0].type }}",
+                    "rightValue": "interactive",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "c277f314-10f7-43c3-a22a-d7fd259c08c8",
+                    "leftValue": "",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -3040,
+        416
+      ],
+      "id": "8878fdd2-1643-4d4f-aba5-79f40cd90e4d",
+      "name": "Switch2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "6f3565f7-2f43-4eff-9195-81f0813d5c12",
+              "leftValue": "={{ $json.metadata.phone_number_id }}",
+              "rightValue": "381472345039573",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -3264,
+        448
+      ],
+      "id": "cd2e83a1-2847-4493-891f-2fba1af9d6f7",
+      "name": "Check_No1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v21.0/381472345039573/messages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "whatsAppApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"messaging_product\": \"whatsapp\", \"to\":{{ $('WhatsApp Trigger').item.json.messages[0].from }}, \"type\": \"interactive\", \"interactive\": { \"type\": \"button\", \"body\": { \"text\": \"Your post is ready!\\nPost it now, make a new one, or edit it here 👇\\n{{ $('Append or update row in sheet2').item.json.preview_url }}\" }, \"action\": { \"buttons\": [ { \"type\": \"reply\", \"reply\": { \"id\": \"POST|{{ $('Code').item.json.uniqueId }}\", \"title\": \"Post\" } }, { \"type\": \"reply\", \"reply\": { \"id\": \"-{{ $('WhatsApp Trigger').item.json.messages[0].text.body}}{{$('WhatsApp Trigger').item.json.messages[0].interactive.button_reply.id}}\", \"title\": \"Generate New\" } } ] } } }",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -16,
+        256
+      ],
+      "id": "17c475b8-81f0-44cb-bdb7-71e6079d5c6a",
+      "name": "Confirmation?",
+      "credentials": {
+        "whatsAppApi": {
+          "id": "72jehMbb8oIbjAHT",
+          "name": "WhatsApp account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "function generateKey(length = 5) {\n  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\n  let result = '';\n  for (let i = 0; i < length; i++) {\n    result += chars.charAt(Math.floor(Math.random() * chars.length));\n  }\n  return result;\n}\nreturn [{ uniqueId: generateKey() }];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1584,
+        256
+      ],
+      "id": "c5a8b838-65f8-4881-adf8-acea96c7ecae",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "d734edac-2463-4f18-bc96-0e9139e94d34",
+              "leftValue": "={{ $json.messages[0].interactive.button_reply.title }}",
+              "rightValue": "Post",
+              "operator": {
+                "type": "string",
+                "operation": "notEquals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -2832,
+        432
+      ],
+      "id": "b1d4f457-3c26-4d37-ae41-06576bdca73c",
+      "name": "If2"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "uniqueID": "={{ $json.messages[0].interactive.button_reply.id.replace(/^POST\\|/, '') }}",
+            "status": "approved"
+          },
+          "matchingColumns": [
+            "uniqueID"
+          ],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "uniqueID",
+              "displayName": "uniqueID",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -2672,
+        544
+      ],
+      "id": "76269bfc-635e-4089-871b-af93ae1712f6",
+      "name": "Append or update row in sheet1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://slides.googleapis.com/v1/presentations/{{ $('Copy file').item.json.id }}:batchUpdate",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDriveOAuth2Api",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"requests\": {{ JSON.stringify($json.requests) }} }",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -688,
+        256
+      ],
+      "id": "b3af67dc-818c-4953-801a-1070ec94daf8",
+      "name": "Post preview content",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "D8kCvfmn96wky0iD",
+          "name": "Google Drive Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    \"json\": {\n      \"requests\": [\n        {\n          \"replaceAllText\": {\n            \"containsText\": { \"text\": \"This is for testing\", \"matchCase\": true },\n            \"replaceText\":$('Append row in sheet').first().json['caption ']\n          }\n        }        \n      ]\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -912,
+        256
+      ],
+      "id": "2c7488b7-4d58-410a-b14f-dd64c03a95ea",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "operation": "copy",
+        "fileId": {
+          "__rl": true,
+          "value": "1nKscd8aS5MLIXKY0i-3Ab554lGNzpYugswzX8FIaO-Q",
+          "mode": "list",
+          "cachedResultName": "Linkedin Post Preview",
+          "cachedResultUrl": "https://docs.google.com/presentation/d/1nKscd8aS5MLIXKY0i-3Ab554lGNzpYugswzX8FIaO-Q/edit?usp=drivesdk"
+        },
+        "name": "={{ $json.title }} | {{ $json.uniqueID }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -1136,
+        256
+      ],
+      "id": "a2f5bc12-a422-4651-b60a-dd011b83b41a",
+      "name": "Copy file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "D8kCvfmn96wky0iD",
+          "name": "Google Drive Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "uniqueID": "={{ $('Append row in sheet').item.json.uniqueID }}",
+            "preview_url": "=https://docs.google.com/presentation/d/{{ $json.presentationId }}"
+          },
+          "matchingColumns": [
+            "uniqueID"
+          ],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "uniqueID",
+              "displayName": "uniqueID",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "preview_url",
+              "displayName": "preview_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -464,
+        256
+      ],
+      "id": "0facbb15-4e4a-4cc1-a5a9-22fa9b0d5ee5",
+      "name": "Append or update row in sheet2",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"data\": \"1. AI Innovation, Adoption & Ethics\\n2. Startup Funding & IPO Market Trends\\n3. Semiconductor & High-Tech Manufacturing Initiatives\\n4. India's Emergence as a Global Tech & Deep Tech Hub\\n5. Cloud Computing & AI Infrastructure Investments\"\n}\n"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -2288,
+        -64
+      ],
+      "id": "852d1e1c-81e9-4a20-8506-656909efd8e1",
+      "name": "Parser"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4o-mini"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -2432,
+        -64
+      ],
+      "id": "3e5f5593-ba0e-476a-bc90-0f05cb378e47",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "urbtrva7Pu5dKh9S",
+          "name": "OpenAi Chaaabi"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "eba29db0-ad88-4979-87f2-9bfd6742eb13",
+              "leftValue": "={{ $json.image_url }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1136,
+        -256
+      ],
+      "id": "49f67ade-937f-4340-b514-1529083502ab",
+      "name": "If3"
+    },
+    {
+      "parameters": {
+        "person": "U61sIwXn6W",
+        "text": "={{ $('Google Sheets Trigger').item.json['caption '] }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.linkedIn",
+      "typeVersion": 1,
+      "position": [
+        -896,
+        -144
+      ],
+      "id": "9f5180a4-185c-4767-b168-8b10a7f8a94f",
+      "name": "Create a post1",
+      "credentials": {
+        "linkedInOAuth2Api": {
+          "id": "WYw2xTUkXwBZ8avI",
+          "name": "LinkedIn Neer"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "status": "posted",
+            "caption ": "={{ $('Google Sheets Trigger').item.json['caption '] }}"
+          },
+          "matchingColumns": [
+            "caption "
+          ],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -720,
+        -144
+      ],
+      "id": "4722eba4-817b-4732-8f04-b1b5968ae93c",
+      "name": "Append or update row in sheet3",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "send",
+        "phoneNumberId": "=381472345039573",
+        "recipientPhoneNumber": "=7745930380",
+        "textBody": "=Your post is live on LinkedIn!\nYour update has been successfully shared with your network. You can view it on your LinkedIn profile and start engaging with your audience.",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [
+        -432,
+        -144
+      ],
+      "id": "901a2e0b-ebe9-4408-ab3d-f121395eef5b",
+      "name": "Again!1",
+      "webhookId": "ab113e39-25f3-43b4-857d-d50ed1eeea0a",
+      "credentials": {
+        "whatsAppApi": {
+          "id": "72jehMbb8oIbjAHT",
+          "name": "WhatsApp account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Confirmation \nwhen sheet status is updated to APPROVED  then its execute and post on linkedin",
+        "height": 736,
+        "width": 1952,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1728,
+        -624
+      ],
+      "typeVersion": 1,
+      "id": "0300937e-b64a-4853-8b2c-d1276b8ea19f",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Find Trending News for Post   ",
+        "height": 736,
+        "width": 1904,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -3632,
+        -624
+      ],
+      "typeVersion": 1,
+      "id": "85d19bd5-3b1f-4260-93fd-f7aca8be8b8a",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## Whatsapp Conversation\nshows a list of trending topic to the user and take a user input or interest based on that generates a post caption and send preview to the user\n  ",
+        "height": 688,
+        "width": 3856
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -3632,
+        112
+      ],
+      "typeVersion": 1,
+      "id": "29725b72-dd0d-490d-84b3-0bc246c3986c",
+      "name": "Sticky Note2"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Create a post": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets Trigger": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Create a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "If3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Download file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download file": {
+      "main": [
+        [
+          {
+            "node": "Create a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send message": {
+      "main": [
+        [
+          {
+            "node": "Confirmation?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Copy file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "RSS — ET Tech": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "RSS — Analytics India Mag": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "RSS - Inc42": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "format article",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "format article": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "RSS — ET Tech",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "RSS - Inc42",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "RSS — Analytics India Mag",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Send Topic's",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "WhatsApp Trigger": {
+      "main": [
+        [
+          {
+            "node": "Check_No1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "message_analize": {
+      "main": [
+        [
+          {
+            "node": "analize",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Topic's": {
+      "main": [
+        []
+      ]
+    },
+    "analize": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Again!",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "typing": {
+      "main": [
+        [
+          {
+            "node": "message_analize",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check_No1": {
+      "main": [
+        [
+          {
+            "node": "Switch2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch2": {
+      "main": [
+        [
+          {
+            "node": "typing",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "If2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If2": {
+      "main": [
+        [
+          {
+            "node": "typing",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Append or update row in sheet1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Post preview content": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Post preview content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Copy file": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append or update row in sheet2": {
+      "main": [
+        [
+          {
+            "node": "Send message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If3": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create a post1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create a post1": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append or update row in sheet3": {
+      "main": [
+        [
+          {
+            "node": "Again!1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append or update row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Again!1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "35291018-b79c-408b-aed8-4dc7b1c22db7",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2083038fbc253b4180eadb9a1e5ddf461c6f5eebcbb33388217161be06e63baf"
+  },
+  "id": "x78mXssZMtLIOKlH",
+  "tags": []
+}

@@ -1,0 +1,49 @@
+.smartSection {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    background-size: 120px 120px;
+    background-repeat: repeat;
+    background-position: top center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 100px 5% 0px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+  }
+  
+  .smartSection::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 0;
+  }
+  
+  .overlay {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    color: #002c22;
+  }
+
+
+  .curveBg {
+    position: absolute;
+    top: -92px; 
+    left: 0;
+    width: 100%;
+    height: 120px; /* Adjust height based on your curve image */
+    
+    /* Assuming the curve image is an SVG or PNG that goes from Dark Blue to Transparent/Yellow */
+    /* IMPORTANT: Replace '/assets/Images/curve-background.svg' with your actual image path */
+    background-image: url('/assets/Images/curve.png'); 
+    background-size: cover; 
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: 100; 
+    /* The curve image is dark, sitting on top of the yellow section background */
+}

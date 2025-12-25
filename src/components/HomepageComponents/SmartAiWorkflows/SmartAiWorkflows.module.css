@@ -1,0 +1,518 @@
+.smartSection {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 100px 5% 0px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.smartSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  text-align: center;
+  color: #002c22;
+}
+
+.heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: rgb(0, 44, 34);
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.gradientText {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+.subText {
+  color: rgba(0, 0, 0, 0.74);
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.headingUnderline {
+  width: 180px;
+  height: 4px;
+  margin: 0 auto 20px auto;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  border-radius: 4px;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.leftGrid {
+  flex: 1 1 55%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.serviceCard {
+  background: rgb(194, 219, 241);
+  padding: 1.5rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 25px rgba(0, 44, 34, 0.08);
+  border: 2px solid rgba(0, 44, 34, 0.1);
+  position: relative;
+  overflow: hidden;
+  max-height: 280px;
+  transition: all 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px) scale(1.03);
+  border-color: #002c22;
+  box-shadow: 0 20px 60px rgba(0, 44, 34, 0.25);
+}
+
+.serviceIcon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0, 44, 34, 0.3);
+  transition: all 0.3s ease;
+}
+
+.serviceCard h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #0f172a;
+  font-weight: 700;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.serviceCard:hover h3 {
+  color: #002c22;
+}
+
+.serviceCard p {
+  color: rgba(0, 0, 0, 0.74);
+  line-height: 1.6;
+  font-size: 1.05rem;
+  text-align: left;
+}
+
+.rightImageCard {
+  flex: 1 1 40%;
+  background: rgb(194, 219, 241);
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 44, 34, 0.15);
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.rightImage {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  .smartSection {
+    padding: 80px 5% 0px 5%;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .subText {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .contentWrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .leftGrid {
+    flex: 1 1 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .serviceCard {
+    max-height: none;
+    padding: 1.3rem;
+  }
+
+  .serviceCard h3 {
+    font-size: 1.3rem;
+  }
+
+  .serviceCard p {
+    font-size: 1rem;
+  }
+
+  .rightImageCard {
+    flex: 1 1 100%;
+    min-height: 450px;
+    padding: 18px;
+  }
+
+  .imageWrapper {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .smartSection {
+    padding: 60px 4% 0px 4%;
+  }
+
+  .heading {
+    font-size: 1.9rem;
+    margin-bottom: 12px;
+    line-height: 1.2;
+  }
+
+  .headingUnderline {
+    width: 140px;
+    height: 3px;
+    margin-bottom: 18px;
+  }
+
+  .subText {
+    font-size: 0.95rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .contentWrapper {
+    gap: 25px;
+  }
+
+  .leftGrid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .serviceCard {
+    padding: 1.2rem;
+    border-radius: 20px;
+    max-height: none;
+  }
+
+  .serviceIcon {
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .serviceCard h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .serviceCard p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .rightImageCard {
+    min-height: 400px;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .imageWrapper {
+    border-radius: 16px;
+    min-height: 360px;
+  }
+
+  .rightImage {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .smartSection {
+    padding: 50px 4% 0px 4%;
+    background-size: 80px 80px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .headingUnderline {
+    width: 120px;
+    height: 3px;
+    margin-bottom: 15px;
+  }
+
+  .subText {
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+    padding: 0 5px;
+  }
+
+  .contentWrapper {
+    gap: 20px;
+  }
+
+  .leftGrid {
+    gap: 15px;
+  }
+
+  .serviceCard {
+    padding: 1.1rem;
+    border-radius: 18px;
+  }
+
+  .serviceIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    margin-bottom: 0.9rem;
+    border-radius: 12px;
+  }
+
+  .serviceCard h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .serviceCard p {
+    font-size: 0.9rem;
+  }
+
+  .rightImageCard {
+    min-height: 350px;
+    padding: 12px;
+  }
+
+  .imageWrapper {
+    border-radius: 14px;
+    min-height: 320px;
+  }
+
+  .rightImage {
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .smartSection {
+    padding: 40px 3% 0px 3%;
+    background-size: 60px 60px;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .headingUnderline {
+    width: 100px;
+    height: 3px;
+  }
+
+  .subText {
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+  }
+
+  .contentWrapper {
+    gap: 18px;
+  }
+
+  .leftGrid {
+    gap: 12px;
+  }
+
+  .serviceCard {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+
+  .serviceIcon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    border-radius: 10px;
+  }
+
+  .serviceCard h3 {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .serviceCard p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .rightImageCard {
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .imageWrapper {
+    border-radius: 12px;
+    min-height: 270px;
+  }
+
+  .rightImage {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .smartSection {
+    padding: 35px 3% 0px 3%;
+  }
+
+  .heading {
+    font-size: 1.3rem;
+  }
+
+  .headingUnderline {
+    width: 90px;
+  }
+
+  .subText {
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+  }
+
+  .serviceCard {
+    padding: 0.9rem;
+  }
+
+  .serviceIcon {
+    width: 42px;
+    height: 42px;
+    font-size: 1.3rem;
+  }
+
+  .serviceCard h3 {
+    font-size: 0.95rem;
+  }
+
+  .serviceCard p {
+    font-size: 0.8rem;
+  }
+
+  .rightImageCard {
+    min-height: 280px;
+    padding: 8px;
+  }
+
+  .imageWrapper {
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 320px) {
+  .smartSection {
+    padding: 30px 2.5% 0px 2.5%;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .headingUnderline {
+    width: 80px;
+    height: 2.5px;
+  }
+
+  .subText {
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+  }
+
+  .serviceCard {
+    padding: 0.8rem;
+    border-radius: 14px;
+  }
+
+  .serviceIcon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .serviceCard h3 {
+    font-size: 0.9rem;
+  }
+
+  .serviceCard p {
+    font-size: 0.75rem;
+  }
+
+  .rightImageCard {
+    min-height: 260px;
+    padding: 8px;
+    border-radius: 16px;
+  }
+
+  .imageWrapper {
+    border-radius: 10px;
+    min-height: 240px;
+  }
+
+  .rightImage {
+    border-radius: 10px;
+  }
+}

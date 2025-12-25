@@ -1,0 +1,294 @@
+.smartSection {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px 5%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.smartSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  min-height: 400px;
+}
+
+.textSection {
+  width: 35%;
+  text-align: left;
+  color: #002c22;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #002c22;
+  margin-bottom: 10px;
+}
+
+.gradientText {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 2.6rem;
+}
+
+.headingUnderline {
+  width: 140px;
+  height: 4px;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.subText {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.swiperSection {
+  width: 65%;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 44, 34, 0.1);
+  padding: 20px;
+  text-align: left;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 350px;
+  border: 1px solid rgba(0, 44, 34, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 44, 34, 0.2);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userImage {
+  object-fit: cover;
+}
+
+.userName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222E50;
+  margin: 0;
+}
+
+.rating {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.starFilled {
+  color: #ffc107;
+  font-size: 0.9rem;
+}
+
+.starEmpty {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.location {
+  color: #222E50;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.description {
+  color: #222E50;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.swiperContainer {
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.customPagination {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.customPagination .swiper-pagination-bullet {
+  background-color: #000 !important;
+  opacity: 0.5 !important;
+  width: 10px;
+  height: 10px;
+  margin: 0 6px !important;
+  transition: all 0.3s ease;
+}
+
+.customPagination .swiper-pagination-bullet-active {
+  background-color: #000 !important;
+  opacity: 1 !important;
+  transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .textSection,
+  .swiperSection {
+    width: 100%;
+  }
+
+
+  .heading,
+  .gradientText {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .subText {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 1rem;
+  }
+
+  .card {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .textSection {
+    text-align: center;
+    width: 100%;
+  }
+  .headingUnderline{
+    margin: 15px auto;
+  }
+
+
+  .swiperContainer{
+    padding-bottom: 15px;
+  }
+  .heading,
+  .gradientText {
+    font-size: 1.8rem;
+  }
+
+  .subText {
+    font-size: 0.95rem;
+    max-width: 300px;
+    margin: 0 auto 10px;
+  }
+
+  .imageWrapper {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .swiperSection {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading,
+  .gradientText {
+    font-size: 1.6rem;
+  }
+
+  .subText {
+    font-size: 0.9rem;
+  }
+
+  .imageWrapper {
+    width: 35px;
+    height: 35px;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .heading,
+  .gradientText {
+    font-size: 1.5rem;
+  }
+
+  .subText {
+    font-size: 0.85rem;
+  }
+
+  .imageWrapper {
+    width: 30px;
+    height: 30px;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+}

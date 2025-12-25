@@ -1,0 +1,280 @@
+{
+  "page": "industries",
+  "components": {
+    "bannerData": {
+      "heading": "Industries we work for",
+      "descriptionBefore": " Harness the power of technology to transform your industry. At",
+      "highlightText": "Samyotech",
+      "description": ", we bring expertise across a diverse range of sectors, delivering innovative solutions tailored to unique challenges and goals. From empowering startups to revolutionizing agriculture, enhancing healthcare, and redefining entertainment, we create impactful digital experiences. Our deep industry knowledge combined with cutting-edge technology enables businesses to thrive in an ever-changing world. Let’s shape the future of your industry together.",
+      "image": "/assets/Images/industriesBanner.avif"
+    },
+
+    "industriesSoftwareDevelopmentServicesLandscape": [
+      {
+        "title": "Startups",
+        "description": "Empowering startups with agile, scalable solutions to turn innovative ideas into reality and drive growth.",
+        "link": "/industries/startups"
+      },
+      {
+        "title": "Real Estate",
+        "description": "Digitizing real estate processes with tools that improve property management, transactions, and customer experiences.",
+        "link": "/industries/real-estate"
+      },
+      {
+        "title": "Food & Restaurant",
+        "description": "Elevating the food industry with advanced solutions for delivery, inventory, and customer engagement.",
+        "link": "/industries/food-and-restaurant"
+      },
+      {
+        "title": "Sport",
+        "description": "Empowering the sports industry with tech-driven solutions for analytics, fan engagement, and operations.",
+        "link": "/industries/sports"
+      },
+      {
+        "title": "Education",
+        "description": "Transforming learning with modern, tech-enabled platforms that enhance engagement and accessibility.",
+        "link": "/industries/education"
+      },
+      {
+        "title": "Retail",
+        "description": "Revolutionizing retail with solutions that enhance customer journeys and optimize inventory management.",
+        "link": "/industries/retail"
+      },
+      {
+        "title": "Gaming",
+        "description": "Crafting immersive gaming experiences with cutting-edge design and technology.",
+        "link": "/industries/gaming"
+      },
+      {
+        "title": "Agriculture",
+        "description": "Driving sustainable farming practices with innovative tools for crop management and monitoring.",
+        "link": "/industries/agriculture"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Streamlining patient care and healthcare management with secure, data-driven solutions.",
+        "link": "/industries/healthcare"
+      },
+      {
+        "title": "Travel & Hospitality",
+        "description": "Enhancing guest experiences with seamless booking, management, and personalized travel solutions.",
+        "link": "/industries/travel-and-hospitality"
+      },
+      {
+        "title": "Entertainment",
+        "description": "Redefining entertainment with innovative platforms for content creation, distribution, and engagement.",
+        "link": "/industries/entertainment"
+      },
+      {
+        "title": "Government",
+        "description": "Enhancing public services and operational efficiency with secure, scalable government technology solutions.",
+        "link": "/industries/government"
+      },
+      {
+        "title": "Fintech",
+        "description": "Building innovative, secure financial solutions that redefine how businesses and individuals manage money.",
+        "link": "/industries/fintech"
+      },
+      {
+        "title": "Logistics",
+        "description": "Simplifying supply chain operations with efficient and transparent logistics management tools.",
+        "link": "/industries/logistics"
+      },
+      {
+        "title": "On-Demand",
+        "description": "Building robust platforms that meet the needs of the on-demand economy with efficiency and scalability.",
+        "link": "/industries/on-demand"
+      },
+      {
+        "title": "SailPoint Solutions",
+        "description": "Simplify identity governance with Samyotech’s SailPoint Solutions Consultancy.",
+        "link": "/industries/sailpoint-solutions-consultancy"
+      }
+    ],
+
+    "provenDevelopmentMethodologyData": {
+      "headingBefore": "Our Proven",
+      "heading": " 5-Step Development Methodology",
+      "subTextbefore": "At IT United, we follow a structured, results-driven approach to software development. Our",
+      "gradientText": "5-Step Development Methodology",
+      "subText": "ensures that every project is handled with precision, from initial discovery to final delivery.",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "text": "Understanding your goals, audience, and project vision to set the foundation for success.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 2,
+          "title": "Planning",
+          "text": "Defining scope, timelines, and strategies to deliver results efficiently and effectively.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 3,
+          "title": "Design",
+          "text": "Crafting intuitive, engaging, and visually appealing user experiences that drive results.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 4,
+          "title": "Development",
+          "text": "Building robust, scalable, and high-performance digital solutions tailored to your needs.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 5,
+          "title": "Delivery",
+          "text": "Testing, deployment, and continuous support to ensure your product performs flawlessly.",
+          "icon": "/assets/Images/dark-ball.png"
+        }
+      ]
+    },
+
+    "engagementModelsData": {
+      "heading": "Flexible & Tailored Engagement Models",
+      "description": "We offer flexible engagement models to suit your specific project needs. Whether you’re looking for a fixed-cost solution, a dedicated team, or a hybrid approach, we have the right model to drive your success.",
+      "models": [
+        {
+          "id": 1,
+          "title": "Fixed-Cost Model",
+          "text": "Perfect for projects with a clear scope and timeline, offering cost predictability and well-defined deliverables.",
+          "img": "/assets/Images/fsm.png"
+        },
+        {
+          "id": 2,
+          "title": "Dedicated Team Model",
+          "text": "Hire dedicated experts for flexible, exclusive, and collaborative project support.",
+          "img": "/assets/Images/dtm.png"
+        },
+        {
+          "id": 3,
+          "title": "Hybrid Model",
+          "text": "Get a dedicated team with fixed milestones and costs for each project phase.",
+          "img": "/assets/Images/hybrid.png"
+        }
+      ]
+    },
+
+    "ourInsightsData": {
+      "headingBefore": "Our",
+      "heading": "Insights",
+      "description": "Explore the best of chronicles leading to our tech-powered triumphs. From startup to star to behind-the-scenes, walk through our groundbreaking insights.",
+      "articles": [
+        {
+          "image": "/assets/Images/autmating-test-suites.avif",
+          "title": "Automating Test Suites with AI: Dos and Don’ts",
+          "description": "Automating test suites with AI enhances speed, accuracy, and scalability in software testing.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/ai-code-review.avif",
+          "title": "AI in Code Review: Improving Quality and Speed",
+          "description": "AI in code review is transforming software development by improving quality and speed.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/emerging-tech.avif",
+          "title": "Emerging Tech in Mobile: AR, VR, and Beyond",
+          "description": "Emerging tech in mobile—spanning AR, VR, and beyond—is transforming industries with immersive experiences.",
+          "link": "#",
+          "tagTitle": "Mobile App Development"
+        }
+      ]
+    },
+
+    "someHappyClients": {
+      "clients": [
+        "/assets/Images/artbeatz.webp",
+        "/assets/Images/bartanwala.webp",
+        "/assets/Images/blueturtle.webp",
+        "/assets/Images/byloapp.webp",
+        "/assets/Images/fannan.webp",
+        "/assets/Images/felix.webp",
+        "/assets/Images/inciem.webp",
+        "/assets/Images/mgo.webp",
+        "/assets/Images/techteam.webp",
+        "/assets/Images/ustaska.webp"
+      ]
+    }
+  },
+
+  "seoData": {
+    "metadata": {
+      "title": "Samyotech Industries | AI & Software Solutions for Startups, Healthcare, Retail & More",
+      "description": "Discover how Samyotech delivers industry-specific solutions across Startups, Healthcare, Real Estate, Retail, Education, Fintech, Logistics, and more. Transform operations with AI-powered and scalable software solutions tailored to your industry.",
+      "keywords": "industry-specific software solutions, AI solutions for businesses, healthcare software, retail software, fintech software, logistics solutions, education technology, Samyotech",
+      "canonical": "https://samyotech.com/industries",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "language": "en-US",
+      "author": "Samyotech Technologies",
+      "publisher": "Samyotech"
+    },
+    "openGraph": {
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://samyotech.com/industries",
+      "siteName": "Samyotech",
+      "title": "Samyotech Industries | AI & Software Solutions for All Sectors",
+      "description": "Transform your industry with Samyotech's innovative technology solutions across 16+ sectors including Healthcare, Fintech, Education, Retail, and more.",
+      "image": "https://samyotech.com/assets/Images/industriesBanner.avif",
+      "imageWidth": "1200",
+      "imageHeight": "630",
+      "imageAlt": "Samyotech Industries - Technology Solutions for All Sectors"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@samyotech",
+      "creator": "@samyotech",
+      "title": "Samyotech Industries | AI & Software Solutions",
+      "description": "Industry-specific technology solutions for Startups, Healthcare, Fintech, Education, and 12+ more sectors.",
+      "image": "https://samyotech.com/assets/Images/industriesBanner.avif",
+      "imageAlt": "Samyotech Industries"
+    },
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What industries does Samyotech serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Samyotech serves 16+ industries including Startups, Healthcare, Education, Fintech, Real Estate, Retail, Food & Restaurant, Sports, Gaming, Agriculture, Travel & Hospitality, Entertainment, Government, Logistics, On-Demand services, and SailPoint Solutions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Samyotech customize solutions for different industries?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We analyze each industry's unique challenges and requirements, then develop tailored solutions using cutting-edge technologies like AI, IoT, blockchain, and cloud computing to address specific needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of solutions does Samyotech provide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide custom software development, mobile apps, web platforms, AI automation, blockchain solutions, IoT integration, cloud services, and digital transformation solutions across all industries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why choose Samyotech for industry-specific solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With 12+ years of experience, 850+ apps delivered, and 120+ remote developers, we bring deep industry knowledge combined with cutting-edge technology to deliver impactful digital experiences."
+            }
+          }
+        ]
+      }
+    ],
+    "alternateLanguages": [],
+    "additionalMetaTags": []
+  }
+}

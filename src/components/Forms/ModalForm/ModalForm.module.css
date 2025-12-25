@@ -1,0 +1,129 @@
+.formWrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.labelWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color: #222;
+}
+
+.labelIcon {
+  color: #003f7f; 
+}
+
+.requiredDot {
+  width: 7px;
+  height: 7px;
+  background: #d63031; 
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.inputField,
+.phoneInput,
+.textareaField {
+  height: 42px !important;
+  padding: 8px 12px !important;
+  border-radius: 8px !important;
+  border: 1px solid #d9d9d9 !important;
+  font-size: 14px !important;
+}
+
+.phoneContainer {
+  width: 100%;
+}
+
+.phoneInput {
+  width: 100% !important;  
+  max-width: 100%;          
+}
+
+.textareaField {
+  min-height: 110px !important;
+  padding: 12px !important;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 15px;
+}
+
+.cancelBtn {
+  background: transparent;
+  border: 1px solid #999;
+  padding: 9px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.cancelBtn:hover {
+  border-color: #555;
+}
+
+.submitButton {
+  background: linear-gradient(135deg, #003f7f 0%, #0271cf 100%) !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 9px 22px !important;
+  border-radius: 6px !important;
+  font-weight: 600;
+  height: 42px !important;
+}
+
+.submitButton:hover {
+  opacity: 0.9;
+}
+
+:global(.ant-form-item-has-error .ant-input),
+:global(.ant-form-item-has-error .react-tel-input .form-control) {
+  border-color: #003f7f !important;
+  box-shadow: 0 0 4px rgba(0, 63, 127, 0.25) !important;
+}
+
+:global(.ant-input:focus),
+:global(.react-tel-input .form-control:focus) {
+  border-color: #0271cf !important;
+  box-shadow: 0 0 5px rgba(2, 113, 207, 0.3) !important;
+}
+
+@media (max-width: 768px) {
+  .headerBox {
+    padding: 22px 20px;
+    text-align: center;
+  }
+
+  .headerTitle {
+    font-size: 20px;
+  }
+
+  .headerSubtitle {
+    font-size: 14px;
+  }
+
+  .formBody {
+    padding: 20px;
+  }
+
+  .buttonRow {
+    flex-direction: column;
+  }
+
+  .cancelBtn,
+  .submitButton {
+    width: 100%;
+  }
+}

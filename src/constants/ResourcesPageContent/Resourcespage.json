@@ -1,0 +1,713 @@
+{
+  "page": "resources",
+  "components": {
+    "provenDevelopmentMethodologyData": {
+      "headingBefore": "Our Proven",
+      "heading": " 5-Step Development Methodology",
+      "subTextbefore": "At IT United, we follow a structured, results-driven approach to software development. Our",
+      "gradientText": "5-Step Development Methodology",
+      "subText": "ensures that every project is handled with precision, from initial discovery to final delivery.",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "text": "Understanding your goals, audience, and project vision to set the foundation for success.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 2,
+          "title": "Planning",
+          "text": "Defining scope, timelines, and strategies to deliver results efficiently and effectively.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 3,
+          "title": "Design",
+          "text": "Crafting intuitive, engaging, and visually appealing user experiences that drive results.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 4,
+          "title": "Development",
+          "text": "Building robust, scalable, and high-performance digital solutions tailored to your needs.",
+          "icon": "/assets/Images/dark-ball.png"
+        },
+        {
+          "id": 5,
+          "title": "Delivery",
+          "text": "Testing, deployment, and continuous support to ensure your product performs flawlessly.",
+          "icon": "/assets/Images/dark-ball.png"
+        }
+      ]
+    },
+
+    "engagementModelsData": {
+      "heading": "Flexible & Tailored Engagement Models",
+      "description": "We offer flexible engagement models to suit your specific project needs. Whether you’re looking for a fixed-cost solution, a dedicated team, or a hybrid approach, we have the right model to drive your success.",
+      "models": [
+        {
+          "id": 1,
+          "title": "Fixed-Cost Model",
+          "text": "Perfect for projects with a clear scope and timeline, offering cost predictability and well-defined deliverables.",
+          "img": "/assets/Images/fsm.png"
+        },
+        {
+          "id": 2,
+          "title": "Dedicated Team Model",
+          "text": "Hire dedicated experts for flexible, exclusive, and collaborative project support.",
+          "img": "/assets/Images/dtm.png"
+        },
+        {
+          "id": 3,
+          "title": "Hybrid Model",
+          "text": "Get a dedicated team with fixed milestones and costs for each project phase.",
+          "img": "/assets/Images/hybrid.png"
+        }
+      ]
+    },
+
+    "techStackFutureData": {
+      "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
+      "headingBefore": "At",
+      "gradientText": "IT United",
+      "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
+      "technologies": [
+        "AngularJS",
+        "React JS",
+        "Vue.js",
+        "JS",
+        "HTML",
+        "Android",
+        "iOS",
+        "Figma",
+        "Asana",
+        "Swift",
+        "Redis",
+        "Flutter",
+        "Ionic",
+        "Node",
+        "PHP",
+        "Java",
+        "CodeIgniter",
+        "Insta Connect",
+        "Python",
+        "MS SQL",
+        "DynamoDB",
+        "MySQL",
+        "Oracle",
+        "PostgreSQL",
+        "Mongo DB",
+        "MariaDB",
+        "SQL Lite",
+        "DB2",
+        "Sybase",
+        "WordPress",
+        "Drupal",
+        "Strapi",
+        "Umbraco",
+        "Kentico",
+        "Dotnetnuke",
+        "Sitecore",
+        "WooCommerce",
+        "Shopify",
+        "NopCommerce",
+        "Storefront",
+        "Zoom",
+        "Jira",
+        "Trello",
+        "Slack",
+        "GitHub",
+        "BitBucket",
+        "GitLab"
+      ]
+    },
+
+    "ourProductsLandscapeData": {
+      "products": [
+        {
+          "image": "/assets/Images/petstore.svg",
+          "title": "Petstore | E-commerce Platform for Pets",
+          "description": "Food, toys, grooming, and health—everything your pets need, delivered with care.",
+          "link": "/solutions/products/pet-store"
+        },
+        {
+          "image": "/assets/Images/hostel.svg",
+          "title": "Hostel ERP | Hostel Management System",
+          "description": "A digital system for managing hostel rooms, students, fees, attendance, visitors, and maintenance.",
+          "link": "/solutions/products/hostel-management-system"
+        },
+        {
+          "image": "/assets/Images/library.svg",
+          "title": "Smart Library | Library Management System",
+          "description": "A digital system that streamlines book management, member records, borrowing, and returns.",
+          "link": "/solutions/products/library-management-system"
+        }
+      ]
+    },
+
+    "someCaseStudiesData": {
+      "caseStudies": [
+        {
+          "image": "/assets/Images/tcera.webp",
+          "title": "Emergency Response with TCERA for TCIF",
+          "description": "Trauma Care International Foundation (TCIF), a global NGO dedicated to improving trauma care and emergency response services.",
+          "industries": "NGO",
+          "client": "TCERA",
+          "link": "#"
+        },
+        {
+          "image": "/assets/Images/regenesysTransaction.avif",
+          "title": "Empowering Property Transactions for Regenesys",
+          "description": "Regenesys, a global leader in education and innovative business solutions, sought to expand its offerings with a robust Property Broker Website.",
+          "industries": "Real Estate",
+          "client": "Regenesys",
+          "link": "#"
+        },
+        {
+          "image": "/assets/Images/tradingPlatform.webp",
+          "title": "Transforming Financial Services with Indxx’s Trading Platform",
+          "description": "Indxx, a global leader in innovative indexing and calculation solutions, partnered with us to develop a state-of-the-art trading platform.",
+          "industries": "Fintech",
+          "client": "Indxx",
+          "link": "#"
+        }
+      ]
+    },
+
+    "ourInsightsData": {
+      "headingBefore": "Our",
+      "heading": "Insights",
+      "description": "Explore the best of chronicles leading to our tech-powered triumphs. From startup to star to behind-the-scenes, walk through our groundbreaking insights.",
+      "articles": [
+        {
+          "image": "/assets/Images/autmating-test-suites.avif",
+          "title": "Automating Test Suites with AI: Dos and Don’ts",
+          "description": "Automating test suites with AI enhances speed, accuracy, and scalability in software testing.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/ai-code-review.avif",
+          "title": "AI in Code Review: Improving Quality and Speed",
+          "description": "AI in code review is transforming software development by improving quality and speed.",
+          "link": "#",
+          "tagTitle": "Artificial Intelligence"
+        },
+        {
+          "image": "/assets/Images/emerging-tech.avif",
+          "title": "Emerging Tech in Mobile: AR, VR, and Beyond",
+          "description": "Emerging tech in mobile—spanning AR, VR, and beyond—is transforming industries with immersive experiences.",
+          "link": "#",
+          "tagTitle": "Mobile App Development"
+        }
+      ]
+    },
+
+    "successStoriesData": {
+      "stories": [
+        {
+          "image": "/assets/Images/davidM.webp",
+          "name": "David M.",
+          "rating": 5,
+          "location": "New York, USA",
+          "text": "I’ve tried several similar services before, but none compare to IT United. The attention to detail and customer care is unmatched."
+        },
+        {
+          "image": "/assets/Images/emmaR.webp",
+          "name": "Emma R.",
+          "rating": 4,
+          "location": "London, UK",
+          "text": "Exceptional quality at a reasonable price! IT United delivers exactly what they promise."
+        },
+        {
+          "image": "/assets/Images/markt.webp",
+          "name": "Mark T.",
+          "rating": 5,
+          "location": "Sydney, Australia",
+          "text": "I needed a solution quickly, and IT United delivered on time with zero hassle."
+        },
+        {
+          "image": "/assets/Images/sarahl.webp",
+          "name": "Sarah L.",
+          "rating": 4,
+          "location": "Toronto, Canada",
+          "text": "I am beyond impressed with the quality and professionalism of IT United."
+        }
+      ]
+    },
+
+    "someHappyClients": {
+      "clients": [
+        "/assets/Images/artbeatz.webp",
+        "/assets/Images/bartanwala.webp",
+        "/assets/Images/blueturtle.webp",
+        "/assets/Images/byloapp.webp",
+        "/assets/Images/fannan.webp",
+        "/assets/Images/felix.webp",
+        "/assets/Images/inciem.webp",
+        "/assets/Images/mgo.webp",
+        "/assets/Images/techteam.webp",
+        "/assets/Images/ustaska.webp"
+      ]
+    },
+
+    "aboutUsSeoData": {
+      "metadata": {
+        "title": "About IT United | Leading Software Development Company",
+        "description": "Learn about IT United - a trusted software development company with 12+ years of experience, 850+ apps delivered, and 120+ remote developers. We deliver innovative digital solutions worldwide.",
+        "keywords": "about IT United, software development company, custom software solutions, IT services, digital transformation, app development company, remote developers, IT United Technologies",
+        "canonical": "https://IT United.com/about-us",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/about-us",
+        "siteName": "IT United",
+        "title": "About IT United | Leading Software Development Company",
+        "description": "Discover IT United - 12+ years of experience delivering innovative software solutions. 850+ apps delivered with 100% passionate delivery.",
+        "image": "https://IT United.com/assets/Images/about-us-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "About IT United - Leading Software Development Company"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "About IT United | Leading Software Development Company",
+        "description": "12+ years of experience delivering innovative software solutions worldwide.",
+        "image": "https://IT United.com/assets/Images/about-us-banner.jpg",
+        "imageAlt": "About IT United"
+      },
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "IT United Technologies",
+          "url": "https://IT United.com",
+          "logo": "https://IT United.com/assets/Images/logo.png",
+          "description": "IT United is a leading software development company with 12+ years of experience, delivering innovative digital solutions worldwide.",
+          "foundingDate": "2012",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://twitter.com/IT United",
+            "https://www.linkedin.com/company/IT United",
+            "https://www.facebook.com/IT United"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "url": "https://IT United.com/contact-us"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does IT United do?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IT United is a leading software development company specializing in custom software solutions, mobile app development, web development, AI automation, blockchain development, and hardware integration services."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long has IT United been in business?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IT United has been delivering innovative software solutions for over 12 years, with 850+ apps delivered and 120+ remote developers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is IT United's development methodology?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IT United follows a proven 5-Step Development Methodology: Discover, Planning, Design, Development, and Delivery, ensuring precision from initial discovery to final delivery."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What engagement models does IT United offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IT United offers three flexible engagement models: Fixed-Cost Model for clear scope projects, Dedicated Team Model for exclusive collaboration, and Hybrid Model combining dedicated teams with fixed milestones."
+              }
+            }
+          ]
+        }
+      ],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "resourcesSeoData": {
+      "metadata": {
+        "title": "Resources | Insights, Case Studies & Tech Blogs | IT United",
+        "description": "Explore IT United's resources including tech insights, case studies, industry trends, and expert blogs on software development, AI, blockchain, and digital transformation.",
+        "keywords": "software development resources, tech insights, case studies, technology blogs, AI insights, blockchain resources, digital transformation, IT United resources",
+        "canonical": "https://IT United.com/resources",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/resources",
+        "siteName": "IT United",
+        "title": "Resources | Insights, Case Studies & Tech Blogs | IT United",
+        "description": "Explore tech insights, case studies, and expert blogs on software development and digital transformation.",
+        "image": "https://IT United.com/assets/Images/resources-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "IT United Resources"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Resources | Insights & Case Studies - IT United",
+        "description": "Tech insights, case studies, and expert blogs from IT United.",
+        "image": "https://IT United.com/assets/Images/resources-banner.jpg",
+        "imageAlt": "IT United Resources"
+      },
+      "schemas": [],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "privacyPolicySeoData": {
+      "metadata": {
+        "title": "Privacy Policy | IT United Technologies",
+        "description": "Read IT United's privacy policy to understand how we collect, use, and protect your personal information. Your privacy and data security are our top priorities.",
+        "keywords": "privacy policy, data protection, personal information, GDPR compliance, data security, IT United privacy",
+        "canonical": "https://IT United.com/privacy-policy",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/privacy-policy",
+        "siteName": "IT United",
+        "title": "Privacy Policy | IT United Technologies",
+        "description": "Learn how IT United protects your privacy and handles your personal information.",
+        "image": "https://IT United.com/assets/Images/smicon.png",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "IT United Privacy Policy"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Privacy Policy - IT United",
+        "description": "Your privacy and data security are our top priorities.",
+        "image": "https://IT United.com/assets/Images/smicon.png",
+        "imageAlt": "Privacy Policy"
+      },
+      "schemas": [],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "termsAndConditionsSeoData": {
+      "metadata": {
+        "title": "Terms and Conditions | IT United Technologies",
+        "description": "Read IT United's terms and conditions governing the use of our services, products, and website. Understand your rights and responsibilities.",
+        "keywords": "terms and conditions, terms of service, user agreement, legal terms, IT United terms",
+        "canonical": "https://IT United.com/terms-and-conditions",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/terms-and-conditions",
+        "siteName": "IT United",
+        "title": "Terms and Conditions | IT United Technologies",
+        "description": "Terms and conditions governing the use of IT United services and products.",
+        "image": "https://IT United.com/assets/Images/smicon.png",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "IT United Terms and Conditions"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Terms and Conditions - IT United",
+        "description": "Terms governing the use of IT United services.",
+        "image": "https://IT United.com/assets/Images/smicon.png",
+        "imageAlt": "Terms and Conditions"
+      },
+      "schemas": [],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "careersSeoData": {
+      "metadata": {
+        "title": "Careers At IT United | Join Our Team of Innovators",
+        "description": "Explore exciting career opportunities At IT United. Join our team of talented developers, designers, and innovators building cutting-edge software solutions worldwide.",
+        "keywords": "careers At IT United, software developer jobs, remote developer jobs, tech careers, IT jobs, join IT United, developer opportunities",
+        "canonical": "https://IT United.com/resources/careers",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/resources/careers",
+        "siteName": "IT United",
+        "title": "Careers At IT United | Join Our Team of Innovators",
+        "description": "Join IT United and work on cutting-edge software solutions with a talented global team.",
+        "image": "https://IT United.com/assets/Images/careers-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "Careers At IT United"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Careers At IT United",
+        "description": "Join our team of innovators building cutting-edge software solutions.",
+        "image": "https://IT United.com/assets/Images/careers-banner.jpg",
+        "imageAlt": "Careers At IT United"
+      },
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What career opportunities are available At IT United?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IT United offers various career opportunities including software developers, mobile app developers, UI/UX designers, project managers, QA engineers, and more across different technologies and domains."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does IT United offer remote work opportunities?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, IT United offers remote work opportunities with flexible working arrangements for talented professionals worldwide."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the work culture like At IT United?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IT United fosters an innovative, collaborative work culture that encourages continuous learning, professional growth, and work-life balance."
+              }
+            }
+          ]
+        }
+      ],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "ebooksSeoData": {
+      "metadata": {
+        "title": "Free Tech eBooks & Guides | IT United Resources",
+        "description": "Download free eBooks and comprehensive guides on software development, AI, blockchain, mobile app development, and digital transformation from IT United experts.",
+        "keywords": "free tech ebooks, software development guides, AI ebooks, blockchain guides, mobile app development, digital transformation resources, IT United ebooks",
+        "canonical": "https://IT United.com/resources/ebooks",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/resources/ebooks",
+        "siteName": "IT United",
+        "title": "Free Tech eBooks & Guides | IT United Resources",
+        "description": "Download free eBooks and guides on software development, AI, and digital transformation.",
+        "image": "https://IT United.com/assets/Images/ebooks-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "IT United Free eBooks"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Free Tech eBooks & Guides - IT United",
+        "description": "Download free eBooks on software development and digital transformation.",
+        "image": "https://IT United.com/assets/Images/ebooks-banner.jpg",
+        "imageAlt": "Free Tech eBooks"
+      },
+      "schemas": [],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "eventsSeoData": {
+      "metadata": {
+        "title": "Tech Events & Webinars | IT United",
+        "description": "Join IT United's upcoming tech events, webinars, and workshops on software development, AI, blockchain, and digital innovation. Learn from industry experts.",
+        "keywords": "tech events, software development webinars, AI workshops, blockchain events, tech conferences, IT United events, developer meetups",
+        "canonical": "https://IT United.com/resources/event",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/resources/event",
+        "siteName": "IT United",
+        "title": "Tech Events & Webinars | IT United",
+        "description": "Join our upcoming tech events, webinars, and workshops. Learn from industry experts.",
+        "image": "https://IT United.com/assets/Images/events-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "IT United Tech Events"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Tech Events & Webinars - IT United",
+        "description": "Join our upcoming tech events and webinars.",
+        "image": "https://IT United.com/assets/Images/events-banner.jpg",
+        "imageAlt": "Tech Events"
+      },
+      "schemas": [],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "contactUsSeoData": {
+      "metadata": {
+        "title": "Contact Us | Get in Touch with IT United Technologies",
+        "description": "Contact IT United for software development services, custom solutions, and digital transformation. Reach out to our team of experts for consultations, quotes, and project inquiries.",
+        "keywords": "contact IT United, software development inquiry, get a quote, consultation, contact us, reach IT United, project inquiry, tech support",
+        "canonical": "https://IT United.com/contact-us",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/contact-us",
+        "siteName": "IT United",
+        "title": "Contact Us | Get in Touch with IT United Technologies",
+        "description": "Reach out to IT United for software development services and digital transformation solutions.",
+        "image": "https://IT United.com/assets/Images/contact-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "Contact IT United"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Contact Us - IT United",
+        "description": "Get in touch with our team of software development experts.",
+        "image": "https://IT United.com/assets/Images/contact-banner.jpg",
+        "imageAlt": "Contact IT United"
+      },
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How can I contact IT United?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can contact IT United through our contact form, email at contact@IT United.com, or call us at +91-786-999-9639. We're available to discuss your project requirements and provide consultations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the typical response time?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer free consultations?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, IT United offers free initial consultations to discuss your project requirements, timeline, and budget."
+              }
+            }
+          ]
+        }
+      ],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    },
+
+    "insightsSeoData": {
+      "metadata": {
+        "title": "Tech Insights & Blogs | Latest Trends in Software Development | IT United",
+        "description": "Explore IT United's tech insights, expert blogs, and articles on software development, AI, blockchain, mobile apps, and digital transformation. Stay updated with industry trends.",
+        "keywords": "tech insights, software development blogs, AI articles, blockchain insights, mobile app trends, digital transformation, technology blogs, IT United insights",
+        "canonical": "https://IT United.com/insights",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "language": "en-US",
+        "author": "IT United Technologies",
+        "publisher": "IT United"
+      },
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://IT United.com/insights",
+        "siteName": "IT United",
+        "title": "Tech Insights & Blogs | Latest Trends in Software Development | IT United",
+        "description": "Expert insights and articles on software development, AI, blockchain, and digital transformation.",
+        "image": "https://IT United.com/assets/Images/insights-banner.jpg",
+        "imageWidth": "1200",
+        "imageHeight": "630",
+        "imageAlt": "IT United Tech Insights"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@IT United",
+        "creator": "@IT United",
+        "title": "Tech Insights & Blogs - IT United",
+        "description": "Latest trends and expert insights on software development and technology.",
+        "image": "https://IT United.com/assets/Images/insights-banner.jpg",
+        "imageAlt": "Tech Insights"
+      },
+      "schemas": [],
+      "alternateLanguages": [],
+      "additionalMetaTags": []
+    }
+
+    
+  }
+}

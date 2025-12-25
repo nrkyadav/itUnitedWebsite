@@ -1,0 +1,142 @@
+/* --- THEME COLORS --- */
+:root {
+  --primary-bg-color: #0d1a2c; /* Deep dark blue/black */
+  --neon-blue: #00ffff; /* Cyan glow */
+  --text-color: #ffffff;
+}
+
+.heroContainer {
+  /* Apply the deep dark background */
+  background-color: var(--primary-bg-color);
+  padding: 80px 50px;
+  min-height: 80vh;
+  color: var(--text-color);
+}
+
+.heroRow {
+  max-width: 1200px; /* Center content */
+  margin: 0 auto !important;
+}
+
+/* === LEFT COLUMN STYLING === */
+.mainTitle {
+  color: var(--text-color) !important;
+  font-size: 3.5rem !important;
+  line-height: 1.1 !important;
+  margin-bottom: 24px !important;
+  font-weight: 700 !important;
+}
+
+.highlightText {
+  /* Subtle glow effect for key words */
+  color: var(--neon-blue);
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+}
+
+.subText {
+  color: #b0c2d6 !important; /* Lighter blue/gray for body text */
+  font-size: 1.1rem !important;
+  margin-bottom: 40px !important;
+}
+
+/* Ant Design Tag Customization */
+.styledTag {
+  background-color: transparent !important;
+  border: 1px solid var(--neon-blue) !important;
+  color: var(--neon-blue) !important;
+  padding: 4px 10px !important;
+  font-size: 0.9rem !important;
+  margin-right: 8px !important;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+  transition: all 0.3s;
+}
+
+/* Ant Design Icon Customization */
+.styledIcon {
+  font-size: 30px;
+  color: var(--neon-blue);
+  /* The glow effect for the icons */
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  border: 2px solid var(--neon-blue);
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgba(0, 255, 255, 0.05);
+  transition: all 0.3s;
+}
+
+.styledIcon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--neon-blue);
+}
+
+
+/* === RIGHT COLUMN: VISUAL CONTAINER STYLING === */
+.rightCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This container ensures the Next.js Image component fills a defined space */
+.visualContainer {
+  width: 100%;
+  max-width: 450px;
+  height: 400px;
+  position: relative; /* CRITICAL: Required for Image layout="fill" */
+  
+  border: 3px solid rgba(0, 255, 255, 0.4);
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.4); /* Outer glow */
+  overflow: hidden; /* Ensures image and overlay respect the border-radius */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image Overlay to apply the dark/blue filter over the image */
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Darken and apply a subtle blue gradient filter */
+    background: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.7) 0%, /* Mostly black at one end */
+        rgba(13, 26, 44, 0.3) 100% /* Transparent deep blue at the other */
+    );
+    z-index: 1; 
+}
+
+/* Glowing element (e.g., the house icon) */
+.glowingElement {
+    position: absolute;
+    color: var(--neon-blue);
+    z-index: 2; /* Ensure it's on top of the image and overlay */
+    text-shadow: 0 0 15px var(--neon-blue), 0 0 20px var(--neon-blue);
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .heroContainer {
+    padding: 40px 20px;
+  }
+  .mainTitle {
+    font-size: 2.5rem !important;
+    margin-top: 20px !important;
+  }
+  .leftCol {
+    order: 2; /* Text comes after visual on mobile */
+    text-align: center;
+  }
+  .rightCol {
+    order: 1; /* Visual comes first on mobile */
+    margin-bottom: 40px;
+  }
+  .tagSpace, .iconSpace {
+    justify-content: center; /* Center tags/icons on mobile */
+    display: flex;
+  }
+}

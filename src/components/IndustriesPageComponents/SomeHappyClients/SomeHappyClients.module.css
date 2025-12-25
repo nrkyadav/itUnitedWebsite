@@ -1,0 +1,70 @@
+.wrapper {
+    background-color: #002c22;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .clientsSwiper {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .clientSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clientLogo {
+    opacity: 0.85;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    width: 200px;
+    height: auto;
+  }
+  
+  .clientLogo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .centerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 40px;
+    gap: 15px;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  
+  .line {
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .clientsSwiper {
+      padding: 10px 0;
+    }
+  
+    .text {
+      font-size: 1.1rem;
+    }
+  
+    .line {
+      width: 40px;
+    }
+  }
+  

@@ -1,0 +1,202 @@
+.engagementSection {
+  background: rgb(0, 44, 34);
+  padding: 80px 5% 50px 5%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.overlay {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.headingUnderline {
+  width: 180px;
+  height: 4px;
+  margin: 15px 0px;
+  background: rgb(255, 193, 7);
+  border-radius: 4px;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 1000px;
+  margin: 0 60px 50px 0px;
+  text-align: left;
+}
+
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  flex: 1 1 300px;
+  max-width: 360px;
+  transition: all 0.4s ease-in-out;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 420px; /* ensure consistent height */
+}
+
+.card:hover {
+  border-image: linear-gradient(135deg, #006633 0%, #00c84fe8 100%) 1;
+  transform: translateY(-6px);
+}
+
+.imageWrapper {
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000000;
+  padding: 20px 20px 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover .cardTitle {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardText {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 20px 20px;
+  flex-grow: 1; 
+}
+
+.callToAction {
+  margin-top: 60px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 1200px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.gradientText {
+  background: rgb(255, 193, 7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto 40px auto;
+  }
+
+  .cardsWrapper {
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .card {
+    flex: 1 1 280px;
+    max-width: 320px;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .engagementSection {
+    padding: 60px 4% 40px 4%;
+  }
+
+  .headingUnderline {
+    margin: 15px auto;
+  }
+
+  .heading {
+    font-size: 1.9rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    max-width: 90%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+  }
+
+  .cardsWrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+    min-height: 320px; 
+  }
+
+  .callToAction{
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .engagementSection {
+    padding: 40px 3% 30px 3%;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardText {
+    font-size: 0.95rem;
+  }
+}

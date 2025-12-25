@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /?s=
+Disallow: /*?replytocom
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+
+Sitemap: https://samyotech.com/sitemap.xml

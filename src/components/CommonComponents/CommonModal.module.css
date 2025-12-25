@@ -1,0 +1,71 @@
+.customModal .ant-modal-content {
+    padding: 0 !important;
+    border-radius: 12px;
+    overflow: hidden;
+    
+  }
+  
+  .customModal .ant-modal-header {
+    display: none !important;
+  }
+  
+  .customModal .ant-modal-body {
+    padding: 0 !important;
+  }
+
+
+  
+  .customModal .ant-modal {
+    border-radius: 14px !important;
+  }
+  
+  .customModal .ant-modal-root .ant-modal-wrap {
+    border-radius: 14px !important;
+  }
+  
+  
+  .headerBox {
+    background: linear-gradient(135deg, #003f7f 0%, #0271cf 100%);
+    padding: 24px 28px;
+    color: #fff;
+    position: relative;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .headerTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .headerSubtitle{
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.25s ease;
+  }
+  
+  .closeBtn:hover {
+    background: rgba(255,255,255,0.28);
+  }
+  
+  .modalBody {
+    padding: 28px;
+    background: #fff;
+  }
+  

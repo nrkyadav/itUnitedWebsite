@@ -1,0 +1,163 @@
+.wrapper {
+    width: 100%;
+    background: #002c22;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .subheading {
+    color: #b5e2ff;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .heading {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .swiper {
+    padding-bottom: 60px;
+  }
+  
+  .stepsRow {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 0 0 30px;
+  }
+  
+  .stepBlock {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  .circle {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .connector {
+    height: 2px;
+    background: rgba(181, 226, 255, 0.65);
+    flex: 1;
+    margin: 33px 0px 6px -211px;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .textBox {
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .stepTag {
+    color: #b5e2ff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .stepTitle {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .stepDesc {
+    color: #e5f4ff;
+    font-size: 15px;
+    opacity: 0.9;
+    line-height: 1.5;
+  }
+  
+  .rocketWrapper {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 60px;
+    height: 60px;
+    animation: rocketMove 4s infinite linear;
+  }
+  
+  .rocket {
+    width: 80px;
+    height: auto;
+    transform: rotate(90deg);
+  }
+  
+  @keyframes rocketMove {
+    0% {
+      left: 0px;
+      opacity: 1;
+    }
+    100% {
+      left: calc(100% - 40px);
+      opacity: 1;
+    }
+  }
+  
+  .swiper :global(.swiper-pagination-bullet) {
+    background: rgba(255, 255, 255, 0.5) !important;
+    opacity: 1 !important;
+  }
+  
+  .swiper :global(.swiper-pagination-bullet-active) {
+    background: #fff !important;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 28px;
+    }
+  
+    .stepBlock {
+      width: 240px;
+    }
+  
+    .circle {
+      width: 56px;
+      height: 56px;
+      font-size: 16px;
+    }
+  
+    .connector {
+      margin: 0 10px;
+      margin-top: 28px;
+    }
+  
+    .stepTitle {
+      font-size: 18px;
+    }
+  
+    .stepDesc {
+      font-size: 13px;
+    }
+  }

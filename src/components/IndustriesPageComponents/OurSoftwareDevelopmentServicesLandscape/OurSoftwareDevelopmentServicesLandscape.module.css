@@ -1,0 +1,263 @@
+.smartSection {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 70px 5% 60px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.smartSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  text-align: left;
+  color: #002c22;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #002c22;
+  margin-bottom: 10px;
+}
+
+.gradientText {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.headingUnderline {
+  width: 500px;
+  height: 4px;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  border-radius: 4px;
+}
+
+.subText {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+
+/* Cards Grid */
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background-color: #002c22;
+  color: white;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 44, 34, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 28px rgba(0, 44, 34, 0.35);
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.cardDesc {
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.productCard {
+  background-color: #ffc107;
+  color: #002c22;
+}
+
+.productTitle,
+.productDesc {
+  color: #002c22;
+}
+
+.productBtn {
+  background-color: #002c22;
+  color: #ffc107;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.productBtn:hover {
+  background-color: #013a6f;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.viewServices {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+}
+
+.arrowIcon {
+  color: white;
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+.cardFooter:hover .arrowIcon {
+  transform: translate(4px, -4px);
+}
+
+.callToAction {
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 1200px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .headingUnderline {
+    width: 300px;
+  }
+
+  .subText {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .callToAction {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .headingUnderline{
+    margin: 15px auto;
+  }
+
+  .subText {
+    font-size: 0.95rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    padding: 25px 20px;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardDesc {
+    font-size: 0.95rem;
+  }
+
+  .productBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .callToAction {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .headingUnderline {
+    width: 200px;
+  }
+
+  .subText {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    padding: 20px 15px;
+  }
+
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+
+  .cardDesc {
+    font-size: 0.9rem;
+  }
+
+  .productBtn {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .callToAction {
+    font-size: 0.9rem;
+  }
+}

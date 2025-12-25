@@ -1,0 +1,841 @@
+{
+  "name": "LinkedIn_Scrapper",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        32
+      ],
+      "id": "d8539946-2357-4d94-9699-64035b62f412",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1hyfcNqOYeUf5rUcO7bipWxNI8UFL3xJqSDEi9kGZkhs",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Scrapping",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1hyfcNqOYeUf5rUcO7bipWxNI8UFL3xJqSDEi9kGZkhs/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1hyfcNqOYeUf5rUcO7bipWxNI8UFL3xJqSDEi9kGZkhs/edit#gid=0"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "status",
+              "lookupValue": "pending"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        32
+      ],
+      "id": "6e529e1d-8bf2-4f4a-9469-d3d7b8071f41",
+      "name": "Fetch Profile",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "5yFrE5wxJH4n1yDR",
+          "name": "Google Sheets Chaabi Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "b31419fd-7716-42ad-9a82-1ea57a77b79a",
+              "name": "profile_urls",
+              "value": "={{ JSON.stringify(\n  $items(profile)\n    .map(i => i.json[\"profile\"])\n    .filter(url => !!url)\n) }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        448,
+        32
+      ],
+      "id": "2c35a872-350d-41d5-adcb-f3d5158bfff9",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/dev_fusion~linkedin-profile-scraper/runs",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"profileUrls\":{{ $json.profile_urls }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        672,
+        32
+      ],
+      "id": "e899bb3b-dadb-43bc-99f6-71304e5aa1f1",
+      "name": "Scrap Profile using APIFY",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "x5bNOHHrDvJxzfZv",
+          "name": "APIFY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "d30d93f9-2146-4162-af14-4a33ed04b7a8",
+              "leftValue": "={{ $json.data.status }}",
+              "rightValue": "SUCCEEDED",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1120,
+        -48
+      ],
+      "id": "15160af2-83c4-4e25-bc06-c113abfd274b",
+      "name": "check_status"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.apify.com/v2/acts/{{ $json.data.actId }}/runs/last/dataset/items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1344,
+        -96
+      ],
+      "id": "bf6f43bc-916d-487a-b83e-0e41c58d39e5",
+      "name": "fetch_profile_data",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "x5bNOHHrDvJxzfZv",
+          "name": "APIFY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1hyfcNqOYeUf5rUcO7bipWxNI8UFL3xJqSDEi9kGZkhs",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Scrapping",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1hyfcNqOYeUf5rUcO7bipWxNI8UFL3xJqSDEi9kGZkhs/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1hyfcNqOYeUf5rUcO7bipWxNI8UFL3xJqSDEi9kGZkhs/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "full_name": "={{ $json.fullName }}",
+            "connections": "={{ $json.connections }}",
+            "followers": "={{ $json.followers }}",
+            "job_title": "={{ $json.jobTitle }}",
+            "company_name": "={{ $json.companyName }}",
+            "currentJobDuration": "={{ $json.currentJobDuration }}",
+            "profile": "={{ $json.linkedinUrl }}",
+            "profile_img": "={{ $json.profilePic }}",
+            "address": "={{ $json.addressWithCountry }}",
+            "headline": "={{ $json.headline }}",
+            "phone_number": "={{ $json.mobileNumber }}",
+            "email_address": "={{ $json.email }}",
+            "status": "={{ $('wait for scrap').item.json.data.status }}"
+          },
+          "matchingColumns": [
+            "profile"
+          ],
+          "schema": [
+            {
+              "id": "profile",
+              "displayName": "profile",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "full_name",
+              "displayName": "full_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "connections",
+              "displayName": "connections",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "followers",
+              "displayName": "followers",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "job_title",
+              "displayName": "job_title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "company_name",
+              "displayName": "company_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "currentJobDuration",
+              "displayName": "currentJobDuration",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "profile_img",
+              "displayName": "profile_img",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "address",
+              "displayName": "address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "headline",
+              "displayName": "headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "phone_number",
+              "displayName": "phone_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "email_address",
+              "displayName": "email_address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "number",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1568,
+        -96
+      ],
+      "id": "47f6d71d-a851-4bf6-b691-4d07bbd204a6",
+      "name": "Update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "5yFrE5wxJH4n1yDR",
+          "name": "Google Sheets Chaabi Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=https://api.apify.com/v2/acts/{{ $json.data.actId }}/runs/last",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        896,
+        32
+      ],
+      "id": "cea82992-f13a-4615-bc34-855499464a98",
+      "name": "wait for scrap",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "x5bNOHHrDvJxzfZv",
+          "name": "APIFY"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1344,
+        128
+      ],
+      "id": "e3390cc7-e381-4ac6-88b1-d50956c2e518",
+      "name": "Wait",
+      "webhookId": "cad054b5-2776-4a26-8d5b-0f7583a26ed7"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.apify.com/v2/acts/apimaestro~linkedin-batch-profile-posts-scraper/runs",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"limit\": 1,\n    \"usernames\":{{ $('Edit Fields').item.json.profile_urls }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2288,
+        -96
+      ],
+      "id": "2327426b-342a-42f4-9e1a-e68460ef467b",
+      "name": "Launch Post Scraper",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "x5bNOHHrDvJxzfZv",
+          "name": "APIFY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "f4022ce0-3ed0-4c5b-92e9-9f54dbf8ac9c",
+              "leftValue": "={{ $json.data.status }}",
+              "rightValue": "SUCCEEDED",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2784,
+        -96
+      ],
+      "id": "929538c5-6b0b-4861-b72b-bffb2f0e5401",
+      "name": "?"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        3056,
+        -32
+      ],
+      "id": "2b0c3204-f2ee-48da-b137-cbe8de6b31e1",
+      "name": "Wait1",
+      "webhookId": "4ba9e8c1-7bc9-4355-b14c-c18fd30b669e"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.apify.com/v2/acts/{{ $json.data.actId }}/runs/last/dataset/items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3072,
+        -192
+      ],
+      "id": "ef105018-715d-4638-9037-f34f03782b15",
+      "name": "Retrieve Post Data",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "x5bNOHHrDvJxzfZv",
+          "name": "APIFY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1r1ocYs6ah1WlHeOV-0RwfC4EejSm3mbyf4fVxNwpDvk",
+          "mode": "list",
+          "cachedResultName": "linkedin_post_scrapper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1r1ocYs6ah1WlHeOV-0RwfC4EejSm3mbyf4fVxNwpDvk/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1r1ocYs6ah1WlHeOV-0RwfC4EejSm3mbyf4fVxNwpDvk/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "post_date": "={{ $json.posted_at.date }}",
+            "caption": "={{ $json.text }}",
+            "post_link": "={{ $json.url }}",
+            "profile_url": "={{ $json.author.profile_url }}",
+            "profile": "={{ $json.author.first_name }} {{ $json.author.last_name }}",
+            "media_url": "={{ $json.media.url }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "profile",
+              "displayName": "profile",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "profile_url",
+              "displayName": "profile_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "post_link",
+              "displayName": "post_link",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "caption",
+              "displayName": "caption",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "post_date",
+              "displayName": "post_date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "media_url",
+              "displayName": "media_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        3360,
+        -96
+      ],
+      "id": "c9748d4e-c055-4a54-9b92-90319cc17a6e",
+      "name": "Save Post Information to Sheets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "5yFrE5wxJH4n1yDR",
+          "name": "Google Sheets Chaabi Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=https://api.apify.com/v2/acts/{{ $json.data.actId }}/runs/last",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2560,
+        -96
+      ],
+      "id": "fed4e643-7234-4ed1-8ee3-d9eead27d670",
+      "name": "Check Post Scraper Status",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "x5bNOHHrDvJxzfZv",
+          "name": "APIFY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Post Scrapper \n** this is a separate flow sync with prev and scrap user post\n",
+        "height": 576,
+        "width": 1456
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        2176,
+        -320
+      ],
+      "typeVersion": 1,
+      "id": "06e82526-8b89-40d1-a233-8332fd9bd07a",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Linked In Scrapper\n \n** this is for fetch user profile\n",
+        "height": 624,
+        "width": 1904
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -176,
+        -224
+      ],
+      "typeVersion": 1,
+      "id": "a87ff428-9ee8-4ddb-a43f-f45d5639444c",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## if need post also\njust connect with the next node\n"
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1856,
+        -128
+      ],
+      "typeVersion": 1,
+      "id": "096f38e7-5704-4d59-a295-1025d66f5f1e",
+      "name": "Sticky Note2"
+    }
+  ],
+  "pinData": {
+    "When clicking ‘Execute workflow’": [
+      {
+        "json": {}
+      }
+    ]
+  },
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Fetch Profile",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Profile": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Scrap Profile using APIFY",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrap Profile using APIFY": {
+      "main": [
+        [
+          {
+            "node": "wait for scrap",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "check_status": {
+      "main": [
+        [
+          {
+            "node": "fetch_profile_data",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "fetch_profile_data": {
+      "main": [
+        [
+          {
+            "node": "Update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "wait for scrap": {
+      "main": [
+        [
+          {
+            "node": "check_status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "wait for scrap",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update row in sheet": {
+      "main": [
+        []
+      ]
+    },
+    "Launch Post Scraper": {
+      "main": [
+        [
+          {
+            "node": "Check Post Scraper Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "?": {
+      "main": [
+        [
+          {
+            "node": "Retrieve Post Data",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait1": {
+      "main": [
+        [
+          {
+            "node": "Check Post Scraper Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Retrieve Post Data": {
+      "main": [
+        [
+          {
+            "node": "Save Post Information to Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Post Scraper Status": {
+      "main": [
+        [
+          {
+            "node": "?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "ed5d66f1-ea77-4f68-841c-e66434b57ac2",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2083038fbc253b4180eadb9a1e5ddf461c6f5eebcbb33388217161be06e63baf"
+  },
+  "id": "LUtq7r60g0eM2Rbl",
+  "tags": []
+}

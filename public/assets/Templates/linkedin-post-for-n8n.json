@@ -1,0 +1,647 @@
+{
+  "name": "LinkedIn Post for N8n",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1888,
+        -240
+      ],
+      "id": "0800e9b9-d0df-4603-ae9d-d85f75c0a4dd",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "caption ": "={{ $json.message.content }}",
+            "status": "pending",
+            "title": "={{ $('Post Topic').item.json.title }}",
+            "image_url": "={{ $('Post Topic').item.json.image_url }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -1088,
+        -240
+      ],
+      "id": "1bd5c96a-f976-4a54-a041-9f7578d27c26",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "person": "U61sIwXn6W",
+        "text": "={{ $json[\"caption \"] }}",
+        "shareMediaCategory": "IMAGE",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.linkedIn",
+      "typeVersion": 1,
+      "position": [
+        -1008,
+        320
+      ],
+      "id": "cf94dc12-363e-47b6-9d79-f05640ac797b",
+      "name": "Create a post",
+      "credentials": {
+        "linkedInOAuth2Api": {
+          "id": "WYw2xTUkXwBZ8avI",
+          "name": "LinkedIn Neer"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "event": "rowUpdate",
+        "options": {
+          "columnsToWatch": [
+            "status"
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        -2112,
+        320
+      ],
+      "id": "b2e3e72e-6169-47f7-9578-49051bce4f7c",
+      "name": "Google Sheets Trigger",
+      "executeOnce": false,
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "X4Vy0A6LnkA45Joj",
+          "name": "Google Sheets Trigger account Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.image_url }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1232,
+        256
+      ],
+      "id": "2b5f542f-2737-4e9d-8fec-755df293795a",
+      "name": "HTTP Request",
+      "notesInFlow": false,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "d22b5e90-ebfd-41f2-a9ce-bef2c87a4d14",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "=approved",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1888,
+        320
+      ],
+      "id": "dc8d64fa-ef26-4793-9747-86154b00b9e5",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=### GOAL:\nCreate social media captions that drive **high engagement** (comments, saves, shares) and **generate qualified leads** for an AI Agent & n8n automation agency.\n\n### CONTEXT:\nThe posts target **tech-savvy professionals**, founders, and operations managers interested in **automation, AI Agents, and workflow optimization**.\n\nTone: **Energetic, Professional, and Solution-Focused**  \nVoice: **Authoritative yet conversational**  \nPlatform: **LinkedIn / X (Twitter)**\n\n### TASK:\nGenerate ONE compelling social media caption based on the provided topic.\n\n### STRUCTURE:\n1. **The Hook (1st Line):**  \n   Start with an attention-grabbing question or bold statement addressing a pain point.\n\n2. **The Value Proposition:**  \n   Introduce **n8n or AI Agents** as the solution, highlighting ONE key benefit.\n\n3. **The Breakdown:**  \n   breakdown into bullet points to highlight key features, advantages, or transformations.\n\n4. **The Call-to-Action (CTA):**  \n   End with a clear, action-oriented instruction that encourages engagement or conversion (e.g., \"Start building smarter workflows today!\").\n\n### 🧾 CONSTRAINTS:\n- Entire caption must be **under 1000 characters**  \n- Include **4–6 relevant emojis** (🚀💡✅🧠⚙️ etc.)  \n- Include **3–5 relevant hashtags** at the end (must include `#n8n` and `#AI`)  \n- Use **line breaks** for easy readability  \n- Keep it **value-driven**, not salesy  ",
+              "role": "system"
+            },
+            {
+              "content": "=Topic for Today's Post: {{ $json.title }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1440,
+        -240
+      ],
+      "id": "b1efa1c4-3076-4c59-b79d-59735b82bb25",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "urbtrva7Pu5dKh9S",
+          "name": "OpenAi Chaaabi"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0b158ba1-5f00-4395-92a2-28431134088a",
+              "name": "title",
+              "value": "Rss Feed",
+              "type": "string"
+            },
+            {
+              "id": "ceaff0b0-8292-4618-8eb7-ceb763eb1ecc",
+              "name": "image_url",
+              "value": "https://appliplus.com/_next/image?url=https%3A%2F%2Fkeekktsgobliuryjpinp.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fblog%2Ffd68cb68-87f4-46e5-881e-73bf66c834c1-1755358090857-n8n.png&w=1920&q=75",
+              "type": "string"
+            },
+            {
+              "id": "0ded1984-71f3-469b-b2df-487ee0a3d44b",
+              "name": "phone",
+              "value": "7745930380",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -1664,
+        -240
+      ],
+      "id": "83f93e73-d1eb-494b-99bd-3755e94462eb",
+      "name": "Post Topic"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -1664,
+        320
+      ],
+      "id": "c12ac5dd-51c4-4432-89b1-cbbbc365639d",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o",
+          "mode": "list",
+          "cachedResultName": "LinkedIn Posting N8n",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1j-qyZBWIMWLfwXMZNRxMx87Fw3TgJiQlIEugOSFHB_o/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "status": "posted",
+            "caption ": "={{ $('Google Sheets Trigger').item.json['caption '] }}"
+          },
+          "matchingColumns": [
+            "caption "
+          ],
+          "schema": [
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "caption ",
+              "displayName": "caption ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -784,
+        320
+      ],
+      "id": "2a502e44-b6c9-4ebe-b17d-6027ad90a886",
+      "name": "Append or update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "FcwaazbzBCy1jx1q",
+          "name": "Google Sheets Sam"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Generate Caption \ngenerate caption for linkedin post around ai agent and automation only",
+        "height": 416,
+        "width": 1392
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -2112,
+        -448
+      ],
+      "typeVersion": 1,
+      "id": "c0d14581-9dca-439a-b030-07f66faf6935",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Waiting for Approval\nonce status is updated to approved post is posted on linkedin  ",
+        "height": 512,
+        "width": 1744,
+        "color": 7
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -2240,
+        96
+      ],
+      "typeVersion": 1,
+      "id": "f09f2c99-a5c6-451f-9e84-b63c2e4ea821",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "update post topic here ",
+        "height": 176,
+        "width": 192,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1712,
+        -272
+      ],
+      "typeVersion": 1,
+      "id": "fb541dd7-ae78-4889-bd2f-ed5e71825d65",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "defbc0a3-cc2a-490d-a1f4-7f1978621710",
+              "leftValue": "={{ $json.image_url }}",
+              "rightValue": "drive.google.com",
+              "operator": {
+                "type": "string",
+                "operation": "notContains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1456,
+        320
+      ],
+      "id": "2132e34d-7b64-4a04-aaba-10d95f32cab2",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "https://drive.google.com/file/d/10NnlkGGYWMkHRMjCaU_V_9KPwxSzHreD/view?usp=drive_link",
+          "mode": "url"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -1232,
+        400
+      ],
+      "id": "37ed8a95-42da-4d7c-894c-1360557c7f38",
+      "name": "Download file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "D8kCvfmn96wky0iD",
+          "name": "Google Drive Sam"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Post Topic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets Trigger": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Create a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create a post": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Post Topic": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Download file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download file": {
+      "main": [
+        [
+          {
+            "node": "Create a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append row in sheet": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "28cc54a8-3992-4ea1-a3d6-f32a2831fa06",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2083038fbc253b4180eadb9a1e5ddf461c6f5eebcbb33388217161be06e63baf"
+  },
+  "id": "LxBJps9lZbI8cBV4",
+  "tags": [
+    {
+      "createdAt": "2025-10-30T10:34:13.411Z",
+      "updatedAt": "2025-10-30T10:34:13.411Z",
+      "id": "IfzD0CXj5WxCZTYg",
+      "name": "aiagent"
+    },
+    {
+      "createdAt": "2025-10-30T10:34:10.008Z",
+      "updatedAt": "2025-10-30T10:34:10.008Z",
+      "id": "Y5EMaAW9LdBfZqgF",
+      "name": "n8n"
+    },
+    {
+      "createdAt": "2025-10-30T10:34:16.508Z",
+      "updatedAt": "2025-10-30T10:34:16.508Z",
+      "id": "Ycu2oxPEB1pADoQ4",
+      "name": "linkedin"
+    }
+  ]
+}

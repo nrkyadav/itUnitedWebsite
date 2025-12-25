@@ -1,0 +1,252 @@
+.smartSection {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 70px 5% 60px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.smartSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  text-align: center;
+  color: #002c22;
+}
+
+.heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #002c22;
+  margin-bottom: 10px;
+}
+
+.gradientText {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.headingUnderline {
+  width: 180px;
+  height: 4px;
+  margin: 10px auto 20px;
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  border-radius: 4px;
+}
+
+.subText {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #002c22;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 44, 34, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 44, 34, 0.25);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+}
+
+.cardImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardContent {
+  padding: 25px 20px 30px;
+  color: white;
+  text-align: left;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #ffffff;
+  width: 90%;
+}
+
+.cardDesc {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.viewLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #ffc107;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: auto;
+  transition: color 0.3s ease;
+}
+
+.viewLink:hover {
+  color: #ffda5c;
+}
+
+.whiteButton {
+  background: #ffffff;
+  color: #002c22;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.whiteButton:hover {
+  background: #f2f2f2;
+  box-shadow: 0 6px 18px rgba(0, 44, 34, 0.2);
+}
+
+.gradientButton {
+  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  color: #ffffff;
+  padding: 15px 30px;
+}
+
+.gradientButton:hover {
+  box-shadow: 0 8px 20px rgba(0, 44, 34, 0.5);
+}
+
+@media (max-width: 1024px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .subText {
+    font-size: 1rem;
+  }
+
+  .imageWrapper {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  .subText {
+    font-size: 0.95rem;
+    margin-bottom: 40px;
+  }
+
+  .imageWrapper {
+    height: 160px;
+  }
+
+  .cardTitle {
+    font-size: 1.3rem;
+  }
+
+  .cardDesc {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .subText {
+    font-size: 0.9rem;
+  }
+
+  .imageWrapper {
+    height: 140px;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardDesc {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .subText {
+    font-size: 0.85rem;
+  }
+
+  .imageWrapper {
+    height: 120px;
+  }
+
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+
+  .cardDesc {
+    font-size: 0.8rem;
+  }
+}

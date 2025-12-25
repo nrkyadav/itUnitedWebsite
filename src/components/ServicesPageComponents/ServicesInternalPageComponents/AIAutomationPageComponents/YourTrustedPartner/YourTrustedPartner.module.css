@@ -1,0 +1,129 @@
+.smartSection {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    background-size: 120px 120px;
+    background-repeat: repeat;
+    background-position: top center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 70px 5% 80px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+  }
+  
+  .smartSection::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.85);
+    z-index: 0;
+  }
+  
+  .overlay {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+  }
+  
+  .smallHeading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #002c22;
+    margin-bottom: 15px;
+  }
+  
+  .largeHeading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #002c22;
+    margin-bottom: 40px;
+  }
+  
+
+  .cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    color: #69727d;
+    margin: 0 auto 15px auto;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #002c22;
+    margin-bottom: 12px;
+  }
+  
+  .cardDesc {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #002c22;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 48px;
+    height: 48px;
+    color: #69727d;
+    margin: 0 auto 15px auto;
+  }
+  
+
+  .calendlyBtn {
+    background-color: #002c22;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.3s ease;
+  }
+  
+  .calendlyBtn:hover {
+    opacity: 0.85;
+  }
+  
+  .bottomHeading {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #002c22;
+  }
+  
+  @media (max-width: 900px) {
+    .cardsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+  @media(max-width: 600px) {
+   
+    .cardsGrid {
+      grid-template-columns: 1fr;
+    }
+
+    .largeHeading {
+      font-size: 28px;
+    }
+  }
+  

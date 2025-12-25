@@ -1,0 +1,101 @@
+.capabilitiesSection {
+    width: 100%;
+    background-color: #002c22;
+    padding: 70px 5% 80px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .smallHeading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b5e2ff;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  }
+  
+  .bigHeading {
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+  
+  .cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .card {
+    background: #ffffff;
+    color: #002c22;
+    padding: 28px;
+    border-radius: 16px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 280px;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .cardDesc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  .circleBox {
+    width: 80px;
+    height: 80px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -15px;
+    bottom: -12px;
+  }
+  
+  .circleIcon {
+    width: 30px;
+    height: 30px;
+    color: #000; 
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .cardsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cardsGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .bigHeading {
+      font-size: 28px;
+    }
+  }
+  
