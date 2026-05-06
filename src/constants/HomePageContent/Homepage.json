@@ -23,7 +23,7 @@
     },
 
     "aboutSamyotechData": {
-      "heading": "Top Mobile Application Development, Software Development & IT Consulting Company, Building Solutions For A Global Clientele.",
+      "heading": "Engineering software for ambitious teams worldwide.",
       "descriptionBefore":"Founded in 2020,",
       "descrriptionBold":"The IT United",
       "description": "is a leading provider of mobile app development, software development, and IT consulting services. We create innovative, custom solutions that drive digital transformation for businesses worldwide. From startups to enterprises, The IT United is a trusted partner helping organizations scale, innovate, and lead.",
@@ -282,7 +282,7 @@
       "title": "The IT United | Leading Software Development & AI Solutions Company",
       "description": "IT United is a leading software development company offering web, mobile, and AI-driven solutions globally. We turn ideas into powerful digital products.",
       "keywords": "software development, AI solutions, web development, mobile apps, IT United, custom software development, enterprise software, MVP development",
-      "canonical": "https://samyotech.com",
+      "canonical": "https://www.theitunited.com",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "language": "en-US",
       "author": "IT United Technologies",
@@ -292,11 +292,11 @@
     "openGraph": {
       "type": "website",
       "locale": "en_US",
-      "url": "https://samyotech.com",
+      "url": "https://www.theitunited.com",
       "siteName": "IT United",
       "title": "The IT United | Leading Software Development & AI Solutions Company",
       "description": "Transform your business with IT United — experts in web, mobile, and AI innovation.",
-      "image": "https://samyotech.com/og-image.jpg",
+      "image": "https://www.theitunited.com/og-image.jpg",
       "imageWidth": "1200",
       "imageHeight": "630",
       "imageAlt": "IT United - Leading Software Development & AI Solutions Company"
@@ -307,7 +307,7 @@
       "creator": "@ITUnited",
       "title": "The IT United | Leading Software Development & AI Solutions Company",
       "description": "Transform your business with IT United — experts in web, mobile, and AI innovation.",
-      "image": "https://samyotech.com/og-image.jpg",
+      "image": "https://www.theitunited.com/og-image.jpg",
       "imageAlt": "IT United - Software Development & AI Solutions"
     },
     "schemas": [
@@ -385,11 +385,11 @@
     "alternateLanguages": [
       {
         "hreflang": "en",
-        "href": "https://samyotech.com"
+        "href": "https://www.theitunited.com"
       },
       {
         "hreflang": "x-default",
-        "href": "https://samyotech.com"
+        "href": "https://www.theitunited.com"
       }
     ],
     "additionalMetaTags": [

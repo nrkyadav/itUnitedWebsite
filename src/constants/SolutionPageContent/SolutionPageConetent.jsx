@@ -5,7 +5,7 @@ export const solutionInternalPageData = {
       "At IT United, we deliver tailored CRM solutions to streamline customer interactions, optimize sales, and enhance efficiency. Leveraging AI, cloud computing, and automation, our scalable systems adapt to diverse industries. From managing customer data to personalizing experiences, our CRM solutions empower businesses to build lasting relationships, drive growth, and achieve operational excellence.",
     image: "/assets/Images/crm.png",
     stats: [
-      { label: "Years of Experience", value: "11+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -150,34 +150,34 @@ export const solutionInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "CRM Solutions | AI-Powered Customer Management | Samyotech",
-        "description": "Samyotech delivers tailored CRM solutions to streamline customer interactions, optimize sales, and enhance efficiency. Leverage AI, cloud computing, and automation to manage customer data, personalize experiences, and drive growth across industries.",
-        "keywords": "CRM solutions, Customer relationship management, AI CRM, Cloud-based CRM, Sales pipeline management, Customer engagement, Business automation, Samyotech CRM",
-        "canonical": "https://samyotech.com/solutions/crm",
+        "title": "CRM Solutions | AI-Powered Customer Management | IT United",
+        "description": "IT United delivers tailored CRM solutions to streamline customer interactions, optimize sales, and enhance efficiency. Leverage AI, cloud computing, and automation to manage customer data, personalize experiences, and drive growth across industries.",
+        "keywords": "CRM solutions, Customer relationship management, AI CRM, Cloud-based CRM, Sales pipeline management, Customer engagement, Business automation, IT United CRM",
+        "canonical": "https://www.theitunited.com/solutions/crm",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/solutions/crm",
-        "siteName": "Samyotech",
-        "title": "CRM Solutions | AI-Powered Customer Management | Samyotech",
+        "url": "https://www.theitunited.com/solutions/crm",
+        "siteName": "IT United",
+        "title": "CRM Solutions | AI-Powered Customer Management | IT United",
         "description": "Streamline customer interactions and optimize sales with AI-powered CRM.",
-        "image": "https://samyotech.com/assets/Images/crm.png",
+        "image": "https://www.theitunited.com/assets/Images/crm.png",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Samyotech CRM Solutions"
+        "imageAlt": "IT United CRM Solutions"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "CRM Solutions - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "CRM Solutions - IT United",
         "description": "AI-powered customer relationship management.",
-        "image": "https://samyotech.com/assets/Images/crm.png",
+        "image": "https://www.theitunited.com/assets/Images/crm.png",
         "imageAlt": "CRM Solutions"
       },
       "schemas": [
@@ -232,7 +232,7 @@ export const solutionInternalPageData = {
       "In the fast-paced digital marketplace, effective e-commerce solutions are crucial for building engaging customer experiences and achieving sustainable growth. At IT United, we craft tailored e-commerce platforms that blend innovation with functionality, enabling businesses to optimize operations, enhance customer satisfaction, and drive revenue. Leveraging advanced technologies such as AI, automation, and secure payment gateways, our scalable solutions cater to businesses of all sizes and industries.",
     image: "/assets/Images/educationBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivery", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -364,10 +364,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "E-Commerce Solutions | AI-Driven Online Stores | Samyotech",
-      "description": "Samyotech delivers tailored e-commerce platforms to enhance customer engagement, streamline operations, and drive revenue. Leverage AI, automation, and secure payment gateways for scalable, innovative solutions that grow with your business.",
-      "keywords": "E-Commerce solutions, online store development, AI-driven e-commerce, scalable e-commerce platform, omnichannel retail, Samyotech e-commerce",
-      "canonical": "https://samyotech.com/solutions/e-commerce-solutions",
+      "title": "E-Commerce Solutions | AI-Driven Online Stores | IT United",
+      "description": "IT United delivers tailored e-commerce platforms to enhance customer engagement, streamline operations, and drive revenue. Leverage AI, automation, and secure payment gateways for scalable, innovative solutions that grow with your business.",
+      "keywords": "E-Commerce solutions, online store development, AI-driven e-commerce, scalable e-commerce platform, omnichannel retail, IT United e-commerce",
+      "canonical": "https://www.theitunited.com/solutions/e-commerce-solutions",
       "ogImage": "/assets/Images/educationBanner.avif"
     }
 
@@ -379,7 +379,7 @@ export const solutionInternalPageData = {
       "Efficient fleet and vehicle tracking systems are pivotal for streamlining logistics, improving safety, and reducing operational costs. At IT United, we offer cutting-edge solutions that integrate GPS, IoT, and AI to provide real-time vehicle monitoring, route optimization, and driver performance analytics. Designed for businesses of all sizes, our scalable systems help you manage fleets with precision, enhancing productivity and operational efficiency.",
     image: "/assets/Images/vehicle-tracking.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -506,10 +506,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "Vehicle Tracking System Solutions | Fleet & Logistics Management | Samyotech",
-      "description": "Samyotech delivers advanced vehicle tracking solutions for real-time GPS monitoring, route optimization, and driver performance analytics. Improve fleet efficiency, enhance safety, and reduce operational costs with scalable AI-powered systems.",
-      "keywords": "Vehicle tracking system, fleet management solutions, GPS tracking, route optimization, driver monitoring, logistics software, Samyotech vehicle tracking",
-      "canonical": "https://samyotech.com/solutions/vehicle-tracking-system",
+      "title": "Vehicle Tracking System Solutions | Fleet & Logistics Management | IT United",
+      "description": "IT United delivers advanced vehicle tracking solutions for real-time GPS monitoring, route optimization, and driver performance analytics. Improve fleet efficiency, enhance safety, and reduce operational costs with scalable AI-powered systems.",
+      "keywords": "Vehicle tracking system, fleet management solutions, GPS tracking, route optimization, driver monitoring, logistics software, IT United vehicle tracking",
+      "canonical": "https://www.theitunited.com/solutions/vehicle-tracking-system",
       "ogImage": "/assets/Images/vehicle-tracking.avif"
     }
 
@@ -521,7 +521,7 @@ export const solutionInternalPageData = {
       "Transport management solutions are essential for optimizing logistics, improving delivery timelines, and reducing operational costs. At IT United, we deliver tailored systems designed to streamline transportation processes, enhance visibility, and improve coordination. Leveraging advanced technologies like AI, IoT, and real-time analytics, our scalable solutions cater to businesses of all sizes, ensuring seamless integration and adaptability in dynamic supply chains.",
     image: "/assets/Images/crm.png",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -653,10 +653,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "Transport Management Solutions | Logistics & Fleet Optimization | Samyotech",
-      "description": "Samyotech provides advanced transport management solutions for optimizing logistics, improving delivery timelines, and reducing operational costs. Leverage AI, IoT, and real-time analytics for efficient fleet utilization and seamless supply chain operations.",
-      "keywords": "Transport management solutions, fleet optimization software, logistics management system, shipment tracking, route planning, AI logistics software, Samyotech transport solutions",
-      "canonical": "https://samyotech.com/solutions/transport-management",
+      "title": "Transport Management Solutions | Logistics & Fleet Optimization | IT United",
+      "description": "IT United provides advanced transport management solutions for optimizing logistics, improving delivery timelines, and reducing operational costs. Leverage AI, IoT, and real-time analytics for efficient fleet utilization and seamless supply chain operations.",
+      "keywords": "Transport management solutions, fleet optimization software, logistics management system, shipment tracking, route planning, AI logistics software, IT United transport solutions",
+      "canonical": "https://www.theitunited.com/solutions/transport-management",
       "ogImage": "/assets/Images/crm.png"
     }
 
@@ -668,7 +668,7 @@ export const solutionInternalPageData = {
       "Human Resource Management Systems (HRMS) are essential for optimizing workforce management, improving employee engagement, and enhancing organizational efficiency. At IT United, we design tailored HRMS solutions that automate HR processes, provide real-time insights, and support employee-centric strategies. Using technologies like AI, cloud platforms, and data analytics, our scalable systems adapt to diverse organizational needs, empowering businesses to focus on strategic growth.",
     image: "/assets/Images/crm.png",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -800,10 +800,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "HRMS Solutions | Human Resource Management Systems | Samyotech",
-      "description": "Samyotech delivers advanced HRMS solutions to optimize workforce management, automate HR processes, enhance employee engagement, and improve organizational efficiency. Leverage AI, cloud platforms, and data analytics for a scalable, connected workplace.",
-      "keywords": "HRMS, human resource management system, payroll automation, employee management software, HR software, Samyotech HRMS solutions",
-      "canonical": "https://samyotech.com/solutions/hrms",
+      "title": "HRMS Solutions | Human Resource Management Systems | IT United",
+      "description": "IT United delivers advanced HRMS solutions to optimize workforce management, automate HR processes, enhance employee engagement, and improve organizational efficiency. Leverage AI, cloud platforms, and data analytics for a scalable, connected workplace.",
+      "keywords": "HRMS, human resource management system, payroll automation, employee management software, HR software, IT United HRMS solutions",
+      "canonical": "https://www.theitunited.com/solutions/hrms",
       "ogImage": "/assets/Images/crm.png"
     }
 
@@ -815,7 +815,7 @@ export const solutionInternalPageData = {
       "Efficient sales and invoicing processes are vital for maintaining healthy cash flow and ensuring customer satisfaction. At IT United, we offer comprehensive solutions that automate billing, manage sales data, and provide real-time financial insights. Leveraging advanced technologies, our systems are designed to adapt to various industries, enhancing operational efficiency and accuracy.",
     image: "/assets/Images/sales-and-invoice.png",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -947,10 +947,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "Sales & Invoice Management Solutions | Samyotech",
-      "description": "Samyotech offers advanced Sales & Invoice Management solutions to automate billing, manage sales data, and provide real-time financial insights. Enhance cash flow, reduce errors, and improve operational efficiency across industries.",
-      "keywords": "Sales management software, invoice management system, automated billing, ERP integration, financial software, Samyotech solutions",
-      "canonical": "https://samyotech.com/solutions/sales-and-invoice",
+      "title": "Sales & Invoice Management Solutions | IT United",
+      "description": "IT United offers advanced Sales & Invoice Management solutions to automate billing, manage sales data, and provide real-time financial insights. Enhance cash flow, reduce errors, and improve operational efficiency across industries.",
+      "keywords": "Sales management software, invoice management system, automated billing, ERP integration, financial software, IT United solutions",
+      "canonical": "https://www.theitunited.com/solutions/sales-and-invoice",
       "ogImage": "/assets/Images/sales-and-invoice.png"
     }
 
@@ -962,7 +962,7 @@ export const solutionInternalPageData = {
       "In today’s fast-paced business environment, intelligent automation is crucial for maintaining competitiveness. At IT United, we offer Smart Assist solutions that leverage AI to streamline operations, enhance decision-making, and improve customer interactions. Our customizable platforms are designed to adapt across various industries, providing tailored support to meet specific business needs.",
     image: "/assets/Images/crm.png",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1093,10 +1093,10 @@ export const solutionInternalPageData = {
       ]
     },
     "seo": {
-      "title": "Smart Assist AI Virtual Assistant Solutions | Samyotech",
-      "description": "Samyotech offers Smart Assist AI Virtual Assistant solutions to automate tasks, provide real-time insights, and enhance customer interactions. Improve operational efficiency and decision-making across industries with our scalable AI platforms.",
-      "keywords": "AI virtual assistant, Smart Assist, AI automation, customer support AI, task automation, Samyotech AI solutions",
-      "canonical": "https://samyotech.com/solutions/smart-assist",
+      "title": "Smart Assist AI Virtual Assistant Solutions | IT United",
+      "description": "IT United offers Smart Assist AI Virtual Assistant solutions to automate tasks, provide real-time insights, and enhance customer interactions. Improve operational efficiency and decision-making across industries with our scalable AI platforms.",
+      "keywords": "AI virtual assistant, Smart Assist, AI automation, customer support AI, task automation, IT United AI solutions",
+      "canonical": "https://www.theitunited.com/solutions/smart-assist",
       "ogImage": "/assets/Images/crm.png"
     }
 
@@ -1108,7 +1108,7 @@ export const solutionInternalPageData = {
       "Managing employee compensation accurately and efficiently is critical for maintaining compliance and employee satisfaction. At IT United, our Payroll Management Solutions streamline payroll processes, automate tax calculations, and ensure on-time disbursements. Leveraging advanced technology, our systems minimize errors, reduce administrative workload, and adapt to the unique needs of your organization.",
     image: "/assets/Images/Payroll-Management-Solutions.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1240,10 +1240,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "Payroll Management Solutions | Samyotech",
-      "description": "Samyotech provides advanced Payroll Management Solutions to automate salary processing, ensure tax compliance, and streamline payroll operations. Enhance accuracy, reduce administrative workload, and empower employees with self-service portals.",
-      "keywords": "Payroll management, automated payroll, salary processing, tax compliance, employee self-service, Samyotech payroll solutions",
-      "canonical": "https://samyotech.com/solutions/payroll-management-solution",
+      "title": "Payroll Management Solutions | IT United",
+      "description": "IT United provides advanced Payroll Management Solutions to automate salary processing, ensure tax compliance, and streamline payroll operations. Enhance accuracy, reduce administrative workload, and empower employees with self-service portals.",
+      "keywords": "Payroll management, automated payroll, salary processing, tax compliance, employee self-service, IT United payroll solutions",
+      "canonical": "https://www.theitunited.com/solutions/payroll-management-solution",
       "ogImage": "/assets/Images/Payroll-Management-Solutions.avif"
     }
 
@@ -1255,7 +1255,7 @@ export const solutionInternalPageData = {
       "In today’s competitive business landscape, effectively managing employee performance is crucial for organizational success. At IT United, we offer comprehensive Employee Performance Solutions designed to align individual goals with company objectives, foster continuous feedback, and drive professional growth. Our platforms are tailored to meet the unique needs of various industries, ensuring a motivated and high-performing workforce.",
     image: "/assets/Images/educationBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1387,10 +1387,10 @@ export const solutionInternalPageData = {
     },
 
     "seo": {
-      "title": "Employee Performance Solutions | Samyotech",
-      "description": "Samyotech offers Employee Performance Solutions to align individual goals with company objectives, facilitate continuous feedback, and drive professional growth. Enhance workforce productivity and foster a high-performing culture.",
-      "keywords": "Employee performance, performance management, goal alignment, feedback system, HR solutions, Samyotech employee performance",
-      "canonical": "https://samyotech.com/solutions/employee-performance",
+      "title": "Employee Performance Solutions | IT United",
+      "description": "IT United offers Employee Performance Solutions to align individual goals with company objectives, facilitate continuous feedback, and drive professional growth. Enhance workforce productivity and foster a high-performing culture.",
+      "keywords": "Employee performance, performance management, goal alignment, feedback system, HR solutions, IT United employee performance",
+      "canonical": "https://www.theitunited.com/solutions/employee-performance",
       "ogImage": "/assets/Images/educationBanner.avif"
     }
 
@@ -1402,7 +1402,7 @@ export const solutionInternalPageData = {
       "Efficient recruitment management is critical for building a talented and engaged workforce. At IT United, we provide Recruitment Management Solutions that automate hiring processes, enhance candidate experiences, and improve decision-making. Leveraging AI and data analytics, our platforms simplify recruitment workflows, enabling organizations to attract, evaluate, and onboard top talent effectively.",
     image: "/assets/Images/educationBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1533,10 +1533,10 @@ export const solutionInternalPageData = {
       ]
     },
     "seo": {
-      "title": "Recruitment Management Solutions | Samyotech",
-      "description": "Samyotech offers Recruitment Management Solutions to automate hiring, enhance candidate experiences, and improve decision-making. Leverage AI-driven tools to streamline recruitment workflows and onboard top talent efficiently.",
-      "keywords": "Recruitment management, talent acquisition, hiring automation, AI recruitment, recruitment solutions, Samyotech recruitment",
-      "canonical": "https://samyotech.com/solutions/recruitment-management",
+      "title": "Recruitment Management Solutions | IT United",
+      "description": "IT United offers Recruitment Management Solutions to automate hiring, enhance candidate experiences, and improve decision-making. Leverage AI-driven tools to streamline recruitment workflows and onboard top talent efficiently.",
+      "keywords": "Recruitment management, talent acquisition, hiring automation, AI recruitment, recruitment solutions, IT United recruitment",
+      "canonical": "https://www.theitunited.com/solutions/recruitment-management",
       "ogImage": "/assets/Images/educationBanner.avif"
     }
 
@@ -1548,7 +1548,7 @@ export const solutionInternalPageData = {
       "Effective inventory and warehouse management are crucial for optimizing operations and minimizing costs. At IT United, we provide comprehensive, tailored solutions that help businesses track, manage, and organize their inventory with precision. With a blend of advanced technologies like IoT, AI, and real-time analytics, we empower organizations to enhance operational efficiency, reduce errors, and improve customer satisfaction. Our solutions are designed to adapt to various industries, enabling scalable, flexible, and intelligent inventory management that grows with your business.",
     image: "/assets/Images/educationBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1679,10 +1679,10 @@ export const solutionInternalPageData = {
       ]
     },
     "seo": {
-      "title": "Inventory & Warehouse Management Solutions | Samyotech",
-      "description": "Samyotech offers Inventory & Warehouse Solutions to optimize operations, track stock in real-time, and enhance supply chain efficiency. Leverage AI, IoT, and cloud-based technologies for intelligent inventory management.",
-      "keywords": "Inventory management, warehouse management, supply chain optimization, AI inventory, IoT warehouse, Samyotech solutions",
-      "canonical": "https://samyotech.com/solutions/inventory-and-warehouse",
+      "title": "Inventory & Warehouse Management Solutions | IT United",
+      "description": "IT United offers Inventory & Warehouse Solutions to optimize operations, track stock in real-time, and enhance supply chain efficiency. Leverage AI, IoT, and cloud-based technologies for intelligent inventory management.",
+      "keywords": "Inventory management, warehouse management, supply chain optimization, AI inventory, IoT warehouse, IT United solutions",
+      "canonical": "https://www.theitunited.com/solutions/inventory-and-warehouse",
       "ogImage": "/assets/Images/educationBanner.avif"
     }
 

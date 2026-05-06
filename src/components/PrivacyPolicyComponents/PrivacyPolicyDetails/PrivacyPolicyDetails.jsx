@@ -8,9 +8,9 @@ const PrivacyPolicyDetails = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h3>Privacy Policy for Samyotech.com</h3>
+        <h3>Privacy Policy for IT United.com</h3>
         <p>
-          Welcome to Samyotech! Your privacy is important to us, and we are committed to
+          Welcome to IT United! Your privacy is important to us, and we are committed to
           protecting the personal information you share with us. This Privacy Policy outlines
           how we collect, use, and safeguard your information when you interact with our
           website, products, and services.
@@ -118,13 +118,13 @@ const PrivacyPolicyDetails = () => {
         <p>If you have any questions or concerns about our Privacy Policy, please contact us at:</p>
         <ul className={styles.contactList}>
           <li>
-            <Mail size={18} /> Email: amit@samyotech.com
+            <Mail size={18} /> Email: amit@theitunited.com
           </li>
           <li>
-            <Phone size={18} /> Phone: +91 786 999 9639
+            <Phone size={18} /> Phone: +91 747 707 5407
           </li>
           <li>
-            <MapPin size={18} /> Address: Samyotech HQ, 1st Floor Pramukh Plaza, Near Sajan
+            <MapPin size={18} /> Address: IT United HQ, 1st Floor Pramukh Plaza, Near Sajan
             Prabha Garden, Vijaynagar, Indore, Madhya Pradesh, 452010
           </li>
         </ul>

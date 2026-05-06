@@ -1,5 +1,5 @@
 .bannerSection {
-  background-color: #002c22;
+  background-color: #000000;
   padding: 50px 5%;
   color: #ffffff;
   display: flex;
@@ -40,7 +40,7 @@
 
 .highlight {
   font-weight: 600;
-  color: #00c84fe8;
+  color: #00C8FFe8;
 }
 
 .statsRow {

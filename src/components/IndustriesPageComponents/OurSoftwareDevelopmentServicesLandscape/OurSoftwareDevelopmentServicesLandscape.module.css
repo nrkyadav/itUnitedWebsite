@@ -27,18 +27,18 @@
   width: 100%;
   max-width: 1400px;
   text-align: left;
-  color: #002c22;
+  color: #000000;
 }
 
 .heading {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .gradientText {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -49,7 +49,7 @@
   width: 500px;
   height: 4px;
   margin: 20px 0;
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   border-radius: 4px;
 }
 
@@ -69,11 +69,11 @@
 }
 
 .card {
-  background-color: #002c22;
+  background-color: #000000;
   color: white;
   padding: 30px 25px;
   border-radius: 16px;
-  box-shadow: 0 10px 20px rgba(0, 44, 34, 0.25);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,7 +82,7 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 14px 28px rgba(0, 44, 34, 0.35);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
 }
 
 .cardTitle {
@@ -100,16 +100,16 @@
 
 .productCard {
   background-color: #ffc107;
-  color: #002c22;
+  color: #000000;
 }
 
 .productTitle,
 .productDesc {
-  color: #002c22;
+  color: #000000;
 }
 
 .productBtn {
-  background-color: #002c22;
+  background-color: #000000;
   color: #ffc107;
   border: none;
   padding: 12px 18px;

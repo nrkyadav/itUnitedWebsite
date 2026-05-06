@@ -48,9 +48,10 @@ const OurIndustriesSolutionsLandscape = ({data}) => {
 
         <PrimaryButton
           text="Explore all our Industries"
-          className={styles.gradientButton}
+          className={styles.outlineButton}
+          bgColor="transparent"
+          textGradient="none"
           onClick={() => router.push("/industries")}
-
         />
       </div>
     </section>

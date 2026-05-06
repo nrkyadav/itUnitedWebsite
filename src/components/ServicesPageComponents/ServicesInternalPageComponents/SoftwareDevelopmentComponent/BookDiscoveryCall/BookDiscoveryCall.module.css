@@ -1,6 +1,6 @@
 .planSection {
   position: relative;
-  background: #3f7f40;
+  background: #0066CC;
   min-height: 380px;
   display: flex;
   align-items: center;
@@ -67,7 +67,7 @@
 .downloadButton {
   display: inline-block;
   background-color: white;
-  color: #002c22 !important;
+  color: #000000 !important;
   padding: 13px 36px;
   font-size: 1.1rem;
   font-weight: 700;

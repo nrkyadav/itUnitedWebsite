@@ -22,7 +22,7 @@ const CareersComponent = ({ data }) => {
       type: "Full Time, Remote, Part Time",
       skills: "AWS/Azure/GCP",
       experience: "Experience 0 - 2 Years",
-      email: "hr@samyotech.com",
+      email: "hr@theitunited.com",
     },
     {
       title: "PowerApps Developer",
@@ -30,7 +30,7 @@ const CareersComponent = ({ data }) => {
       type: "Full Time, Remote, Part Time",
       skills: "Power Apps, Power Automate",
       experience: "Experience 0 - 2 Years",
-      email: "hr@samyotech.com",
+      email: "hr@theitunited.com",
     },
     {
       title: "Java Automation Lead",
@@ -38,13 +38,13 @@ const CareersComponent = ({ data }) => {
       type: "Full Time, Remote",
       skills: "BDD framework, Java, Selenium",
       experience: "Experience 0 - 2 Years",
-      email: "hr@samyotech.com",
+      email: "hr@theitunited.com",
     },
   ];
 
 
   const stats = [
-    { label: "Years of experience", value: "12+" },
+    { label: "Years of experience", value: "5+" },
     { label: "Apps delivered", value: "850+" },
     { label: "Remote Developer", value: "120+" },
     { label: "Passionate Delivery", value: "100%" },
@@ -91,7 +91,7 @@ const CareersComponent = ({ data }) => {
                 opacity: 0.9,
               }}
             >
-              At <strong>Samyotech</strong>, we specialize in turning innovative
+              At <strong>IT United</strong>, we specialize in turning innovative
               ideas into impactful software solutions. Our team of experienced
               developers and tech experts is dedicated to helping businesses
               accelerate their growth through scalable, secure, and

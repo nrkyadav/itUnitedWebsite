@@ -5,7 +5,7 @@ export default function PrimaryButton({
   text,
   showDot = false,
   onClick,
-  bgColor = "#002c22",
+  bgColor = "#000000",
   textGradient = "linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%)",
   className = "",
 }) {

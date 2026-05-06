@@ -106,7 +106,7 @@ export const industriesSoftwareDevelopmentServicesLandscape = [
   {
     title: "Sailpoint Solutions",
     description:
-      "Simplify identity governance with Samyotech’s SailPoint Solutions Consultancy.",
+      "Simplify identity governance with IT United’s SailPoint Solutions Consultancy.",
     link: "/industries/sailpoint-solutions-consultancy"
 
   },

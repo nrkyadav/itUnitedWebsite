@@ -2,7 +2,7 @@
     "name": "Social Media Automation Agent",
     "version": "1.0.0",
     "description": "An intelligent AI automation agent that helps users stay consistent with their social media presence by scheduling, optimizing, and analyzing posts.",
-    "author": "Samyotech",
+    "author": "IT United",
     "type": "automation-workflow",
     "category": "Content Creation",
     "platforms": ["Make", "Voiceflow"],
@@ -132,7 +132,7 @@
     ],
     
     "support": {
-      "documentation": "https://samyotech.com/docs/social-media-automation",
+      "documentation": "https://www.theitunited.com/docs/social-media-automation",
       "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
       "contact": "https://wa.me/917869996639"
     }

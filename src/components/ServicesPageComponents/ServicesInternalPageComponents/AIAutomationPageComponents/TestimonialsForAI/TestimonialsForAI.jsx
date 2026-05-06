@@ -11,28 +11,28 @@ const testimonials = [
         name: "David M.",
         rating: 5,
         location: "New York, USA",
-        text: "I’ve tried several similar services before, but none compare to Samyotech. The attention to detail and customer care is unmatched. I will definitely be returning for future needs!",
+        text: "I’ve tried several similar services before, but none compare to IT United. The attention to detail and customer care is unmatched. I will definitely be returning for future needs!",
     },
     {
         image: "/assets/Images/emmaR.webp",
         name: "Emma R.",
         rating: 4,
         location: "London, UK",
-        text: "Exceptional quality at a reasonable price! Samyotech delivers exactly what they promise. The product was even better than I expected, and the support team was super helpful.",
+        text: "Exceptional quality at a reasonable price! IT United delivers exactly what they promise. The product was even better than I expected, and the support team was super helpful.",
     },
     {
         image: "/assets/Images/markt.webp",
         name: "Mark T.",
         rating: 5,
         location: "Sydney, Australia",
-        text: "I needed a solution quickly, and Samyotech delivered on time with zero hassle. Their professionalism and expertise made the whole process stress-free. Will definitely use their services again!",
+        text: "I needed a solution quickly, and IT United delivered on time with zero hassle. Their professionalism and expertise made the whole process stress-free. Will definitely use their services again!",
     },
     {
         image: "/assets/Images/sarahl.webp",
         name: "Sarah L.",
         rating: 4,
         location: "Toronto, Canada",
-        text: "I am beyond impressed with the quality and professionalism of Samyotech. From start to finish, the experience was seamless. The team was responsive, the service was top-notch, and the results exceeded my expectations. Highly recommended!",
+        text: "I am beyond impressed with the quality and professionalism of IT United. From start to finish, the experience was seamless. The team was responsive, the service was top-notch, and the results exceeded my expectations. Highly recommended!",
     },
 ];
 

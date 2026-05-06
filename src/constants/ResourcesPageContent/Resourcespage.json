@@ -254,7 +254,7 @@
     "aboutUsSeoData": {
       "metadata": {
         "title": "About The IT United | Leading Software Development Company",
-        "description": "Learn about IT United - a trusted software development company with 12+ years of experience, 850+ apps delivered, and 120+ remote developers. We deliver innovative digital solutions worldwide.",
+        "description": "Learn about IT United - a trusted software development company with 5+ years of experience, 850+ apps delivered, and 120+ remote developers. We deliver innovative digital solutions worldwide.",
         "keywords": "about IT United, software development company, custom software solutions, IT services, digital transformation, app development company, remote developers, IT United Technologies",
         "canonical": "https://IT United.com/about-us",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
@@ -268,7 +268,7 @@
         "url": "https://IT United.com/about-us",
         "siteName": "IT United",
         "title": "About The IT United | Leading Software Development Company",
-        "description": "Discover IT United - 12+ years of experience delivering innovative software solutions. 850+ apps delivered with 100% passionate delivery.",
+        "description": "Discover IT United - 5+ years of experience delivering innovative software solutions. 850+ apps delivered with 100% passionate delivery.",
         "image": "https://IT United.com/assets/Images/about-us-banner.jpg",
         "imageWidth": "1200",
         "imageHeight": "630",
@@ -279,7 +279,7 @@
         "site": "@IT United",
         "creator": "@IT United",
         "title": "About The IT United | Leading Software Development Company",
-        "description": "12+ years of experience delivering innovative software solutions worldwide.",
+        "description": "5+ years of experience delivering innovative software solutions worldwide.",
         "image": "https://IT United.com/assets/Images/about-us-banner.jpg",
         "imageAlt": "About IT United"
       },
@@ -290,7 +290,7 @@
           "name": "IT United Technologies",
           "url": "https://IT United.com",
           "logo": "https://IT United.com/assets/Images/logo.png",
-          "description": "IT United is a leading software development company with 12+ years of experience, delivering innovative digital solutions worldwide.",
+          "description": "IT United is a leading software development company with 5+ years of experience, delivering innovative digital solutions worldwide.",
           "foundingDate": "2012",
           "address": {
             "@type": "PostalAddress",
@@ -324,7 +324,7 @@
               "name": "How long has IT United been in business?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "IT United has been delivering innovative software solutions for over 12 years, with 850+ apps delivered and 120+ remote developers."
+                "text": "IT United has been delivering innovative software solutions for over 5 years, with 850+ apps delivered and 120+ remote developers."
               }
             },
             {
@@ -645,7 +645,7 @@
               "name": "How can I contact IT United?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "You can contact IT United through our contact form, email at contact@IT United.com, or call us at +91-786-999-9639. We're available to discuss your project requirements and provide consultations."
+                "text": "You can contact IT United through our contact form, email at contact@IT United.com, or call us at +91 747 707 5407. We're available to discuss your project requirements and provide consultations."
               }
             },
             {

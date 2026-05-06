@@ -4,7 +4,7 @@ export const blockchainServicesPageContent = {
         "description": "Empower your business with IT United’s custom blockchain development solutions. We specialise in building secure, scalable, and innovative blockchain applications tailored to your needs. Revolutionise your operations with decentralised technology, ensuring transparency, efficiency, and enhanced security. Partner with us to unlock blockchain’s potential and drive transformative growth. Let’s redefine your success story through blockchain innovation!",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -240,7 +240,7 @@ export const blockchainServicesPageContent = {
         "description": "Revolutionise your business with IT United’s decentralised applications (dApps). We craft secure, scalable, and user-centric dApps tailored to your needs. Empower your business with blockchain-driven solutions, enhancing transparency, automation, and operational efficiency. From ideation to deployment, our dApp expertise ensures innovative solutions that deliver unmatched performance. Partner with us to unlock the full potential of dApps!",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -475,7 +475,7 @@ export const blockchainServicesPageContent = {
         "description": "Transform your business strategies with IT United’s expert blockchain consulting services. We offer tailored guidance to help you navigate blockchain’s complexities and unlock its full potential. From assessing feasibility to implementing solutions, we provide end-to-end support. Embrace blockchain innovation to enhance efficiency, security, and transparency. Partner with us to empower your business with cutting-edge blockchain insights and strategies.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -710,7 +710,7 @@ export const blockchainServicesPageContent = {
         "description": "Revolutionise your business ecosystem with IT United’s token development services. We craft secure, scalable, and bespoke tokens for diverse applications. Empower your operations with blockchain-backed solutions, enhancing fundraising, governance, and utility. With tailored strategies and cutting-edge technology, we ensure seamless token implementation for unmatched efficiency. Partner with us to bring your token vision to life!",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -946,7 +946,7 @@ export const blockchainServicesPageContent = {
         "description": "Harness the power of secure, tailored private blockchain solutions with IT United. We specialise in developing exclusive, permissioned blockchains that enhance data privacy, scalability, and operational control. From design to deployment, we deliver end-to-end solutions tailored to your needs. Empower your business with a robust private blockchain, ensuring unparalleled security and efficiency. Partner with us for seamless, cutting-edge private blockchain development.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1181,7 +1181,7 @@ export const blockchainServicesPageContent = {
         "description": "Streamline your business processes with IT United’s expert smart contract development services. We create secure, automated, and reliable smart contracts tailored to your needs. Empower your operations with decentralised solutions that ensure transparency and efficiency. From ideation to deployment, our smart contracts enhance trust and eliminate manual intervention. Partner with us to transform your workflows through blockchain-powered automation today!",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }

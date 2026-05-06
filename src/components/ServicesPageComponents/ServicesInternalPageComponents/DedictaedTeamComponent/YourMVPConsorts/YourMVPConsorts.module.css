@@ -32,14 +32,14 @@
   .smallHeading {
     font-size: 18px;
     font-weight: 600;
-    color: #002c22;
+    color: #000000;
     margin-bottom: 15px;
   }
   
   .largeHeading {
     font-size: 36px;
     font-weight: 700;
-    color: #002c22;
+    color: #000000;
     margin-bottom: 40px;
   }
   
@@ -66,14 +66,14 @@
   .cardTitle {
     font-size: 20px;
     font-weight: 700;
-    color: #002c22;
+    color: #000000;
     margin-bottom: 12px;
   }
   
   .cardDesc {
     font-size: 16px;
     line-height: 1.5;
-    color: #002c22;
+    color: #000000;
     max-width: 320px;
     margin: 0 auto;
   }
@@ -86,7 +86,7 @@
   
 
   .calendlyBtn {
-    background-color: #002c22;
+    background-color: #000000;
     color: #ffffff;
     border: none;
     padding: 14px 28px;
@@ -106,7 +106,7 @@
     margin-top: 20px;
     font-size: 16px;
     font-weight: 500;
-    color: #002c22;
+    color: #000000;
   }
   
   @media (max-width: 900px) {

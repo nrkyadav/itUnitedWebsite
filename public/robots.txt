@@ -5,4 +5,4 @@ Disallow: /*?replytocom
 Disallow: /*?utm_
 Disallow: /*?fbclid=
 
-Sitemap: https://samyotech.com/sitemap.xml
+Sitemap: https://www.theitunited.com/sitemap.xml

@@ -33,14 +33,14 @@
 .smallHeading {
   font-size: 20px;
   font-weight: 600;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 15px;
 }
 
 .largeHeading {
   font-size: 38px;
   font-weight: 700;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 40px;
 }
 
@@ -74,7 +74,7 @@
   text-align: left;
   font-size: 16px;
   font-weight: 600;
-  color: #002c22;
+  color: #000000;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -84,7 +84,7 @@
 .arrow {
   transition: transform 0.3s ease;
   font-size: 16px;
-  color: #002c22;
+  color: #000000;
 }
 
 .rotate {
@@ -94,7 +94,7 @@
 .accordionContent {
   max-height: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   transition: max-height 0.35s ease;
   padding: 0 20px;
   text-align: left;

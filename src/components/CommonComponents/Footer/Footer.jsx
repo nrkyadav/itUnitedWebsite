@@ -2,8 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
 import Link from "next/link";
 import styles from "./Footer.module.css";
 
@@ -16,14 +14,14 @@ const Footer = () => {
   const locations = [
     {
       country: "INDIA",
-      address: "Building No. 09, Tulsiayana Residency, Nepania, Indore",
-      phone: "+91 9669219263",
+      address: "Tulsiayana Residency, Nepania, Indore",
+      phone: "+91 747 707 5407",
       cityImg: "/assets/Images/indore.png",
     },
     {
       country: "EUROPE",
       address: "Orangeboom Street, Mariakerke, Ghent, Belgium",
-      phone: "+91 9669219263",
+      phone: "+32 489 17 49 32",
       cityImg: "/assets/Images/canada.png",
     },
     {
@@ -41,14 +39,14 @@ const Footer = () => {
         <div className={styles.footerLeft}>
           <div className={styles.logoFooter}>
             <Image
-              src="/assets/Images/whitelog.png"
+              src="/assets/itUnitedWhitelogo.png"
               alt="IT United Logo"
               width={250}
               height={60}
               className={styles.footerLogoImg}
             />
             {/* <div style={{ fontFamily: "'Spectral', serif", fontWeight: 800, fontSize: "28px", color: "#ffffff", letterSpacing: "1px", textTransform: "uppercase", display: "flex", alignItems: "center" }}>
-              The Un<span style={{ color: "#00c84f" }}>it</span>ed
+              The Un<span style={{ color: "#00C8FF" }}>it</span>ed
             </div> */}
           </div>
           <p className={styles.footerDescription}>
@@ -131,38 +129,15 @@ const Footer = () => {
         <div className={styles.footerRight}>
           <h4 className={styles.globalLocationHeading}>GLOBAL LOCATIONS</h4>
 
-          <Swiper
-            modules={[Pagination, Autoplay]}
-            spaceBetween={20}
-            slidesPerView={1}
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 3500, disableOnInteraction: false }}
-            className={styles.locationSwiper}
-          >
+          <ul className={styles.locationList}>
             {locations.map((loc, i) => (
-              <SwiperSlide key={i}>
-                <div className={styles.locationCard}>
-                  <h5 className={styles.locationCountry}>{loc.country}</h5>
-
-                  <div className={styles.locationRow}>
-                    <div className={styles.locationImage}>
-                      <Image
-                        src={loc.cityImg}
-                        alt={loc.country}
-                        width={140}
-                        height={100}
-                        className={styles.cityImg}
-                      />
-                    </div>
-                    <div className={styles.locationInfo}>
-                      <div className={styles.locationAddress}>{loc.address}</div>
-                      <div className={styles.locationPhone}>📞 {loc.phone}</div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+              <li key={i} className={styles.locationItem}>
+                <h5 className={styles.locationCountry}>{loc.country}</h5>
+                <p className={styles.locationAddress}>{loc.address}</p>
+                <p className={styles.locationPhone}>{loc.phone}</p>
+              </li>
             ))}
-          </Swiper>
+          </ul>
         </div>
       </div>
 

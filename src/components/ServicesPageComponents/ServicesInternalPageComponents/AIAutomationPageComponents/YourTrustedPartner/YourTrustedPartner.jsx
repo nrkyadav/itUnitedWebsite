@@ -51,7 +51,7 @@ const YourTrustedPartner = () => {
         <p className={styles.smallHeading}>Your Trusted Partner</p>
 
         <h2 className={styles.largeHeading}>
-          Why Samyotech For AI & Automation Services?
+          Why IT United For AI & Automation Services?
         </h2>
 
         <div className={styles.cardsGrid}>

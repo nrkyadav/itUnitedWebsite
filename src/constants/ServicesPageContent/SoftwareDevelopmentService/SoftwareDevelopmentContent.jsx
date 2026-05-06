@@ -4,7 +4,7 @@ export const softwareDevelopmentContent = {
         "description": "Transform your idea into a market-ready product with a scalable MVP. We help you quickly validate your concept, gain valuable user feedback, and secure funding. Our MVP development services are designed to minimize risks and costs while accelerating your go-to-market strategy. Partner with IT United to bring your vision to life with precision and speed.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -253,7 +253,7 @@ export const softwareDevelopmentContent = {
         "description": "Revolutionize your operations with scalable, secure, and tailored enterprise software. At IT United, we design solutions that streamline workflows, enhance productivity, and foster collaboration. From automating processes to improving data management, our enterprise software empowers organizations to achieve operational excellence, driving growth and competitiveness in today’s dynamic business environment.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -489,7 +489,7 @@ export const softwareDevelopmentContent = {
         "description": "Navigate your digital transformation with expert guidance from IT United. Our software consulting services help businesses choose the right technologies, align strategies with goals, and drive innovation. From tech stack selection to roadmap planning, we provide insights that ensure your software investments deliver maximum ROI.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -781,7 +781,7 @@ export const softwareDevelopmentContent = {
         "description": "Transform your ideas into innovative software products with IT United. We specialize in creating user-friendly, scalable, and impactful products that align with your business objectives. From concept to launch, our solutions are crafted to deliver measurable value and competitive advantage in a dynamic market.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1017,7 +1017,7 @@ export const softwareDevelopmentContent = {
         "description": "Leverage IT United’s software outsourcing services to access top-tier talent, reduce costs, and accelerate project timelines. Whether it’s custom development, app modernization, or integration, our skilled teams deliver high-quality results. With a focus on transparency, scalability, and collaboration, we help businesses stay competitive and achieve their digital transformation goals with ease.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1253,7 +1253,7 @@ export const softwareDevelopmentContent = {
         "description": "Stay ahead in a competitive market by upgrading your legacy systems with IT United’s software modernization services. We revitalize outdated software with modern technologies, improving performance, scalability, and security. Whether it’s migrating to the cloud or refactoring code, our solutions future-proof your operations and ensure your business remains efficient and innovative.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1490,7 +1490,7 @@ export const softwareDevelopmentContent = {
         "description": "Connect your systems for seamless workflows with IT United’s software integration services. We specialize in unifying disparate tools and platforms to enhance efficiency, reduce manual errors, and enable real-time data sharing. Whether integrating APIs or syncing enterprise systems, our tailored solutions ensure your business operates as a cohesive, efficient unit.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1725,7 +1725,7 @@ export const softwareDevelopmentContent = {
         "description": "Transform outdated software into high-performing, scalable solutions with IT United’s re-engineering services. We optimize code, upgrade architectures, and enhance functionality to meet modern standards. Our re-engineering process breathes new life into your software, ensuring it aligns with evolving business needs while delivering improved performance and user experiences.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1960,7 +1960,7 @@ export const softwareDevelopmentContent = {
         "description": "Ensure the longevity and reliability of your software with IT United’s support and maintenance services. From performance optimization to security updates, we keep your software running smoothly. Our proactive approach addresses issues before they impact operations, ensuring your technology remains robust, secure, and aligned with evolving business goals.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -2196,7 +2196,7 @@ export const softwareDevelopmentContent = {
         "description": "Access strategic technology leadership with IT United’s CTO on Hire services. Our fractional CTOs provide expert guidance, overseeing product development, tech strategies, and team management. Ideal for startups and SMEs, this flexible model delivers top-tier expertise without long-term commitment, helping you achieve your business objectives with confidence.",
         "image": "/assets/Images/softwaredevelopmentservicesBanner.avif",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }

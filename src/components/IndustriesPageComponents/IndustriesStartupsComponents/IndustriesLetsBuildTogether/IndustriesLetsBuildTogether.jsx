@@ -31,13 +31,13 @@ const IndustriesLetsBuildTogether = ({ isServicesPage = false }) => {
             text="Schedule a Call via Calendly"
             bgColor={
               isServicesPage
-                ? "linear-gradient(135deg, #006633 0%, #00c84fe8 100%)"
+                ? "linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%)"
                 : "#ffffff"
             }
             textGradient={
               isServicesPage
                 ? "none"
-                : "linear-gradient(135deg, #006633 0%, #00c84fe8 100%)"
+                : "linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%)"
             }
             className={isServicesPage ? styles.buttonStyle : ""}
             onClick={() => setIsModalOpen(true)}

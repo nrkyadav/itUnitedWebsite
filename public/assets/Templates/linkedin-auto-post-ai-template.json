@@ -3,7 +3,7 @@
     "name": "LinkedIn Auto Post AI Agent",
     "version": "1.0.0",
     "description": "An AI-powered automation agent that generates, schedules, and posts high-performing LinkedIn content automatically based on user preferences and niche.",
-    "author": "Samyotech",
+    "author": "IT United",
     "type": "automation-workflow",
     "category": "Social Media",
     "platforms": ["Make", "Voiceflow"],
@@ -130,7 +130,7 @@
     ],
   
     "support": {
-      "documentation": "https://samyotech.com/docs/linkedin-auto-post-ai",
+      "documentation": "https://www.theitunited.com/docs/linkedin-auto-post-ai",
       "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
       "contact": "https://wa.me/917869996639"
     }

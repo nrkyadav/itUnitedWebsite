@@ -1,5 +1,5 @@
 .container {
-  background-color: #3f7f40; 
+  background-color: #0066CC; 
   color: white;
   padding: 60px 5%;
   font-family: "Albert Sans", sans-serif;
@@ -13,7 +13,7 @@
 }
 
 .textGradient {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

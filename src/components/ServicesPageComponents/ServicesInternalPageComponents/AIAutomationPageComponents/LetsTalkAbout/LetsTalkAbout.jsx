@@ -36,7 +36,7 @@ const LetsTalkAbout = () => {
           <PrimaryButton
             text="Schedule a Call via Calendly"
             bgColor="#ffffff"
-            textGradient="linear-gradient(135deg, #006633 0%, #00c84fe8 100%)"
+            textGradient="linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%)"
             onClick={() => setIsModalOpen(true)}
           />
         </div>

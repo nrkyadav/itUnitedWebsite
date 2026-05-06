@@ -16,7 +16,7 @@
 .mainTitle {
   font-size: 2.4rem;
   font-weight: 800;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 48px;
   line-height: 1.2;
   letter-spacing: -0.5px;
@@ -51,7 +51,7 @@
 .statTitle {
   font-size: 1.55rem;
   font-weight: 700;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 12px;
   line-height: 1.3;
 }

@@ -12,7 +12,7 @@ import {
   serviceTabsOptions,
   solutionsTabsOptions
 } from "@/constants/HeaderContent/HeaderContent";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import styles from "./Header.module.css";
 import CommonModal from "../CommonModal";
 import CalendlyModal from "@/components/Forms/CalendlyForm/CalendlyModal";
@@ -25,7 +25,7 @@ const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const router = useRouter();
-  const pathname = usePathname();
+  const pathname = router.pathname;
 
   const toggleDrawer = () => {
     setDrawerOpen(!drawerOpen);
@@ -73,12 +73,13 @@ const Header = () => {
   };
 
   const getActiveMenu = () => {
-    if (pathname.startsWith("/software-services-company")) return "services";
-    if (pathname.startsWith("/industries")) return "industries";
-    if (pathname.startsWith("/solutions")) return "solutions";
-    if (pathname.startsWith("/resources")) return "resources";
-    if (pathname.startsWith("/contact-us")) return "contact";
-    if (pathname === "/") return "home";
+    const path = pathname || "";
+    if (path.startsWith("/software-services-company")) return "services";
+    if (path.startsWith("/industries")) return "industries";
+    if (path.startsWith("/solutions")) return "solutions";
+    if (path.startsWith("/resources")) return "resources";
+    if (path.startsWith("/contact-us")) return "contact";
+    if (path === "/") return "home";
     return "";
   };
 
@@ -88,7 +89,7 @@ const Header = () => {
         <div className={styles.logo}>
           <Link href="/" passHref style={{ textDecoration: 'none' }}>
             <Image
-              src="/assets/Images/darkGreenLogo.svg"
+              src="/assets/itUnitedBlacklogo.png"
               alt="The IT United Logo"
               width={250}
               height={60}
@@ -96,7 +97,7 @@ const Header = () => {
               className={styles.logoImg}
             />
             {/* <div style={{ fontFamily: "'Spectral', serif", fontWeight: 800, fontSize: "34px", color: "#0f423f", letterSpacing: "1px", textTransform: "uppercase", display: "flex", alignItems: "center" }}>
-              The Un<span style={{ color: "#00c84f" }}>it</span>ed
+              The Un<span style={{ color: "#00C8FF" }}>it</span>ed
             </div> */}
           </Link>
         </div>
@@ -110,7 +111,22 @@ const Header = () => {
 
           <li className={`${styles.navItem} ${styles.mega} ${getActiveMenu() === "services" ? styles.active : ""}`}>
             <Link href="/software-services-company" className={styles.navLink}>
-              Services <span className={styles.dropdownIcon}>▼</span>
+              Services <svg
+                className={styles.dropdownIcon}
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M1 1l4 4 4-4"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </Link>
 
             <div className={`${styles.megaDropdown} ${styles.servicesMega}`}>
@@ -147,22 +163,28 @@ const Header = () => {
                   </div>
                 </div>
 
-                <div className={styles.megaRight}>
-                  <Image
-                    src="/assets/Images/services-image.webp"
-                    alt="Services"
-                    width={250}
-                    height={250}
-                    className={styles.megaImage}
-                  />
-                </div>
               </div>
             </div>
           </li>
 
           <li className={`${styles.navItem} ${styles.mega} ${getActiveMenu() === "industries" ? styles.active : ""}`}>
             <Link href="/industries" className={styles.navLink}>
-              Industries <span className={styles.dropdownIcon}>▼</span>
+              Industries <svg
+                className={styles.dropdownIcon}
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M1 1l4 4 4-4"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </Link>
 
             <div className={`${styles.megaDropdown} ${styles.servicesMega}`}>
@@ -207,7 +229,22 @@ const Header = () => {
 
           <li className={`${styles.navItem} ${styles.mega} ${getActiveMenu() === "solutions" ? styles.active : ""}`}>
             <Link href="/solutions" className={styles.navLink}>
-              Solutions <span className={styles.dropdownIcon}>▼</span>
+              Solutions <svg
+                className={styles.dropdownIcon}
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M1 1l4 4 4-4"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </Link>
             <div className={`${styles.megaDropdown} ${styles.servicesMega}`}>
               <div className={styles.megaInnerIndustries}>
@@ -251,7 +288,22 @@ const Header = () => {
 
           <li className={`${styles.navItem} ${styles.mega} ${getActiveMenu() === "resources" ? styles.active : ""}`}>
             <Link href="/resources" className={styles.navLink}>
-              Resources <span className={styles.dropdownIcon}>▼</span>
+              Resources <svg
+                className={styles.dropdownIcon}
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M1 1l4 4 4-4"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </Link>
             <div className={`${styles.megaDropdown} ${styles.servicesMega}`}>
               <div className={styles.megaInnerIndustries}>
@@ -305,7 +357,7 @@ const Header = () => {
 
         <div className={`${styles.navActions} ${styles.desktopOnly}`}>
           <button className={styles.ctaBtn} onClick={() => setIsModalOpen(true)}>
-            Schedule a call via Calendly
+            Book a call
           </button>
         </div>
 
@@ -318,7 +370,7 @@ const Header = () => {
         <div className={styles.drawerHeader}>
           <div className={styles.logo}>
             <Image
-              src="/assets/Images/darkGreenLogo.svg"
+              src="/assets/itUnitedBlacklogo.png"
               alt="The IT United Logo"
               width={160}
               height={40}
@@ -326,7 +378,7 @@ const Header = () => {
               className={styles.logoImg}
             />
             {/* <div style={{ fontFamily: "'Spectral', serif", fontWeight: 800, fontSize: "24px", color: "#0f423f", letterSpacing: "1px", textTransform: "uppercase", display: "flex", alignItems: "center" }}>
-              The Un<span style={{ color: "#00c84f" }}>it</span>ed
+              The Un<span style={{ color: "#00C8FF" }}>it</span>ed
             </div> */}
           </div>
           <div className={styles.closeBtn} onClick={toggleDrawer}>

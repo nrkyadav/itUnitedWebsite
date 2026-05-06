@@ -4,7 +4,7 @@ export const postData = {
   readTime: '6 MIN READ',
   title: 'AI in Code Review: Improving Quality and Speed',
   author: 'Kelly Walder',
-  authorTitle: 'Chief Marketing Officer, Samyotech',
+  authorTitle: 'Chief Marketing Officer, IT United',
 
   introParagraph: `AI in code review is revolutionizing how developers ensure high-quality, maintainable, and secure software. Traditional reviews often slow down delivery and rely heavily on human judgment. With AI-powered tools, teams can identify bugs faster, maintain coding standards, and accelerate release cycles. This guide explores how automated code review improves quality and speed, its real-world use cases, and best practices for implementation. By the end, you'll see why integrating AI into the code review process is essential for modern software development.`,
 

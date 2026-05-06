@@ -4,7 +4,7 @@ export const dedicatedTeamsContent = {
         "description": "Access a global talent pool with IT United’s Remote Developers. Our skilled professionals integrate seamlessly into your workflows, delivering expertise, flexibility, and cost-efficiency. Whether you need short-term support or dedicated long-term resources, our remote developers ensure high-quality solutions tailored to your business needs.",
         "image": "/assets/Images/dedicatedteams.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -253,7 +253,7 @@ export const dedicatedTeamsContent = {
         "description": "Accelerate your projects with IT United’s Remote Software Development Teams. Our dedicated teams offer end-to-end development services, ensuring collaboration, transparency, and high-quality outcomes for businesses looking to scale efficiently without compromising on talent or resources.",
         "image": "/assets/Images/Gemini_Generated_Image_aa6x7paa6x7paa6x.png",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -489,7 +489,7 @@ export const dedicatedTeamsContent = {
         "description": "Establish a cost-effective development hub with IT United’s Offshore Development Centre (ODC) services. Our dedicated teams offer scalability, expertise, and seamless integration, empowering you to accelerate projects while reducing operational overhead.",
         "image": "/assets/Images/Gemini_Generated_Image_aa6x7paa6x7paa6x.png",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }

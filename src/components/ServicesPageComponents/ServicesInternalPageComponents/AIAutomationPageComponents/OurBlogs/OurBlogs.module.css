@@ -27,18 +27,18 @@
   width: 100%;
   max-width: 1400px;
   text-align: center;
-  color: #002c22;
+  color: #000000;
 }
 
 .heading {
   font-size: 2.8rem;
   font-weight: 600;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .gradientText {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -48,7 +48,7 @@
   width: 180px;
   height: 4px;
   margin: 10px auto 20px;
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   border-radius: 4px;
 }
 
@@ -82,14 +82,14 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 44, 34, 0.25);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
 .tag {
   position: absolute;
   top: 15px;
   left: 15px;
-  background-color: #002c22;
+  background-color: #000000;
   color: #ffffff;
   font-size: 0.75rem;
   font-weight: 600;
@@ -128,7 +128,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 12px;
-  color: #002c22;
+  color: #000000;
   width: 90%;
 }
 
@@ -145,7 +145,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #3F7F40;
+  color: #0066CC;
   font-weight: 600;
   text-decoration: none;
   font-size: 1rem;
@@ -154,28 +154,28 @@
 }
 
 .viewLink:hover {
-  color: #3F7F40;
+  color: #0066CC;
 }
 
 .whiteButton {
   background: #ffffff;
-  color: #002c22;
+  color: #000000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .whiteButton:hover {
   background: #f2f2f2;
-  box-shadow: 0 6px 18px rgba(0, 44, 34, 0.2);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
 .gradientButton {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   color: #ffffff;
   padding: 15px 30px;
 }
 
 .gradientButton:hover {
-  box-shadow: 0 8px 20px rgba(0, 44, 34, 0.5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 

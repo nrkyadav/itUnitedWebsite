@@ -133,7 +133,7 @@ const ContactusComponent = ({ inSight }) => {
 
             <div className={styles.statsGrid}>
               {[
-                { value: "12+", label: "Years of experience" },
+                { value: "5+", label: "Years of experience" },
                 { value: "850+", label: "Mobile apps delivered" },
                 { value: "120+", label: "Dedicated + remote developer" },
                 { value: "100%", label: "Passion + delivery score" },
@@ -150,17 +150,21 @@ const ContactusComponent = ({ inSight }) => {
           <div className={styles.featuredWrapper}>
             <p className={styles.featuredHeading}>Featured on</p>
             <div className={styles.featuredLogos}>
-              {["googleagency", "clutch", "clutchsecond", "clutch"].map(
-                (logo) => (
+              {[
+                { name: "googleagency", alt: "Google Partner Agency" },
+                { name: "clutch", alt: "Clutch Top Developers" },
+                { name: "clutchsecond", alt: "Clutch Top Developers" },
+              ].map((logo) => (
+                <div key={logo.name} className={styles.badgeTile}>
                   <Image
-                    key={logo}
-                    src={`/assets/Images/${logo}.webp`}
-                    alt={logo}
-                    width={80}
-                    height={75}
+                    src={`/assets/Images/${logo.name}.webp`}
+                    alt={logo.alt}
+                    width={88}
+                    height={88}
+                    className={styles.badgeImg}
                   />
-                )
-              )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -178,6 +182,7 @@ const ContactusComponent = ({ inSight }) => {
                   placeholder="Enter your full name"
                   {...register("fullName")}
                   className={styles.formInput}
+                  suppressHydrationWarning
                 />
                 <p className={styles.error}>{errors.fullName?.message}</p>
               </div>
@@ -188,6 +193,7 @@ const ContactusComponent = ({ inSight }) => {
                   placeholder="Enter your email"
                   {...register("email")}
                   className={styles.formInput}
+                  suppressHydrationWarning
                 />
                 <p className={styles.error}>{errors.email?.message}</p>
               </div>
@@ -267,7 +273,7 @@ const ContactusComponent = ({ inSight }) => {
 
             <PrimaryButton
               text={isSubmitting ? "Submitting..." : "Send Message"}
-              bgColor="#002c22"
+              bgColor="#000000"
               textGradient="#fff"
               className={styles.submitButton}
               type="submit"

@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  background: #002c22;
+  background: #000000;
   padding: 80px 20px;
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@
 
 .customButton {
   background: #ffffff !important;
-  color: #002c22 !important;
+  color: #000000 !important;
   border: none !important;
   padding: 14px 28px !important;
   font-weight: 600 !important;

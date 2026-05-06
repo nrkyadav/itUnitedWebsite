@@ -10,7 +10,7 @@ const EbooksResources = () => {
       id: 1,
       img: "/assets/Images/ebook1.png",
       title: "Gen AI’s Potential for Businesses and How Yours Can Get Started",
-      author: "Samyotech",
+      author: "IT United",
       description:
         "Generative AI is reshaping business with greater efficiency and innovation.",
     },
@@ -18,7 +18,7 @@ const EbooksResources = () => {
       id: 2,
       img: "/assets/Images/ebook2.png",
       title: "Gen AI’s Potential for Businesses and How Yours Can Get Started",
-      author: "Samyotech",
+      author: "IT United",
       description:
         "Generative AI is reshaping business with greater efficiency and innovation.",
     },

@@ -2,36 +2,36 @@
   "page": "mvp-development-services",
   "seoData": {
     "metadata": {
-      "title": "MVP Development Services | Launch Your Product in 90 Days - Samyotech",
-      "description": "Build and launch your MVP in just 90 days with Samyotech. Reduce startup risk, validate market demand, and conserve resources with our strategic MVP development process. 850+ successful apps delivered.",
+      "title": "MVP Development Services | Launch Your Product in 90 Days - IT United",
+      "description": "Build and launch your MVP in just 90 days with IT United. Reduce startup risk, validate market demand, and conserve resources with our strategic MVP development process. 850+ successful apps delivered.",
       "keywords": "MVP development services, minimum viable product, startup MVP, MVP development company, rapid prototyping, product validation, startup development, lean startup, MVP in 90 days, product launch, agile MVP development, custom MVP solutions",
-      "canonical": "https://samyotech.com/software-services-company/mvp-development-services",
+      "canonical": "https://www.theitunited.com/software-services-company/mvp-development-services",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "language": "en-US",
-      "author": "Samyotech",
-      "publisher": "Samyotech",
+      "author": "IT United",
+      "publisher": "IT United",
       "viewport": "width=device-width, initial-scale=1"
     },
     "openGraph": {
       "type": "website",
       "locale": "en_US",
-      "url": "https://samyotech.com/software-services-company/mvp-development-services",
-      "siteName": "Samyotech",
+      "url": "https://www.theitunited.com/software-services-company/mvp-development-services",
+      "siteName": "IT United",
       "title": "MVP Development Services | Zero to Launch in 90 Days",
       "description": "Reduce startup risk with strategic MVP development. 38% of startups fail due to cash flow—validate your idea early. Custom MVPs for startups, mid-sized & large businesses.",
-      "image": "https://samyotech.com/assets/Images/logo.svg",
+      "image": "https://www.theitunited.com/assets/Images/logo.svg",
       "imageWidth": "1200",
       "imageHeight": "630",
-      "imageAlt": "MVP Development Services by Samyotech - Launch in 90 Days"
+      "imageAlt": "MVP Development Services by IT United - Launch in 90 Days"
     },
     "twitter": {
       "card": "summary_large_image",
-      "site": "@samyotech",
-      "creator": "@samyotech",
-      "title": "MVP Development Services | Launch Your Product Fast - Samyotech",
+      "site": "@theitunited",
+      "creator": "@theitunited",
+      "title": "MVP Development Services | Launch Your Product Fast - IT United",
       "description": "Go from zero to MVP in 90 days. Validate market demand, reduce risk, and launch smarter with our proven MVP development process.",
-      "image": "https://samyotech.com/assets/Images/logo.svg",
-      "imageAlt": "MVP Development Services - Samyotech"
+      "image": "https://www.theitunited.com/assets/Images/logo.svg",
+      "imageAlt": "MVP Development Services - IT United"
     },
     "schemas": [
       {
@@ -42,19 +42,19 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://samyotech.com"
+            "item": "https://www.theitunited.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Software Services",
-            "item": "https://samyotech.com/software-services-company"
+            "item": "https://www.theitunited.com/software-services-company"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "MVP Development Services",
-            "item": "https://samyotech.com/software-services-company/mvp-development-services"
+            "item": "https://www.theitunited.com/software-services-company/mvp-development-services"
           }
         ]
       },
@@ -64,26 +64,26 @@
         "serviceType": "MVP Development Services",
         "provider": {
           "@type": "Organization",
-          "name": "Samyotech",
-          "url": "https://samyotech.com",
+          "name": "IT United",
+          "url": "https://www.theitunited.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://samyotech.com/assets/Images/logo.svg",
+            "url": "https://www.theitunited.com/assets/Images/logo.svg",
             "width": "250",
             "height": "60"
           },
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91 786 999 8739",
+            "telephone": "+91 747 707 5407",
             "contactType": "Sales",
             "areaServed": "Worldwide",
             "availableLanguage": ["English"]
           },
           "sameAs": [
-            "https://www.facebook.com/samyotech",
-            "https://www.linkedin.com/company/samyotech",
-            "https://twitter.com/samyotech",
-            "https://www.instagram.com/samyotech"
+            "https://www.facebook.com/theitunited",
+            "https://www.linkedin.com/company/theitunited",
+            "https://twitter.com/theitunited",
+            "https://www.instagram.com/theitunited"
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -102,7 +102,7 @@
         },
         "availableChannel": {
           "@type": "ServiceChannel",
-          "serviceUrl": "https://samyotech.com/software-services-company/mvp-development-services"
+          "serviceUrl": "https://www.theitunited.com/software-services-company/mvp-development-services"
         },
         "offers": {
           "@type": "AggregateOffer",
@@ -155,7 +155,7 @@
             "@type": "Person",
             "name": "Tech Startup Founder"
           },
-          "reviewBody": "Samyotech delivered our MVP in exactly 90 days. Their process was transparent, and they helped us validate our product-market fit before investing heavily."
+          "reviewBody": "IT United delivered our MVP in exactly 90 days. Their process was transparent, and they helped us validate our product-market fit before investing heavily."
         }
       },
       {
@@ -232,13 +232,13 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "MVP Development Services",
-        "url": "https://samyotech.com/software-services-company/mvp-development-services",
-        "description": "Build and launch your MVP in just 90 days with Samyotech. Reduce startup risk, validate market demand, and conserve resources.",
+        "url": "https://www.theitunited.com/software-services-company/mvp-development-services",
+        "description": "Build and launch your MVP in just 90 days with IT United. Reduce startup risk, validate market demand, and conserve resources.",
         "inLanguage": "en-US",
         "isPartOf": {
           "@type": "WebSite",
-          "name": "Samyotech",
-          "url": "https://samyotech.com"
+          "name": "IT United",
+          "url": "https://www.theitunited.com"
         },
         "breadcrumb": {
           "@type": "BreadcrumbList",
@@ -247,19 +247,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://samyotech.com"
+              "item": "https://www.theitunited.com"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Software Services",
-              "item": "https://samyotech.com/software-services-company"
+              "item": "https://www.theitunited.com/software-services-company"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "MVP Development Services",
-              "item": "https://samyotech.com/software-services-company/mvp-development-services"
+              "item": "https://www.theitunited.com/software-services-company/mvp-development-services"
             }
           ]
         },
@@ -276,11 +276,11 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Samyotech",
-        "url": "https://samyotech.com",
+        "name": "IT United",
+        "url": "https://www.theitunited.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://samyotech.com/assets/Images/logo.svg"
+          "url": "https://www.theitunited.com/assets/Images/logo.svg"
         },
         "description": "Leading software development company specializing in MVP development, mobile apps, and web applications with 850+ successful projects delivered.",
         "contactPoint": {
@@ -291,10 +291,10 @@
           "availableLanguage": ["English"]
         },
         "sameAs": [
-          "https://www.facebook.com/samyotech",
-          "https://www.linkedin.com/company/samyotech",
-          "https://twitter.com/samyotech",
-          "https://www.instagram.com/samyotech"
+          "https://www.facebook.com/theitunited",
+          "https://www.linkedin.com/company/theitunited",
+          "https://twitter.com/theitunited",
+          "https://www.instagram.com/theitunited"
         ]
       },
       {
@@ -345,11 +345,11 @@
     "alternateLanguages": [
       {
         "hreflang": "en",
-        "href": "https://samyotech.com/software-services-company/mvp-development-services"
+        "href": "https://www.theitunited.com/software-services-company/mvp-development-services"
       },
       {
         "hreflang": "x-default",
-        "href": "https://samyotech.com/software-services-company/mvp-development-services"
+        "href": "https://www.theitunited.com/software-services-company/mvp-development-services"
       }
     ],
     "additionalMetaTags": [

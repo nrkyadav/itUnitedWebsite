@@ -5,7 +5,7 @@ export const servicesInternalPageData = {
             "Unlock your business’s potential with innovative software solutions that drive results. At IT United, we specialize in MVP Development Services, Custom Software Development, and Enterprise Software Development, helping you stay ahead of the curve. From building next-gen products to Software Modernization and AI/ML integration, we provide tailored solutions that accelerate your digital transformation and fuel growth.",
         image: "/assets/Images/softwaredevelopmentservicesBanner.avif",
         stats: [
-            { label: "Years of Experience", value: "12+" },
+            { label: "Years of Experience", value: "5+" },
             { label: "Apps Delivered", value: "850+" },
             { label: "Remote Developers", value: "120+" },
             { label: "Passionate Delivery", value: "100%" },
@@ -402,7 +402,7 @@ export const servicesInternalPageData = {
             "Imagine an app that doesn’t just meet your business needs but redefines how you engage with your audience. Whether you’re looking to streamline operations, enhance customer experiences, or introduce an innovative product, our App Development Services are tailored to bring your vision to life. We specialize in crafting intuitive, high-performance apps across industries be it healthcare, retail, logistics, or finance. From concept to deployment, every step of our process is designed to deliver apps that are as functional as they are visually stunning. Whether native, cross-platform, or web-based, our solutions are built for scalability, reliability, and impact. Turn your app idea into a reality that drives results and sets you apart. Let’s shape the future together!",
         image: "/assets/Images/appdevelopmentservicesBanner.avif",
         stats: [
-            { label: "Years of Experience", value: "12+" },
+            { label: "Years of Experience", value: "5+" },
             { label: "Apps Delivered", value: "850+" },
             { label: "Remote Developers", value: "120+" },
             { label: "Passionate Delivery", value: "100%" },
@@ -770,7 +770,7 @@ export const servicesInternalPageData = {
             "What if your hardware could communicate effortlessly, boosting your operations to new heights? From IoT devices to robotics, we specialize in creating intelligent, connected systems tailored to your goals. Let’s simplify complexity, enhance productivity, and help you stay ahead in today’s rapidly evolving world. Let’s get started.",
         image: "/assets/Images/hardwareintegrationservicesBanner.avif",
         stats: [
-            { label: "Years of Experience", value: "12+" },
+            { label: "Years of Experience", value: "5+" },
             { label: "Apps Delivered", value: "850+" },
             { label: "Remote Developers", value: "120+" },
             { label: "Passionate Delivery", value: "100%" },
@@ -1145,7 +1145,7 @@ export const servicesInternalPageData = {
             "Building your dream project requires the right talent, and that’s where we come in. At IT United, our Dedicated Development Teams act as an extension of your business, delivering expertise, scalability, and seamless collaboration. Whether you need to accelerate development, enhance capabilities, or fill critical skill gaps, our teams are tailored to your unique requirements. With a focus on agility, transparency, and results, we ensure your projects are completed on time and exceed expectations. Let’s turn your vision into reality with dedicated professionals who care as much about your success as you do.",
         image: "/assets/Images/softwaredevelopmentservicesBanner.avif",
         stats: [
-            { label: "Years of Experience", value: "12+" },
+            { label: "Years of Experience", value: "5+" },
             { label: "Apps Delivered", value: "850+" },
             { label: "Remote Developers", value: "120+" },
             { label: "Passionate Delivery", value: "100%" },
@@ -1485,7 +1485,7 @@ export const servicesInternalPageData = {
             "Blockchain technology is transforming industries by offering decentralization, security, and transparency. At IT United, we provide cutting-edge blockchain development services to help businesses thrive in this digital era. Whether you’re looking to enhance operational efficiency, ensure data integrity, or unlock new revenue streams, our blockchain solutions are designed to meet your unique needs.",
         image: "/assets/Images/softwaredevelopmentservicesBanner.avif",
         stats: [
-            { label: "Years of Experience", value: "12+" },
+            { label: "Years of Experience", value: "5+" },
             { label: "Apps Delivered", value: "850+" },
             { label: "Remote Developers", value: "120+" },
             { label: "Passionate Delivery", value: "100%" },
@@ -1839,7 +1839,7 @@ export const servicesInternalPageData = {
             "Accelerate your projects with IT United’s Remote Software Development Teams. Our dedicated teams offer end-to-end development services, ensuring collaboration, transparency, and high-quality outcomes for businesses looking to scale efficiently without compromising on talent or resources.",
         image: "/assets/Images/softwaredevelopmentservicesBanner.avif",
         stats: [
-            { label: "Years of Experience", value: "12+" },
+            { label: "Years of Experience", value: "5+" },
             { label: "Apps Delivered", value: "850+" },
             { label: "Remote Developers", value: "120+" },
             { label: "Passionate Delivery", value: "100%" },

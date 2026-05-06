@@ -35,7 +35,7 @@ const faqData = [
       "We help companies of various sizes, but our speciality is startups. Our flexible strategy meets your needs at each point in your development.",
   },
   {
-    question: "How can I get started with samyotech for MVP development?",
+    question: "How can I get started with IT United for MVP development?",
     answer:
       "To begin with your MVP development, you can directly contact us and our team will schedule a consultation to dive deep into your project and discuss how we can assist in achieving your vision.",
   },

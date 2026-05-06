@@ -187,7 +187,7 @@
       "title": "The IT United | CRM, E-Commerce, HRMS & AI-Powered Software",
       "description": "Explore IT United's comprehensive software solutions including CRM, E-Commerce, HRMS, Inventory & Warehouse, Smart Assist, Payroll Management, and Employee Performance tools. Delivering innovative, scalable, and AI-driven solutions to empower businesses across industries.",
       "keywords": "CRM solutions, E-Commerce solutions, HRMS software, Inventory management, Smart Assist, Payroll management, Employee performance, AI solutions, IT United",
-      "canonical": "https://samyotech.com/solutions",
+      "canonical": "https://www.theitunited.com/solutions",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "language": "en-US",
       "author": "IT United Technologies",
@@ -196,11 +196,11 @@
     "openGraph": {
       "type": "website",
       "locale": "en_US",
-      "url": "https://samyotech.com/solutions",
+      "url": "https://www.theitunited.com/solutions",
       "siteName": "IT United",
       "title": "The IT United | CRM, E-Commerce, HRMS & AI-Powered Software",
       "description": "Comprehensive software solutions for CRM, E-Commerce, HRMS, Inventory, and more to empower your business.",
-      "image": "https://samyotech.com/assets/Images/solutionsBanner.avif",
+      "image": "https://www.theitunited.com/assets/Images/solutionsBanner.avif",
       "imageWidth": "1200",
       "imageHeight": "630",
       "imageAlt": "The IT United - Transformative Business Software"
@@ -211,7 +211,7 @@
       "creator": "@ITUnited",
       "title": "The IT United | CRM, E-Commerce, HRMS & AI Software",
       "description": "Innovative software solutions for modern businesses.",
-      "image": "https://samyotech.com/assets/Images/solutionsBanner.avif",
+      "image": "https://www.theitunited.com/assets/Images/solutionsBanner.avif",
       "imageAlt": "IT United"
     },
     "schemas": [
