@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(grep -rohiE 'rgba?\\\\\\([^\\)]*\\\\\\)|hsla?\\\\\\([^\\)]*\\\\\\)|#[0-9a-fA-F]{6,8}|#[0-9a-fA-F]{3}\\\\b' \"C:/Users/Vedant chellani/Desktop/united/itUnitedWebsite/src\" --include=\"*.css\" --include=\"*.jsx\" --include=\"*.js\")",
-      "Read(//tmp/**)"
-    ]
-  }
-}
