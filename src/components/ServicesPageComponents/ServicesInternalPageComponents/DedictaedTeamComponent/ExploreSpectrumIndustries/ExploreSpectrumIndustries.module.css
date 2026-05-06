@@ -14,7 +14,7 @@
   
   .subheading {
     font-size: 18px;
-    color: #002c22;
+    color: #000000;
     opacity: 0.7;
     margin-bottom: 15px;
     font-weight: 500;
@@ -23,12 +23,12 @@
   .heading {
     font-size: 36px;
     font-weight: 700;
-    color: #002c22;
+    color: #000000;
     margin-bottom: 20px;
   }
   
   .description {
-    color: #002c22;
+    color: #000000;
     opacity: 0.9;
     max-width: 800px;
     margin: 0 auto 50px auto;

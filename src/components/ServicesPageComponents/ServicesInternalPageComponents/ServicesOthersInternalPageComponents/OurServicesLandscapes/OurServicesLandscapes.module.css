@@ -1,5 +1,5 @@
 .engagementSection {
-    background: rgb(0, 44, 34);
+    background: rgb(0, 0, 0);
     padding: 80px 5% 50px 5%;
     text-align: center;
     color: #ffffff;
@@ -54,7 +54,7 @@
     color: #000000;
     padding: 30px 25px;
     border-radius: 16px;
-    box-shadow: 0 10px 20px rgba(0, 44, 34, 0.25);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +63,7 @@
   
   .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 14px 28px rgba(0, 44, 34, 0.35);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
   }
   
   .cardTitle {
@@ -84,16 +84,16 @@
 
   .productCard {
     background-color: #ffc107;
-    color: #002c22;
+    color: #000000;
   }
   
   .productTitle,
   .productDesc {
-    color: #002c22;
+    color: #000000;
   }
   
   .productBtn {
-    background-color: #002c22;
+    background-color: #000000;
     color: #ffc107;
     border: none;
     padding: 12px 18px;

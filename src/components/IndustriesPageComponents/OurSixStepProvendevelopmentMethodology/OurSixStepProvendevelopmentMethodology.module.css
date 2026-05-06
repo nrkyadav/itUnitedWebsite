@@ -27,18 +27,18 @@
   width: 100%;
   max-width: 1400px;
   text-align: left;
-  color: #002c22;
+  color: #000000;
 }
 
 .heading {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #002c22;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .gradientText {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -49,7 +49,7 @@
   width: 500px;
   height: 4px;
   margin: 20px 0;
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   border-radius: 4px;
   transition: all 0.3s ease;
 }
@@ -114,7 +114,7 @@
 
 .active {
   width: 480px;
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   padding: 30px;
   color: #fff;
 }

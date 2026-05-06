@@ -1,5 +1,5 @@
 .engagementSection {
-  background: rgb(0, 44, 34);
+  background: rgb(0, 0, 0);
   padding: 80px 5% 50px 5%;
   text-align: center;
   color: #ffffff;
@@ -58,7 +58,7 @@
 }
 
 .card:hover {
-  border-image: linear-gradient(135deg, #006633 0%, #00c84fe8 100%) 1;
+  border-image: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%) 1;
   transform: translateY(-6px);
 }
 
@@ -84,7 +84,7 @@
 }
 
 .card:hover .cardTitle {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

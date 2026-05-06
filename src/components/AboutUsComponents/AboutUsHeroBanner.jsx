@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutUsHeroBanner = () => {
   const stats = [
-    { label: "Years of experience", value: "12+" },
+    { label: "Years of experience", value: "5+" },
     { label: "Apps delivered", value: "850+" },
     { label: "Remote Developer", value: "120+" },
     { label: "Passionate Delivery", value: "100%" },
@@ -49,7 +49,7 @@ const AboutUsHeroBanner = () => {
               opacity: 0.9,
             }}
           >
-            At <strong>Samyotech</strong>, we specialize in turning innovative
+            At <strong>IT United</strong>, we specialize in turning innovative
             ideas into impactful software solutions. Our team of experienced
             developers and tech experts is dedicated to helping businesses
             accelerate their growth through scalable, secure, and user-friendly

@@ -1,5 +1,5 @@
 .bannerSection {
-  background-color: #002c22;
+  background-color: #000000;
   padding: 60px 5%;
   color: #ffffff;
   display: flex;
@@ -48,7 +48,7 @@
   max-width: 600px;
   height: auto;
   border-radius: 25px;
-  box-shadow: 0 20px 50px rgba(0, 44, 34, 0.25);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
   transform: rotateY(-15deg) rotateX(3deg);
   transition: transform 0.8s ease, box-shadow 0.8s ease;
   background: #000;
@@ -63,7 +63,7 @@
   aspect-ratio: 16/9;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0, 44, 34, 0.25);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
   animation: floatEnhanced 8s ease-in-out infinite;
   transform: rotateY(-15deg) rotateX(3deg);
 }

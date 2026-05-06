@@ -3,7 +3,7 @@
     "name": "Job Search Automation Agent",
     "version": "1.0.0",
     "description": "An AI automation agent that automatically finds job opportunities, customizes resumes, applies to jobs, and keeps users updated with daily job application reports.",
-    "author": "Samyotech",
+    "author": "IT United",
     "type": "automation-workflow",
     "category": "Productivity",
     "platforms": ["Make", "Voiceflow"],
@@ -142,7 +142,7 @@
     ],
   
     "support": {
-      "documentation": "https://samyotech.com/docs/job-search-automation",
+      "documentation": "https://www.theitunited.com/docs/job-search-automation",
       "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
       "contact": "https://wa.me/917869996639"
     }

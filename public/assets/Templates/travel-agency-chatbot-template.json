@@ -2,7 +2,7 @@
     "name": "Travel Agency Chatbot",
     "version": "1.0.0",
     "description": "An intelligent AI chatbot that helps travel agencies handle customer queries, suggest destinations, generate itineraries, and automate booking workflows.",
-    "author": "Samyotech",
+    "author": "IT United",
     "type": "automation-workflow",
     "category": "Customer Support",
     "platforms": ["Make", "Voiceflow"],
@@ -134,7 +134,7 @@
     ],
   
     "support": {
-      "documentation": "https://samyotech.com/docs/travel-agency-chatbot",
+      "documentation": "https://www.theitunited.com/docs/travel-agency-chatbot",
       "video_tutorial": "https://youtube.com/shorts/ymdIkIBoFvo",
       "contact": "https://wa.me/917869996639"
     }

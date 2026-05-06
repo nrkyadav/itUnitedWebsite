@@ -1,17 +1,17 @@
 export const hardwareServicesPageContent = {
     "iot-device-integration": {
         "title": "IoT Device Integration",
-        "description": "Unlock the power of IoT with Samyotech’s Device Integration Services. We connect devices to create smarter ecosystems, enabling real-time data exchange, improved efficiency, and innovative user experiences tailored to your business needs.",
+        "description": "Unlock the power of IoT with IT United’s Device Integration Services. We connect devices to create smarter ecosystems, enabling real-time data exchange, improved efficiency, and innovative user experiences tailored to your business needs.",
         "image": "/assets/Images/iotDeviceBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
         ],
         "itUnitedApproachData": {
             "heading": "IT United Approach to IoT Device Integration",
-            "description": "Samyotech’s IoT integration services focus on creating connected systems that transform operations. We analyze your needs and configure devices for seamless communication.  <br/><br/>By leveraging protocols like MQTT and cloud platforms, we ensure real-time data exchange and enhanced functionality. <br><br/>Our solutions prioritize security and scalability, enabling you to build smarter operations. Post-integration, we offer continuous monitoring and updates to maintain optimal performance.",
+            "description": "IT United’s IoT integration services focus on creating connected systems that transform operations. We analyze your needs and configure devices for seamless communication.  <br/><br/>By leveraging protocols like MQTT and cloud platforms, we ensure real-time data exchange and enhanced functionality. <br><br/>Our solutions prioritize security and scalability, enabling you to build smarter operations. Post-integration, we offer continuous monitoring and updates to maintain optimal performance.",
             "itUnitedApproachDataList": [
                 "Real-Time Data Sync: Instant updates for actionable insights.",
                 "Secure Communication: Encrypted data transfer across devices.",
@@ -98,7 +98,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -161,34 +161,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "IoT Device Integration Services | Smart IoT Solutions for Businesses | Samyotech",
+                "title": "IoT Device Integration Services | Smart IoT Solutions for Businesses | IT United",
                 "description": "Unlock seamless connectivity with IT United IoT Device Integration services. We integrate sensors, smart devices, wearables, and industrial IoT systems to enable real-time data sync, enhanced efficiency, and secure automation for your business.",
-                "keywords": "IoT device integration, IoT solutions, smart device integration, industrial IoT, IoT connectivity, IoT system integration, IoT automation, sensor integration services, Samyotech IoT",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/iot-device-integration",
+                "keywords": "IoT device integration, IoT solutions, smart device integration, industrial IoT, IoT connectivity, IoT system integration, IoT automation, sensor integration services, IT United IoT",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/iot-device-integration",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/iot-device-integration",
-                "siteName": "Samyotech",
-                "title": "IoT Device Integration Services | Smart IoT Solutions for Businesses | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/iot-device-integration",
+                "siteName": "IT United",
+                "title": "IoT Device Integration Services | Smart IoT Solutions for Businesses | IT United",
                 "description": "Unlock seamless connectivity with IT United IoT Device Integration services.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "IoT Device Integration Services by Samyotech"
+                "imageAlt": "IoT Device Integration Services by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "IoT Device Integration Services | Smart IoT Solutions for Businesses | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "IoT Device Integration Services | Smart IoT Solutions for Businesses | IT United",
                 "description": "Unlock seamless connectivity with IT United IoT Device Integration services.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "IoT Device Integration Services"
             },
             "schemas": [
@@ -239,17 +239,17 @@ export const hardwareServicesPageContent = {
 
     "rfid-and-barcode-scanner-integration": {
         "title": "RFID and Barcode Scanner Integration",
-        "description": "Optimize inventory and logistics with Samyotech’s RFID and Barcode Scanner Integration services. We streamline data collection, enhance tracking accuracy, and simplify operational workflows. Our tailored solutions help businesses improve efficiency, reduce errors, and maintain real-time visibility into their processes, ensuring seamless management and control.",
+        "description": "Optimize inventory and logistics with IT United’s RFID and Barcode Scanner Integration services. We streamline data collection, enhance tracking accuracy, and simplify operational workflows. Our tailored solutions help businesses improve efficiency, reduce errors, and maintain real-time visibility into their processes, ensuring seamless management and control.",
         "image": "/assets/Images/rfidBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
         ],
         "itUnitedApproachData": {
             "heading": "IT United Approach to RFID and Barcode Scanner Integration",
-            "description": "Samyotech specializes in RFID and barcode scanner integrations that enhance tracking and inventory management.  <br/><br/>Our process starts with understanding your operational needs and configuring scanners or RFID systems to capture real-time data. We integrate these systems with your existing tools, such as ERP or CRM, for streamlined workflows.  <br><br/>Our solutions prioritize security and scalability, ensuring your operations grow smoothly. Post-integration, we offer maintenance and updates to keep systems optimized.",
+            "description": "IT United specializes in RFID and barcode scanner integrations that enhance tracking and inventory management.  <br/><br/>Our process starts with understanding your operational needs and configuring scanners or RFID systems to capture real-time data. We integrate these systems with your existing tools, such as ERP or CRM, for streamlined workflows.  <br><br/>Our solutions prioritize security and scalability, ensuring your operations grow smoothly. Post-integration, we offer maintenance and updates to keep systems optimized.",
             "itUnitedApproachDataList": [
                 "Real-Time Tracking: Instant data visibility across inventory and assets.",
                 "Seamless ERP Integration: Compatibility with existing business systems.",
@@ -335,7 +335,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -398,34 +398,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "RFID and Barcode Scanner Integration Services | Inventory & Logistics Solutions | Samyotech",
+                "title": "RFID and Barcode Scanner Integration Services | Inventory & Logistics Solutions | IT United",
                 "description": "Optimize inventory, logistics, and operational workflows with IT United RFID and Barcode Scanner Integration services. Streamline data collection, improve tracking accuracy, and maintain real-time visibility for your business.",
-                "keywords": "RFID integration, barcode scanner integration, inventory management solutions, logistics tracking, real-time data collection, supply chain automation, Samyotech RFID services",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/rfid-and-barcode-scanner-integration",
+                "keywords": "RFID integration, barcode scanner integration, inventory management solutions, logistics tracking, real-time data collection, supply chain automation, IT United RFID services",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/rfid-and-barcode-scanner-integration",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/rfid-and-barcode-scanner-integration",
-                "siteName": "Samyotech",
-                "title": "RFID and Barcode Scanner Integration Services | Inventory & Logistics Solutions | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/rfid-and-barcode-scanner-integration",
+                "siteName": "IT United",
+                "title": "RFID and Barcode Scanner Integration Services | Inventory & Logistics Solutions | IT United",
                 "description": "Optimize inventory, logistics, and operational workflows with IT United RFID and Barcode Scanner Integration services.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "RFID and Barcode Scanner Integration Services by Samyotech"
+                "imageAlt": "RFID and Barcode Scanner Integration Services by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "RFID and Barcode Scanner Integration Services | Inventory & Logistics Solutions | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "RFID and Barcode Scanner Integration Services | Inventory & Logistics Solutions | IT United",
                 "description": "Optimize inventory, logistics, and operational workflows with IT United RFID and Barcode Scanner Integration services.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "RFID and Barcode Scanner Integration"
             },
             "schemas": [
@@ -476,10 +476,10 @@ export const hardwareServicesPageContent = {
 
     "security-and-surveillance-systems": {
         "title": "Security and Surveillance Systems",
-        "description": "Enhance safety and control with Samyotech’s Security and Surveillance System Integration services. From real-time monitoring to advanced analytics, we provide solutions that safeguard your assets, improve response times, and offer peace of mind. Our systems are tailored for businesses seeking comprehensive protection and operational efficiency.",
+        "description": "Enhance safety and control with IT United’s Security and Surveillance System Integration services. From real-time monitoring to advanced analytics, we provide solutions that safeguard your assets, improve response times, and offer peace of mind. Our systems are tailored for businesses seeking comprehensive protection and operational efficiency.",
         "image": "/assets/Images/securityBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -572,7 +572,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -635,34 +635,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "Security and Surveillance Systems Integration | Asset Protection Solutions | Samyotech",
+                "title": "Security and Surveillance Systems Integration | Asset Protection Solutions | IT United",
                 "description": "Enhance safety and operational control with IT United Security and Surveillance Systems Integration. Real-time monitoring, advanced analytics, and tailored security solutions to safeguard your business and improve response times.",
-                "keywords": "security system integration, surveillance systems, real-time monitoring, facial recognition, motion detection, asset protection solutions, Samyotech security services",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/security-and-surveillance-systems",
+                "keywords": "security system integration, surveillance systems, real-time monitoring, facial recognition, motion detection, asset protection solutions, IT United security services",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/security-and-surveillance-systems",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/security-and-surveillance-systems",
-                "siteName": "Samyotech",
-                "title": "Security and Surveillance Systems Integration | Asset Protection Solutions | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/security-and-surveillance-systems",
+                "siteName": "IT United",
+                "title": "Security and Surveillance Systems Integration | Asset Protection Solutions | IT United",
                 "description": "Enhance safety and operational control with IT United Security and Surveillance Systems Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "Security and Surveillance Systems Integration by Samyotech"
+                "imageAlt": "Security and Surveillance Systems Integration by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "Security and Surveillance Systems Integration | Asset Protection Solutions | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "Security and Surveillance Systems Integration | Asset Protection Solutions | IT United",
                 "description": "Enhance safety and operational control with IT United Security and Surveillance Systems Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "Security and Surveillance Systems Integration"
             },
             "schemas": [
@@ -714,17 +714,17 @@ export const hardwareServicesPageContent = {
 
     "wearable-health-devices-integration": {
         "title": "Wearable Health Devices Integration",
-        "description": "Revolutionize healthcare with Samyotech’s Wearable Health Device Integration services. From fitness trackers to medical wearables, we connect devices to deliver real-time data, improve patient care, and enhance operational efficiency for healthcare providers and wellness businesses.",
+        "description": "Revolutionize healthcare with IT United’s Wearable Health Device Integration services. From fitness trackers to medical wearables, we connect devices to deliver real-time data, improve patient care, and enhance operational efficiency for healthcare providers and wellness businesses.",
         "image": "/assets/Images/securityBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
         ],
         "itUnitedApproachData": {
             "heading": "IT United Approach to Wearable Health Devices Integration",
-            "description": "Samyotech’s wearable health device integration services enable seamless connectivity between devices and healthcare systems. <br/><br/>We start by assessing device compatibility and configuring integrations for real-time data collection and monitoring. By connecting wearables with cloud platforms and health management software, we enhance patient outcomes and operational efficiency.  <br><br/> Our solutions prioritize data security and HIPAA compliance, ensuring the safety of sensitive health information. Post-integration, we provide ongoing updates and monitoring.",
+            "description": "IT United’s wearable health device integration services enable seamless connectivity between devices and healthcare systems. <br/><br/>We start by assessing device compatibility and configuring integrations for real-time data collection and monitoring. By connecting wearables with cloud platforms and health management software, we enhance patient outcomes and operational efficiency.  <br><br/> Our solutions prioritize data security and HIPAA compliance, ensuring the safety of sensitive health information. Post-integration, we provide ongoing updates and monitoring.",
             "itUnitedApproachDataList": [
                 "Real-Time Data Sharing: Instant insights for better patient care.",
                 "Cloud Integration: Centralized access to wearable data.",
@@ -810,7 +810,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -873,34 +873,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "Wearable Health Devices Integration | Real-Time Health Monitoring Solutions | Samyotech",
+                "title": "Wearable Health Devices Integration | Real-Time Health Monitoring Solutions | IT United",
                 "description": "Revolutionize healthcare with IT United Wearable Health Device Integration. Connect fitness trackers and medical wearables for real-time data, improved patient care, and operational efficiency.",
-                "keywords": "wearable health devices integration, fitness tracker integration, medical wearable integration, real-time health monitoring, patient care solutions, healthcare software integration, Samyotech wearable solutions",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/wearable-health-devices-integration",
+                "keywords": "wearable health devices integration, fitness tracker integration, medical wearable integration, real-time health monitoring, patient care solutions, healthcare software integration, IT United wearable solutions",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/wearable-health-devices-integration",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/wearable-health-devices-integration",
-                "siteName": "Samyotech",
-                "title": "Wearable Health Devices Integration | Real-Time Health Monitoring Solutions | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/wearable-health-devices-integration",
+                "siteName": "IT United",
+                "title": "Wearable Health Devices Integration | Real-Time Health Monitoring Solutions | IT United",
                 "description": "Revolutionize healthcare with IT United Wearable Health Device Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "Wearable Health Devices Integration by Samyotech"
+                "imageAlt": "Wearable Health Devices Integration by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "Wearable Health Devices Integration | Real-Time Health Monitoring Solutions | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "Wearable Health Devices Integration | Real-Time Health Monitoring Solutions | IT United",
                 "description": "Revolutionize healthcare with IT United Wearable Health Device Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "Wearable Health Devices Integration"
             },
             "schemas": [
@@ -950,10 +950,10 @@ export const hardwareServicesPageContent = {
 
     "pos-terminal-integration": {
         "title": "POS Terminal Integration",
-        "description": "Simplify transactions and enhance retail operations with Samyotech’s POS Terminal Integration services. We connect POS systems to inventory, CRM, and payment gateways, ensuring seamless workflows, accurate tracking, and secure payment processing for your business.",
+        "description": "Simplify transactions and enhance retail operations with IT United’s POS Terminal Integration services. We connect POS systems to inventory, CRM, and payment gateways, ensuring seamless workflows, accurate tracking, and secure payment processing for your business.",
         "image": "/assets/Images/rfidBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1046,7 +1046,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -1109,34 +1109,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "POS Terminal Integration | Streamline Retail Transactions & Operations | Samyotech",
+                "title": "POS Terminal Integration | Streamline Retail Transactions & Operations | IT United",
                 "description": "Simplify retail operations with IT United POS Terminal Integration. Connect POS systems to inventory, CRM, and payment gateways for seamless workflows, accurate tracking, and secure payments.",
-                "keywords": "POS terminal integration, point of sale system integration, retail POS software, payment gateway integration, inventory management POS, Samyotech POS solutions, POS system connectivity",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/pos-terminal-integration",
+                "keywords": "POS terminal integration, point of sale system integration, retail POS software, payment gateway integration, inventory management POS, IT United POS solutions, POS system connectivity",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/pos-terminal-integration",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/pos-terminal-integration",
-                "siteName": "Samyotech",
-                "title": "POS Terminal Integration | Streamline Retail Transactions & Operations | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/pos-terminal-integration",
+                "siteName": "IT United",
+                "title": "POS Terminal Integration | Streamline Retail Transactions & Operations | IT United",
                 "description": "Simplify retail operations with IT United POS Terminal Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "POS Terminal Integration Services by Samyotech"
+                "imageAlt": "POS Terminal Integration Services by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "POS Terminal Integration | Streamline Retail Transactions & Operations | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "POS Terminal Integration | Streamline Retail Transactions & Operations | IT United",
                 "description": "Simplify retail operations with IT United POS Terminal Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "POS Terminal Integration"
             },
             "schemas": [
@@ -1187,10 +1187,10 @@ export const hardwareServicesPageContent = {
 
     "biometric-devices-integration": {
         "title": "Biometric Devices Integration",
-        "description": "Enhance security and efficiency with Samyotech’s Biometric Devices Integration services. We integrate fingerprint scanners, facial recognition systems, and more, ensuring accurate authentication, seamless access control, and improved operational workflows tailored to your business needs.",
+        "description": "Enhance security and efficiency with IT United’s Biometric Devices Integration services. We integrate fingerprint scanners, facial recognition systems, and more, ensuring accurate authentication, seamless access control, and improved operational workflows tailored to your business needs.",
         "image": "/assets/Images/rfidBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1283,7 +1283,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -1346,34 +1346,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "Biometric Devices Integration | Fingerprint & Facial Recognition Solutions | Samyotech",
+                "title": "Biometric Devices Integration | Fingerprint & Facial Recognition Solutions | IT United",
                 "description": "Enhance security and operational efficiency with IT United Biometric Devices Integration. Connect fingerprint scanners, facial recognition, and other biometric systems seamlessly with your business infrastructure.",
-                "keywords": "biometric devices integration, fingerprint scanner integration, facial recognition system, biometric access control, security system integration, Samyotech biometric solutions, enterprise biometrics",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/biometric-devices-integration",
+                "keywords": "biometric devices integration, fingerprint scanner integration, facial recognition system, biometric access control, security system integration, IT United biometric solutions, enterprise biometrics",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/biometric-devices-integration",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/biometric-devices-integration",
-                "siteName": "Samyotech",
-                "title": "Biometric Devices Integration | Fingerprint & Facial Recognition Solutions | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/biometric-devices-integration",
+                "siteName": "IT United",
+                "title": "Biometric Devices Integration | Fingerprint & Facial Recognition Solutions | IT United",
                 "description": "Enhance security and operational efficiency with IT United Biometric Devices Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "Biometric Devices Integration Services by Samyotech"
+                "imageAlt": "Biometric Devices Integration Services by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "Biometric Devices Integration | Fingerprint & Facial Recognition Solutions | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "Biometric Devices Integration | Fingerprint & Facial Recognition Solutions | IT United",
                 "description": "Enhance security and operational efficiency with IT United Biometric Devices Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "Biometric Devices Integration"
             },
             "schemas": [
@@ -1424,17 +1424,17 @@ export const hardwareServicesPageContent = {
 
     "smart-buildings-and-real-estate": {
         "title": "Smart Buildings and Real Estate",
-        "description": "Transform real estate into intelligent ecosystems with Samyotech’s Smart Building Integration services. From energy management to IoT-enabled controls, we enhance efficiency, tenant experiences, and operational automation, bringing your properties into the future.",
+        "description": "Transform real estate into intelligent ecosystems with IT United’s Smart Building Integration services. From energy management to IoT-enabled controls, we enhance efficiency, tenant experiences, and operational automation, bringing your properties into the future.",
         "image": "/assets/Images/rfidBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
         ],
         "itUnitedApproachData": {
             "heading": "IT United Approach to Smart Buildings and Real Estate",
-            "description": "Samyotech’s smart building integration services create connected ecosystems that enhance operational efficiency and tenant satisfaction.   <br/><br/>We begin by assessing your property’s requirements, from energy management to IoT automation. Our solutions integrate lighting, HVAC, security systems, and more for centralized control. <br><br/> Using advanced analytics, we provide actionable insights to optimize energy consumption and resource utilization. Post-integration, we offer ongoing support to ensure your smart building systems operate seamlessly.",
+            "description": "IT United’s smart building integration services create connected ecosystems that enhance operational efficiency and tenant satisfaction.   <br/><br/>We begin by assessing your property’s requirements, from energy management to IoT automation. Our solutions integrate lighting, HVAC, security systems, and more for centralized control. <br><br/> Using advanced analytics, we provide actionable insights to optimize energy consumption and resource utilization. Post-integration, we offer ongoing support to ensure your smart building systems operate seamlessly.",
             "itUnitedApproachDataList": [
                 "Energy Optimization: Automated systems to reduce energy consumption.",
                 "IoT Connectivity: Seamless control of devices and appliances.",
@@ -1520,7 +1520,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -1583,34 +1583,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "Smart Buildings & Real Estate Integration | IoT & Automation Solutions | Samyotech",
+                "title": "Smart Buildings & Real Estate Integration | IoT & Automation Solutions | IT United",
                 "description": "Transform properties into intelligent ecosystems with IT United Smart Building Integration. Manage energy, IoT-enabled systems, and tenant experiences with advanced analytics and automation.",
-                "keywords": "smart building integration, real estate automation, IoT building management, energy optimization, smart building solutions, Samyotech smart real estate, building analytics, automated building control",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/smart-buildings-and-real-estate",
+                "keywords": "smart building integration, real estate automation, IoT building management, energy optimization, smart building solutions, IT United smart real estate, building analytics, automated building control",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/smart-buildings-and-real-estate",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/smart-buildings-and-real-estate",
-                "siteName": "Samyotech",
-                "title": "Smart Buildings & Real Estate Integration | IoT & Automation Solutions | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/smart-buildings-and-real-estate",
+                "siteName": "IT United",
+                "title": "Smart Buildings & Real Estate Integration | IoT & Automation Solutions | IT United",
                 "description": "Transform properties into intelligent ecosystems with IT United Smart Building Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "Smart Buildings & Real Estate Integration by Samyotech"
+                "imageAlt": "Smart Buildings & Real Estate Integration by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "Smart Buildings & Real Estate Integration | IoT & Automation Solutions | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "Smart Buildings & Real Estate Integration | IoT & Automation Solutions | IT United",
                 "description": "Transform properties into intelligent ecosystems with IT United Smart Building Integration.",
-                "image": "https://samyotech.com/assets/Images/smicon.png",
+                "image": "https://www.theitunited.com/assets/Images/smicon.png",
                 "imageAlt": "Smart Buildings Integration"
             },
             "schemas": [
@@ -1663,14 +1663,14 @@ export const hardwareServicesPageContent = {
         "description": "At IT United, we create custom hardware integration solutions that connect unique devices to software systems, enhancing operational efficiency and enabling seamless workflows. Tailored to your business, our solutions unlock the full potential of your hardware.",
         "image": "/assets/Images/iotDeviceBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
         ],
         "itUnitedApproachData": {
             "heading": "IT United Approach to Custom Hardware Integration Solutions",
-            "description": "Samyotech’s custom hardware integration services cater to businesses with unique device and software requirements. <br/><br/>Our approach starts with a detailed analysis of your hardware capabilities and operational needs. We design and implement integration solutions that ensure seamless communication between devices and systems, enabling real-time data sharing and automated processes.  <br><br/> Using secure protocols and scalable architectures, we deliver solutions built to last. Post-deployment, we provide ongoing maintenance to keep systems optimized.",
+            "description": "IT United’s custom hardware integration services cater to businesses with unique device and software requirements. <br/><br/>Our approach starts with a detailed analysis of your hardware capabilities and operational needs. We design and implement integration solutions that ensure seamless communication between devices and systems, enabling real-time data sharing and automated processes.  <br><br/> Using secure protocols and scalable architectures, we deliver solutions built to last. Post-deployment, we provide ongoing maintenance to keep systems optimized.",
             "itUnitedApproachDataList": [
                 "Tailored Integrations: Customized solutions for unique hardware setups.",
                 "Seamless Communication: Devices and software working in harmony.",
@@ -1756,7 +1756,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -1819,34 +1819,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "Custom Hardware Integration Solutions | Device & Software Connectivity | Samyotech",
+                "title": "Custom Hardware Integration Solutions | Device & Software Connectivity | IT United",
                 "description": "Unlock the full potential of your hardware with IT United custom hardware integration solutions. Connect unique devices to software systems for real-time data, automation, and operational efficiency.",
-                "keywords": "custom hardware integration, device-software connectivity, IoT hardware solutions, real-time data integration, automation solutions, scalable hardware integration, Samyotech custom devices, business hardware optimization",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/custom-hardware-integration-solutions",
+                "keywords": "custom hardware integration, device-software connectivity, IoT hardware solutions, real-time data integration, automation solutions, scalable hardware integration, IT United custom devices, business hardware optimization",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/custom-hardware-integration-solutions",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/custom-hardware-integration-solutions",
-                "siteName": "Samyotech",
-                "title": "Custom Hardware Integration Solutions | Device & Software Connectivity | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/custom-hardware-integration-solutions",
+                "siteName": "IT United",
+                "title": "Custom Hardware Integration Solutions | Device & Software Connectivity | IT United",
                 "description": "Unlock the full potential of your hardware with IT United custom hardware integration solutions.",
-                "image": "https://samyotech.com/assets/Images/iotDeviceBanner.webp",
+                "image": "https://www.theitunited.com/assets/Images/iotDeviceBanner.webp",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "Custom Hardware Integration Solutions by Samyotech"
+                "imageAlt": "Custom Hardware Integration Solutions by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "Custom Hardware Integration Solutions | Device & Software Connectivity | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "Custom Hardware Integration Solutions | Device & Software Connectivity | IT United",
                 "description": "Unlock the full potential of your hardware with IT United custom hardware integration solutions.",
-                "image": "https://samyotech.com/assets/Images/iotDeviceBanner.webp",
+                "image": "https://www.theitunited.com/assets/Images/iotDeviceBanner.webp",
                 "imageAlt": "Custom Hardware Integration Solutions"
             },
             "schemas": [
@@ -1896,17 +1896,17 @@ export const hardwareServicesPageContent = {
 
     "robotics-and-automation-systems": {
         "title": "Robotics and Automation Systems",
-        "description": "Empower your business with Samyotech’s Robotics and Automation Integration services. From industrial robots to automated workflows, we design systems that enhance precision, boost productivity, and reduce operational costs across industries.",
+        "description": "Empower your business with IT United’s Robotics and Automation Integration services. From industrial robots to automated workflows, we design systems that enhance precision, boost productivity, and reduce operational costs across industries.",
         "image": "/assets/Images/iotDeviceBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
         ],
         "itUnitedApproachData": {
             "heading": "IT United Approach to Robotics and Automation Systems",
-            "description": "Samyotech specializes in integrating robotics and automation systems for improved operational efficiency. Our process begins with an analysis of your workflow requirements and production goals. <br/><br/>We configure robotic systems, including industrial arms and automated vehicles, to optimize repetitive tasks and enhance precision. With scalable architectures and real-time monitoring, our solutions ensure seamless operations.  <br><br/> We prioritize safety and compliance, implementing fail-safes and training for effective system use. Post-deployment, we provide ongoing support and updates to maintain performance.",
+            "description": "IT United specializes in integrating robotics and automation systems for improved operational efficiency. Our process begins with an analysis of your workflow requirements and production goals. <br/><br/>We configure robotic systems, including industrial arms and automated vehicles, to optimize repetitive tasks and enhance precision. With scalable architectures and real-time monitoring, our solutions ensure seamless operations.  <br><br/> We prioritize safety and compliance, implementing fail-safes and training for effective system use. Post-deployment, we provide ongoing support and updates to maintain performance.",
             "itUnitedApproachDataList": [
                 "Code Refactoring: Cleaner, optimized code for enhanced efficiency.",
                 "Architectural Improvements: Modern designs for better scalability and flexibility.",
@@ -1992,7 +1992,7 @@ export const hardwareServicesPageContent = {
         "techStackFutureData": {
             "heading": "Cutting-Edge Tech Stack for Future Ready Solutions",
             "headingBefore": "At",
-            "gradientText": "Samyotech",
+            "gradientText": "IT United",
             "subText": "we leverage the latest and most reliable technologies to deliver scalable, secure, and high-performing software solutions. From AI and machine learning to cloud computing and blockchain, we use a versatile tech stack tailored to your project’s needs.",
             "technologies": [
                 "AngularJS", "React JS", "Vue.js", "JS", "HTML", "Android", "iOS", "Figma", "Asana", "Swift", "Redis", "Flutter", "Ionic", "Node", "PHP", "Java", "CodeIgniter", "Insta Connect", "Python", "MS SQL", "DynamoDB", "MySQL", "Oracle", "PostgreSQL", "Mongo DB", "MariaDB", "SQL Lite", "DB2", "Sybase", "WordPress", "Drupal", "Strapi", "Umbraco", "Kentico", "Dotnetnuke", "Sitecore", "WooCommerce", "Shopify", "NopCommerce", "Storefront", "Zoom", "Jira", "Trello", "Slack", "GitHub", "BitBucket", "GitLab"
@@ -2055,34 +2055,34 @@ export const hardwareServicesPageContent = {
 
         "seoData": {
             "metadata": {
-                "title": "Robotics and Automation Systems | Industrial Automation Solutions | Samyotech",
+                "title": "Robotics and Automation Systems | Industrial Automation Solutions | IT United",
                 "description": "Boost productivity and precision with IT United Robotics and Automation Systems. Integrate industrial robots, automated workflows, and real-time monitoring for efficient operations across industries.",
-                "keywords": "robotics integration, automation systems, industrial robots, automated workflows, process optimization, precision automation, Samyotech robotics solutions, operational efficiency",
-                "canonical": "https://samyotech.com/software-services-company/hardware-integration-services/robotics-and-automation-systems",
+                "keywords": "robotics integration, automation systems, industrial robots, automated workflows, process optimization, precision automation, IT United robotics solutions, operational efficiency",
+                "canonical": "https://www.theitunited.com/software-services-company/hardware-integration-services/robotics-and-automation-systems",
                 "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
                 "language": "en-US",
-                "author": "Samyotech Technologies",
-                "publisher": "Samyotech"
+                "author": "IT United Technologies",
+                "publisher": "IT United"
             },
             "openGraph": {
                 "type": "website",
                 "locale": "en_US",
-                "url": "https://samyotech.com/software-services-company/hardware-integration-services/robotics-and-automation-systems",
-                "siteName": "Samyotech",
-                "title": "Robotics and Automation Systems | Industrial Automation Solutions | Samyotech",
+                "url": "https://www.theitunited.com/software-services-company/hardware-integration-services/robotics-and-automation-systems",
+                "siteName": "IT United",
+                "title": "Robotics and Automation Systems | Industrial Automation Solutions | IT United",
                 "description": "Boost productivity and precision with IT United Robotics and Automation Systems.",
-                "image": "https://samyotech.com/assets/Images/iotDeviceBanner.webp",
+                "image": "https://www.theitunited.com/assets/Images/iotDeviceBanner.webp",
                 "imageWidth": "1200",
                 "imageHeight": "630",
-                "imageAlt": "Robotics and Automation Systems by Samyotech"
+                "imageAlt": "Robotics and Automation Systems by IT United"
             },
             "twitter": {
                 "card": "summary_large_image",
-                "site": "@samyotech",
-                "creator": "@samyotech",
-                "title": "Robotics and Automation Systems | Industrial Automation Solutions | Samyotech",
+                "site": "@theitunited",
+                "creator": "@theitunited",
+                "title": "Robotics and Automation Systems | Industrial Automation Solutions | IT United",
                 "description": "Boost productivity and precision with IT United Robotics and Automation Systems.",
-                "image": "https://samyotech.com/assets/Images/iotDeviceBanner.webp",
+                "image": "https://www.theitunited.com/assets/Images/iotDeviceBanner.webp",
                 "imageAlt": "Robotics and Automation Systems"
             },
             "schemas": [

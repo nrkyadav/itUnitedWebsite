@@ -4,7 +4,7 @@
     "bannerData": {
       "heading": "Industries we work for",
       "descriptionBefore": " Harness the power of technology to transform your industry. At",
-      "highlightText": "Samyotech",
+      "highlightText": "IT United",
       "description": ", we bring expertise across a diverse range of sectors, delivering innovative solutions tailored to unique challenges and goals. From empowering startups to revolutionizing agriculture, enhancing healthcare, and redefining entertainment, we create impactful digital experiences. Our deep industry knowledge combined with cutting-edge technology enables businesses to thrive in an ever-changing world. Let’s shape the future of your industry together.",
       "image": "/assets/Images/industriesBanner.avif"
     },
@@ -87,7 +87,7 @@
       },
       {
         "title": "SailPoint Solutions",
-        "description": "Simplify identity governance with Samyotech’s SailPoint Solutions Consultancy.",
+        "description": "Simplify identity governance with IT United’s SailPoint Solutions Consultancy.",
         "link": "/industries/sailpoint-solutions-consultancy"
       }
     ],
@@ -204,35 +204,35 @@
 
   "seoData": {
     "metadata": {
-      "title": "Samyotech Industries | AI & Software Solutions for Startups, Healthcare, Retail & More",
-      "description": "Discover how Samyotech delivers industry-specific solutions across Startups, Healthcare, Real Estate, Retail, Education, Fintech, Logistics, and more. Transform operations with AI-powered and scalable software solutions tailored to your industry.",
-      "keywords": "industry-specific software solutions, AI solutions for businesses, healthcare software, retail software, fintech software, logistics solutions, education technology, Samyotech",
-      "canonical": "https://samyotech.com/industries",
+      "title": "IT United Industries | AI & Software Solutions for Startups, Healthcare, Retail & More",
+      "description": "Discover how IT United delivers industry-specific solutions across Startups, Healthcare, Real Estate, Retail, Education, Fintech, Logistics, and more. Transform operations with AI-powered and scalable software solutions tailored to your industry.",
+      "keywords": "industry-specific software solutions, AI solutions for businesses, healthcare software, retail software, fintech software, logistics solutions, education technology, IT United",
+      "canonical": "https://www.theitunited.com/industries",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "language": "en-US",
-      "author": "Samyotech Technologies",
-      "publisher": "Samyotech"
+      "author": "IT United Technologies",
+      "publisher": "IT United"
     },
     "openGraph": {
       "type": "website",
       "locale": "en_US",
-      "url": "https://samyotech.com/industries",
-      "siteName": "Samyotech",
-      "title": "Samyotech Industries | AI & Software Solutions for All Sectors",
-      "description": "Transform your industry with Samyotech's innovative technology solutions across 16+ sectors including Healthcare, Fintech, Education, Retail, and more.",
-      "image": "https://samyotech.com/assets/Images/industriesBanner.avif",
+      "url": "https://www.theitunited.com/industries",
+      "siteName": "IT United",
+      "title": "IT United Industries | AI & Software Solutions for All Sectors",
+      "description": "Transform your industry with IT United's innovative technology solutions across 16+ sectors including Healthcare, Fintech, Education, Retail, and more.",
+      "image": "https://www.theitunited.com/assets/Images/industriesBanner.avif",
       "imageWidth": "1200",
       "imageHeight": "630",
-      "imageAlt": "Samyotech Industries - Technology Solutions for All Sectors"
+      "imageAlt": "IT United Industries - Technology Solutions for All Sectors"
     },
     "twitter": {
       "card": "summary_large_image",
-      "site": "@samyotech",
-      "creator": "@samyotech",
-      "title": "Samyotech Industries | AI & Software Solutions",
+      "site": "@theitunited",
+      "creator": "@theitunited",
+      "title": "IT United Industries | AI & Software Solutions",
       "description": "Industry-specific technology solutions for Startups, Healthcare, Fintech, Education, and 12+ more sectors.",
-      "image": "https://samyotech.com/assets/Images/industriesBanner.avif",
-      "imageAlt": "Samyotech Industries"
+      "image": "https://www.theitunited.com/assets/Images/industriesBanner.avif",
+      "imageAlt": "IT United Industries"
     },
     "schemas": [
       {
@@ -241,15 +241,15 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What industries does Samyotech serve?",
+            "name": "What industries does IT United serve?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Samyotech serves 16+ industries including Startups, Healthcare, Education, Fintech, Real Estate, Retail, Food & Restaurant, Sports, Gaming, Agriculture, Travel & Hospitality, Entertainment, Government, Logistics, On-Demand services, and SailPoint Solutions."
+              "text": "IT United serves 16+ industries including Startups, Healthcare, Education, Fintech, Real Estate, Retail, Food & Restaurant, Sports, Gaming, Agriculture, Travel & Hospitality, Entertainment, Government, Logistics, On-Demand services, and SailPoint Solutions."
             }
           },
           {
             "@type": "Question",
-            "name": "How does Samyotech customize solutions for different industries?",
+            "name": "How does IT United customize solutions for different industries?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "We analyze each industry's unique challenges and requirements, then develop tailored solutions using cutting-edge technologies like AI, IoT, blockchain, and cloud computing to address specific needs."
@@ -257,7 +257,7 @@
           },
           {
             "@type": "Question",
-            "name": "What types of solutions does Samyotech provide?",
+            "name": "What types of solutions does IT United provide?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "We provide custom software development, mobile apps, web platforms, AI automation, blockchain solutions, IoT integration, cloud services, and digital transformation solutions across all industries."
@@ -265,10 +265,10 @@
           },
           {
             "@type": "Question",
-            "name": "Why choose Samyotech for industry-specific solutions?",
+            "name": "Why choose IT United for industry-specific solutions?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "With 12+ years of experience, 850+ apps delivered, and 120+ remote developers, we bring deep industry knowledge combined with cutting-edge technology to deliver impactful digital experiences."
+              "text": "With 5+ years of experience, 850+ apps delivered, and 120+ remote developers, we bring deep industry knowledge combined with cutting-edge technology to deliver impactful digital experiences."
             }
           }
         ]

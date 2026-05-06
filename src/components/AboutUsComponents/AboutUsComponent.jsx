@@ -80,7 +80,7 @@ const AboutUsComponent = ({ components }) => {
         <div className={styles.overlay}>
           {/* <ContactusComponent inSight={true} /> */}
           <h2 className={styles.whyChooseUsTitle}>
-            Why Choose <span>Samyotech</span>: Our Core Values
+            Why Choose <span>IT United</span>: Our Core Values
           </h2>
           <div className={styles.whyChooseUsTitleUnderline}></div>
           <div
@@ -97,7 +97,7 @@ const AboutUsComponent = ({ components }) => {
                   width: 400,
                   height: 300,
                   margin: "20px",
-                  backgroundColor: "#002c22",
+                  backgroundColor: "#000000",
                   justifyContent: "center",
                   alignItems: "center",
                   borderRadius: "15px",

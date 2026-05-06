@@ -12,14 +12,14 @@ const locations = [
 
   {
     country: "INDIA (H.Q)",
-    address: "Building No. 09, Tulsiayana Residency, Nepania, Indore",
-    phone: "+91 9669219263",
+    address: "Tulsiayana Residency, Nepania, Indore",
+    phone: "+91 747 707 5407",
     icon: "/assets/Images/black-india.png",
   },
   {
     country: "EUROPE",
     address: "Orangeboom Street, Mariakerke, Ghent, Belgium",
-    phone: "+91 9669219263",
+    phone: "+32 489 17 49 32",
     icon: "/assets/Images/black-new-zeland.png",
   },
   {

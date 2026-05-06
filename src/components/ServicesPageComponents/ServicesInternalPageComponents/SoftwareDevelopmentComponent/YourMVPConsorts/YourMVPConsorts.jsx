@@ -34,7 +34,7 @@ const cardData = [
   {
     icon: HandCoins,
     title: "Affordable Solutions",
-    desc: "Samyotech provides affordable prices without sacrificing functionality or quality."
+    desc: "IT United provides affordable prices without sacrificing functionality or quality."
   },
   {
     icon: Globe,
@@ -51,7 +51,7 @@ const YourMVPConsorts = () => {
         <p className={styles.smallHeading}>Your MVP Consorts</p>
 
         <h2 className={styles.largeHeading}>
-          Why Trust Samyotech for Building Your MVP?
+          Why Trust IT United for Building Your MVP?
         </h2>
 
         <div className={styles.cardsGrid}>

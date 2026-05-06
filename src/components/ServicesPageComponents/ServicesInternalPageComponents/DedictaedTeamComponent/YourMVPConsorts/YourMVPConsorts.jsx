@@ -15,8 +15,8 @@ import {
 const cardData = [
   {
     icon: CircleUserRound,
-    title: "12+ Years of Expertise",
-    desc: "With 12+ years of experience delivering vigorous tech talent, we have successfully helped startups, enterprises, and global brands scale their teams and deliver complex IT projects with confidence."
+    title: "5+ Years of Expertise",
+    desc: "With 5+ years of experience delivering vigorous tech talent, we have successfully helped startups, enterprises, and global brands scale their teams and deliver complex IT projects with confidence."
   },
   {
     icon: ServerCog,
@@ -53,7 +53,7 @@ const YourMVPConsorts = () => {
         <p className={styles.smallHeading}>Your Staffing Partner</p>
 
         <h2 className={styles.largeHeading}>
-          What Sets Samyotech Apart
+          What Sets IT United Apart
         </h2>
 
         <div className={styles.cardsGrid}>

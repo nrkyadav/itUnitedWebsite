@@ -1,5 +1,5 @@
 .bannerSection {
-  background-color: #002c22;
+  background-color: #000000;
   padding: 50px 5%;
   color: #ffffff;
   display: flex;
@@ -47,7 +47,7 @@
   margin-top: 20px;
   padding: 12px 24px;
   background-color: #ffffff !important;
-  color: #002c22 !important;
+  color: #000000 !important;
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;

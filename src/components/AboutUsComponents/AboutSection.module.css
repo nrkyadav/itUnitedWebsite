@@ -1,5 +1,5 @@
 .container {
-  background-color: #002c22;
+  background-color: #000000;
   color: #ffffff;
   padding: 80px 10%;
 }
@@ -57,7 +57,7 @@
   width: 100%;
   max-width: 1400px;
   text-align: center;
-  color: #002c22;
+  color: #000000;
 }
 
 .curveBg {
@@ -86,14 +86,14 @@
 }
 
 .whyChooseUsTitle {
-  color: #002c22;
+  color: #000000;
   margin-bottom: 15px;
   font-size: 2.8rem;
   font-weight: 600;
 }
 
 .whyChooseUsTitleUnderline {
-  background: linear-gradient(135deg, #006633 0%, #00c84fe8 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #00C8FFe8 100%);
   border-radius: 4px;
   width: 180px;
   height: 4px;

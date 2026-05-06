@@ -2,36 +2,36 @@
   "page": "ai-automation-services",
   "seoData": {
     "metadata": {
-      "title": "AI Automation Services | Process Automation & Decision Intelligence - Samyotech",
-      "description": "Transform your business with Samyotech's AI automation services. Specializing in process automation, decision intelligence, and customer experience automation across 14+ industries. Cut costs, boost efficiency, and scale smarter with AI-powered solutions.",
+      "title": "AI Automation Services | Process Automation & Decision Intelligence - IT United",
+      "description": "Transform your business with IT United's AI automation services. Specializing in process automation, decision intelligence, and customer experience automation across 14+ industries. Cut costs, boost efficiency, and scale smarter with AI-powered solutions.",
       "keywords": "AI automation services, process automation, RPA automation, decision intelligence, customer experience automation, AI chatbots, machine learning automation, intelligent automation, business process automation, AI solutions, workflow automation, AI integration",
-      "canonical": "https://samyotech.com/software-services-company/ai-automation-services",
+      "canonical": "https://www.theitunited.com/software-services-company/ai-automation-services",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "language": "en-US",
-      "author": "Samyotech",
-      "publisher": "Samyotech",
+      "author": "IT United",
+      "publisher": "IT United",
       "viewport": "width=device-width, initial-scale=1"
     },
     "openGraph": {
       "type": "website",
       "locale": "en_US",
-      "url": "https://samyotech.com/software-services-company/ai-automation-services",
-      "siteName": "Samyotech",
+      "url": "https://www.theitunited.com/software-services-company/ai-automation-services",
+      "siteName": "IT United",
       "title": "AI Automation Services | Process Automation & Decision Intelligence",
-      "description": "Streamline operations with AI-powered automation. 850+ apps delivered, 12+ years experience. Transform finance, customer support & supply chain with intelligent automation.",
-      "image": "https://samyotech.com/assets/Images/logo.svg",
+      "description": "Streamline operations with AI-powered automation. 850+ apps delivered, 5+ years experience. Transform finance, customer support & supply chain with intelligent automation.",
+      "image": "https://www.theitunited.com/assets/Images/logo.svg",
       "imageWidth": "1200",
       "imageHeight": "630",
-      "imageAlt": "AI Automation Services by Samyotech - Process Automation & Decision Intelligence"
+      "imageAlt": "AI Automation Services by IT United - Process Automation & Decision Intelligence"
     },
     "twitter": {
       "card": "summary_large_image",
-      "site": "@samyotech",
-      "creator": "@samyotech",
-      "title": "AI Automation Services | Samyotech - Smart Process Automation",
+      "site": "@theitunited",
+      "creator": "@theitunited",
+      "title": "AI Automation Services | IT United - Smart Process Automation",
       "description": "Cut manual work & boost efficiency with AI automation. Process automation, decision intelligence & 24/7 customer support solutions.",
-      "image": "https://samyotech.com/assets/Images/logo.svg",
-      "imageAlt": "AI Automation Services - Samyotech"
+      "image": "https://www.theitunited.com/assets/Images/logo.svg",
+      "imageAlt": "AI Automation Services - IT United"
     },
     "schemas": [
       {
@@ -42,19 +42,19 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://samyotech.com"
+            "item": "https://www.theitunited.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Software Services",
-            "item": "https://samyotech.com/software-services-company"
+            "item": "https://www.theitunited.com/software-services-company"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "AI Automation Services",
-            "item": "https://samyotech.com/software-services-company/ai-automation-services"
+            "item": "https://www.theitunited.com/software-services-company/ai-automation-services"
           }
         ]
       },
@@ -64,11 +64,11 @@
         "serviceType": "AI Automation Services",
         "provider": {
           "@type": "Organization",
-          "name": "Samyotech",
-          "url": "https://samyotech.com",
+          "name": "IT United",
+          "url": "https://www.theitunited.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://samyotech.com/assets/Images/logo.svg",
+            "url": "https://www.theitunited.com/assets/Images/logo.svg",
             "width": "250",
             "height": "60"
           },
@@ -80,10 +80,10 @@
             "availableLanguage": ["English"]
           },
           "sameAs": [
-            "https://www.facebook.com/samyotech",
-            "https://www.linkedin.com/company/samyotech",
-            "https://twitter.com/samyotech",
-            "https://www.instagram.com/samyotech"
+            "https://www.facebook.com/theitunited",
+            "https://www.linkedin.com/company/theitunited",
+            "https://twitter.com/theitunited",
+            "https://www.instagram.com/theitunited"
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -102,7 +102,7 @@
         },
         "availableChannel": {
           "@type": "ServiceChannel",
-          "serviceUrl": "https://samyotech.com/software-services-company/ai-automation-services"
+          "serviceUrl": "https://www.theitunited.com/software-services-company/ai-automation-services"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -177,7 +177,7 @@
             "name": "How long does it take to implement AI automation solutions?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Implementation timelines vary based on complexity and scope. Simple chatbot implementations can take 2-4 weeks, while comprehensive process automation solutions may require 8-16 weeks. The timeline includes discovery, design, development, integration, testing, and deployment phases. Samyotech provides detailed project timelines during the consultation phase."
+              "text": "Implementation timelines vary based on complexity and scope. Simple chatbot implementations can take 2-4 weeks, while comprehensive process automation solutions may require 8-16 weeks. The timeline includes discovery, design, development, integration, testing, and deployment phases. IT United provides detailed project timelines during the consultation phase."
             }
           },
           {
@@ -190,10 +190,10 @@
           },
           {
             "@type": "Question",
-            "name": "What industries does Samyotech provide AI automation services for?",
+            "name": "What industries does IT United provide AI automation services for?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Samyotech provides AI automation services across 14+ industries including healthcare, finance and banking, retail and e-commerce, manufacturing, logistics and supply chain, insurance, telecommunications, real estate, education, hospitality, legal services, government, energy, and professional services. Our solutions are customized for industry-specific needs and compliance requirements."
+              "text": "IT United provides AI automation services across 14+ industries including healthcare, finance and banking, retail and e-commerce, manufacturing, logistics and supply chain, insurance, telecommunications, real estate, education, hospitality, legal services, government, energy, and professional services. Our solutions are customized for industry-specific needs and compliance requirements."
             }
           },
           {
@@ -225,7 +225,7 @@
             "name": "What kind of support do you provide after implementation?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Samyotech provides comprehensive post-implementation support including 24/7 technical support, regular system monitoring and maintenance, performance optimization, model retraining and updates, user training and documentation, bug fixes and troubleshooting, feature enhancements, and quarterly business reviews. We offer flexible support packages tailored to your needs."
+              "text": "IT United provides comprehensive post-implementation support including 24/7 technical support, regular system monitoring and maintenance, performance optimization, model retraining and updates, user training and documentation, bug fixes and troubleshooting, feature enhancements, and quarterly business reviews. We offer flexible support packages tailored to your needs."
             }
           },
           {
@@ -242,13 +242,13 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "AI Automation Services",
-        "url": "https://samyotech.com/software-services-company/ai-automation-services",
+        "url": "https://www.theitunited.com/software-services-company/ai-automation-services",
         "description": "Transform your business with AI automation services. Process automation, decision intelligence, and customer experience automation across 14+ industries.",
         "inLanguage": "en-US",
         "isPartOf": {
           "@type": "WebSite",
-          "name": "Samyotech",
-          "url": "https://samyotech.com"
+          "name": "IT United",
+          "url": "https://www.theitunited.com"
         },
         "breadcrumb": {
           "@type": "BreadcrumbList",
@@ -257,19 +257,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://samyotech.com"
+              "item": "https://www.theitunited.com"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Software Services",
-              "item": "https://samyotech.com/software-services-company"
+              "item": "https://www.theitunited.com/software-services-company"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "AI Automation Services",
-              "item": "https://samyotech.com/software-services-company/ai-automation-services"
+              "item": "https://www.theitunited.com/software-services-company/ai-automation-services"
             }
           ]
         },
@@ -286,26 +286,26 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Samyotech",
-        "url": "https://samyotech.com",
+        "name": "IT United",
+        "url": "https://www.theitunited.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://samyotech.com/assets/Images/logo.svg"
+          "url": "https://www.theitunited.com/assets/Images/logo.svg"
         },
-        "description": "Leading AI automation company specializing in process automation, decision intelligence, and customer experience automation with 850+ successful projects and 12+ years experience.",
+        "description": "Leading AI automation company specializing in process automation, decision intelligence, and customer experience automation with 850+ successful projects and 5+ years experience.",
         "foundingDate": "2012",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+91 786 999 8739",
+          "telephone": "+91 747 707 5407",
           "contactType": "Customer Service",
           "areaServed": "Worldwide",
           "availableLanguage": ["English"]
         },
         "sameAs": [
-          "https://www.facebook.com/samyotech",
-          "https://www.linkedin.com/company/samyotech",
-          "https://twitter.com/samyotech",
-          "https://www.instagram.com/samyotech"
+          "https://www.facebook.com/theitunited",
+          "https://www.linkedin.com/company/theitunited",
+          "https://twitter.com/theitunited",
+          "https://www.instagram.com/theitunited"
         ]
       },
       {
@@ -402,22 +402,22 @@
       {
         "@context": "https://schema.org",
         "@type": "VideoObject",
-        "name": "AI Automation Services Overview - Samyotech",
-        "description": "Learn how Samyotech's AI automation services can transform your business operations",
-        "thumbnailUrl": "https://samyotech.com/assets/Images/logo.svg",
+        "name": "AI Automation Services Overview - IT United",
+        "description": "Learn how IT United's AI automation services can transform your business operations",
+        "thumbnailUrl": "https://www.theitunited.com/assets/Images/logo.svg",
         "uploadDate": "2024-01-15",
-        "contentUrl": "https://samyotech.com/videos/ai-automation-overview.mp4",
+        "contentUrl": "https://www.theitunited.com/videos/ai-automation-overview.mp4",
         "embedUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
       }
     ],
     "alternateLanguages": [
       {
         "hreflang": "en",
-        "href": "https://samyotech.com/software-services-company/ai-automation-services"
+        "href": "https://www.theitunited.com/software-services-company/ai-automation-services"
       },
       {
         "hreflang": "x-default",
-        "href": "https://samyotech.com/software-services-company/ai-automation-services"
+        "href": "https://www.theitunited.com/software-services-company/ai-automation-services"
       }
     ],
     "additionalMetaTags": [

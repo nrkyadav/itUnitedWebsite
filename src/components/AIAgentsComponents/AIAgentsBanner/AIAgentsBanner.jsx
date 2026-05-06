@@ -11,7 +11,7 @@ const AIAgentsBanner = () => {
           <h2 className={styles.heading}>Discover Our AI Agents</h2>
           <p className={styles.description}>
             At
-            <span className={styles.highlight}> Samyotech</span>, we specialize
+            <span className={styles.highlight}> IT United</span>, we specialize
             in turning innovative ideas into impactful software solutions. Our
             team of experienced developers and tech experts is dedicated to
             helping businesses accelerate their growth through scalable, secure,

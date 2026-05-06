@@ -21,7 +21,7 @@ const OpenPositions = () => {
             type: "Full Time, Remote, Part Time",
             skills: "Strong background in data modelling",
             experience: "Experience 0 - 2 Years",
-            email: "hr@samyotech.com",
+            email: "hr@theitunited.com",
         },
         {
             title: ".Net Developer",
@@ -29,7 +29,7 @@ const OpenPositions = () => {
             type: "Full Time, Remote, Part Time",
             skills: "ASP.NET, C#, Javascript, MVC",
             experience: "Experience 0 - 2 Years",
-            email: "hr@samyotech.com",
+            email: "hr@theitunited.com",
         },
         {
             title: "GCP Architect",
@@ -37,7 +37,7 @@ const OpenPositions = () => {
             type: "Full Time, Remote, Part Time",
             skills: "GCP services, Compute Engine, Kubernetes",
             experience: "Experience 0 - 2 Years",
-            email: "hr@samyotech.com",
+            email: "hr@theitunited.com",
         },
         {
             title: "Gen AI Engineer",
@@ -45,7 +45,7 @@ const OpenPositions = () => {
             type: "Full Time, Remote, Part Time",
             skills: "e.g., AWS, Azure, Google Cloud",
             experience: "Experience 0 - 2 Years",
-            email: "hr@samyotech.com",
+            email: "hr@theitunited.com",
         },
         {
             title: "Salesforce Solution Architect",
@@ -53,7 +53,7 @@ const OpenPositions = () => {
             type: "Full Time, Remote, Part Time",
             skills: "HTML, CSS and JavaScript",
             experience: "Experience 0 - 2 Years",
-            email: "hr@samyotech.com",
+            email: "hr@theitunited.com",
         },
         {
             title: "Golang Developer",
@@ -61,7 +61,7 @@ const OpenPositions = () => {
             type: "Full Time, Remote, Part Time",
             skills: "Golang (backend), Node JS (FET)..",
             experience: "Experience 0 - 2 Years",
-            email: "hr@samyotech.com",
+            email: "hr@theitunited.com",
         },
     ];
 

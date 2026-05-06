@@ -5,7 +5,7 @@ export const industriesInternalPageData = {
       "Building a startup is a journey of ambition, innovation, and resilience and technology is at the heart of it. At IT United, we understand the fast-paced world of startups. That’s why we craft agile, scalable, and cost-effective solutions to turn your ideas into reality. From MVPs to fully-fledged platforms, we’re here to power your growth and success.",
     image: "/assets/Images/startupBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -198,34 +198,34 @@ export const industriesInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "Startup Solutions | MVP, Custom Software & Scalable Platforms - Samyotech",
-        "description": "Samyotech empowers startups with agile, scalable, and cost-effective technology solutions. From MVP development to custom software, cloud integration, and automation tools, we help turn your ideas into reality.",
-        "keywords": "Startup solutions, MVP development, custom software, scalable platforms, cloud integration, automation tools, data insights, startup tech consulting, Samyotech startups, technology for startups",
-        "canonical": "https://samyotech.com/industries/startups",
+        "title": "Startup Solutions | MVP, Custom Software & Scalable Platforms - IT United",
+        "description": "IT United empowers startups with agile, scalable, and cost-effective technology solutions. From MVP development to custom software, cloud integration, and automation tools, we help turn your ideas into reality.",
+        "keywords": "Startup solutions, MVP development, custom software, scalable platforms, cloud integration, automation tools, data insights, startup tech consulting, IT United startups, technology for startups",
+        "canonical": "https://www.theitunited.com/industries/startups",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/industries/startups",
-        "siteName": "Samyotech",
-        "title": "Startup Solutions | MVP, Custom Software & Scalable Platforms - Samyotech",
-        "description": "Empower your startup with agile, scalable technology solutions from Samyotech.",
-        "image": "https://samyotech.com/assets/Images/startupBanner.avif",
+        "url": "https://www.theitunited.com/industries/startups",
+        "siteName": "IT United",
+        "title": "Startup Solutions | MVP, Custom Software & Scalable Platforms - IT United",
+        "description": "Empower your startup with agile, scalable technology solutions from IT United.",
+        "image": "https://www.theitunited.com/assets/Images/startupBanner.avif",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Startup Solutions by Samyotech"
+        "imageAlt": "Startup Solutions by IT United"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "Startup Solutions | MVP & Custom Software - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "Startup Solutions | MVP & Custom Software - IT United",
         "description": "Agile, scalable technology solutions for startups.",
-        "image": "https://samyotech.com/assets/Images/startupBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/startupBanner.avif",
         "imageAlt": "Startup Solutions"
       },
       "schemas": [
@@ -280,7 +280,7 @@ export const industriesInternalPageData = {
       "The landscape of education is rapidly changing, and technology plays a pivotal role in shaping its future. At IT United, we design innovative, scalable, and secure solutions tailored for educators, institutions, and learners. From smart classrooms to data-driven platforms, our goal is to bridge gaps, enhance engagement, and deliver personalized learning experiences that meet the evolving needs of modern education.",
     image: "/assets/Images/educationBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -470,34 +470,34 @@ export const industriesInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "Education Technology Solutions | E-Learning & Smart Classrooms - Samyotech",
-        "description": "Samyotech delivers innovative, scalable, and secure education technology solutions. From smart classrooms and AI-driven analytics to e-learning platforms and administrative automation, we help institutions enhance engagement and learning outcomes.",
-        "keywords": "Education technology, e-learning platforms, smart classrooms, AI in education, EdTech solutions, digital content management, student analytics, administrative automation, Samyotech education, technology for education",
-        "canonical": "https://samyotech.com/industries/education",
+        "title": "Education Technology Solutions | E-Learning & Smart Classrooms - IT United",
+        "description": "IT United delivers innovative, scalable, and secure education technology solutions. From smart classrooms and AI-driven analytics to e-learning platforms and administrative automation, we help institutions enhance engagement and learning outcomes.",
+        "keywords": "Education technology, e-learning platforms, smart classrooms, AI in education, EdTech solutions, digital content management, student analytics, administrative automation, IT United education, technology for education",
+        "canonical": "https://www.theitunited.com/industries/education",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/industries/education",
-        "siteName": "Samyotech",
-        "title": "Education Technology Solutions | E-Learning & Smart Classrooms - Samyotech",
-        "description": "Transform education with innovative technology solutions from Samyotech.",
-        "image": "https://samyotech.com/assets/Images/educationBanner.avif",
+        "url": "https://www.theitunited.com/industries/education",
+        "siteName": "IT United",
+        "title": "Education Technology Solutions | E-Learning & Smart Classrooms - IT United",
+        "description": "Transform education with innovative technology solutions from IT United.",
+        "image": "https://www.theitunited.com/assets/Images/educationBanner.avif",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Education Technology Solutions by Samyotech"
+        "imageAlt": "Education Technology Solutions by IT United"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "Education Technology Solutions - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "Education Technology Solutions - IT United",
         "description": "E-learning platforms, smart classrooms, and AI-driven analytics.",
-        "image": "https://samyotech.com/assets/Images/educationBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/educationBanner.avif",
         "imageAlt": "Education Technology Solutions"
       },
       "schemas": [
@@ -551,7 +551,7 @@ export const industriesInternalPageData = {
       "The healthcare industry is embracing technology to improve patient care, streamline operations, and enhance outcomes. At IT United, we develop tailored, secure, and scalable healthcare solutions that address unique challenges. From patient management systems to telemedicine platforms, our technology ensures accessibility, efficiency, and precision for healthcare providers and patients alike, supporting a healthier and more connected future.",
     image: "/assets/Images/healthcareBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -559,7 +559,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Helthcare",
-      description: "Samyotech works with healthcare organizations to address their unique challenges through innovative technology solutions.<br/><br/> Our expertise lies in developing systems that improve patient engagement, optimize administrative tasks, and ensure data security. By integrating advanced technologies like IoT, AI, and secure cloud computing, we help streamline workflows, enhance decision-making, and improve accessibility. <br/><br/>Our solutions are designed to empower healthcare providers to focus on delivering quality care while leveraging cutting-edge tools to stay ahead in a rapidly evolving industry.",
+      description: "IT United works with healthcare organizations to address their unique challenges through innovative technology solutions.<br/><br/> Our expertise lies in developing systems that improve patient engagement, optimize administrative tasks, and ensure data security. By integrating advanced technologies like IoT, AI, and secure cloud computing, we help streamline workflows, enhance decision-making, and improve accessibility. <br/><br/>Our solutions are designed to empower healthcare providers to focus on delivering quality care while leveraging cutting-edge tools to stay ahead in a rapidly evolving industry.",
       itUnitedApproachDataList: [
         "Telemedicine Platforms: Enhance patient accessibility with secure, user-friendly virtual consultation systems.",
         "IoT Health Monitoring: Enable real-time patient tracking with connected wearables and devices.",
@@ -742,34 +742,34 @@ export const industriesInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "Healthcare Technology Solutions | Telemedicine & Patient Management - Samyotech",
-        "description": "Samyotech provides innovative, secure, and scalable healthcare technology solutions. From telemedicine platforms and AI-driven diagnostics to IoT health monitoring and hospital management systems, we empower providers to enhance patient care and streamline operations.",
-        "keywords": "Healthcare technology, telemedicine platforms, patient management system, AI diagnostics, IoT health monitoring, hospital management software, healthcare IT solutions, secure healthcare platforms, Samyotech healthcare",
-        "canonical": "https://samyotech.com/industries/healthcare",
+        "title": "Healthcare Technology Solutions | Telemedicine & Patient Management - IT United",
+        "description": "IT United provides innovative, secure, and scalable healthcare technology solutions. From telemedicine platforms and AI-driven diagnostics to IoT health monitoring and hospital management systems, we empower providers to enhance patient care and streamline operations.",
+        "keywords": "Healthcare technology, telemedicine platforms, patient management system, AI diagnostics, IoT health monitoring, hospital management software, healthcare IT solutions, secure healthcare platforms, IT United healthcare",
+        "canonical": "https://www.theitunited.com/industries/healthcare",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/industries/healthcare",
-        "siteName": "Samyotech",
-        "title": "Healthcare Technology Solutions | Telemedicine & Patient Management - Samyotech",
+        "url": "https://www.theitunited.com/industries/healthcare",
+        "siteName": "IT United",
+        "title": "Healthcare Technology Solutions | Telemedicine & Patient Management - IT United",
         "description": "Innovative healthcare technology solutions for better patient care.",
-        "image": "https://samyotech.com/assets/Images/healthcareBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/healthcareBanner.avif",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Healthcare Technology Solutions by Samyotech"
+        "imageAlt": "Healthcare Technology Solutions by IT United"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "Healthcare Technology Solutions - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "Healthcare Technology Solutions - IT United",
         "description": "Telemedicine, AI diagnostics, and IoT health monitoring.",
-        "image": "https://samyotech.com/assets/Images/healthcareBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/healthcareBanner.avif",
         "imageAlt": "Healthcare Technology Solutions"
       },
       "schemas": [
@@ -824,7 +824,7 @@ export const industriesInternalPageData = {
       "In the fast-evolving world of financial services, technology is key to staying competitive. At IT United, we deliver innovative, secure, and scalable fintech solutions that redefine how businesses and customers interact with financial systems. From digital wallets to AI-driven analytics, we empower financial institutions to streamline operations, enhance customer experiences, and drive growth in a dynamic marketplace.",
     image: "/assets/Images/fintechBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -832,7 +832,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Fintech",
-      description: "Samyotech partners with financial institutions to create technology solutions that transform the way they operate and serve customers.<br/><br/> By integrating advanced technologies like blockchain, AI, and mobile-first designs, we deliver systems that enhance transparency, security, and efficiency. <br/><br/>Our fintech solutions cater to challenges like regulatory compliance, data management, and customer retention, ensuring businesses thrive in an increasingly competitive environment.",
+      description: "IT United partners with financial institutions to create technology solutions that transform the way they operate and serve customers.<br/><br/> By integrating advanced technologies like blockchain, AI, and mobile-first designs, we deliver systems that enhance transparency, security, and efficiency. <br/><br/>Our fintech solutions cater to challenges like regulatory compliance, data management, and customer retention, ensuring businesses thrive in an increasingly competitive environment.",
       itUnitedApproachDataList: [
         "Digital Wallet Solutions: Build secure, user-friendly platforms for managing transactions and payments seamlessly.",
         "AI-Based Risk Analysis: Leverage AI for predictive insights to minimize financial risks effectively.",
@@ -1014,34 +1014,34 @@ export const industriesInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "Fintech Solutions & Digital Banking Apps | AI & Blockchain - Samyotech",
-        "description": "Samyotech provides cutting-edge fintech technology solutions including digital wallets, AI-driven analytics, blockchain integration, and customer-centric banking apps. Secure, scalable, and innovative platforms for modern financial institutions.",
-        "keywords": "Fintech solutions, digital banking apps, AI in finance, blockchain financial systems, digital wallet development, fraud detection platforms, regulatory compliance tools, Samyotech fintech",
-        "canonical": "https://samyotech.com/industries/fintech",
+        "title": "Fintech Solutions & Digital Banking Apps | AI & Blockchain - IT United",
+        "description": "IT United provides cutting-edge fintech technology solutions including digital wallets, AI-driven analytics, blockchain integration, and customer-centric banking apps. Secure, scalable, and innovative platforms for modern financial institutions.",
+        "keywords": "Fintech solutions, digital banking apps, AI in finance, blockchain financial systems, digital wallet development, fraud detection platforms, regulatory compliance tools, IT United fintech",
+        "canonical": "https://www.theitunited.com/industries/fintech",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/industries/fintech",
-        "siteName": "Samyotech",
-        "title": "Fintech Solutions & Digital Banking Apps | AI & Blockchain - Samyotech",
+        "url": "https://www.theitunited.com/industries/fintech",
+        "siteName": "IT United",
+        "title": "Fintech Solutions & Digital Banking Apps | AI & Blockchain - IT United",
         "description": "Cutting-edge fintech solutions for modern financial institutions.",
-        "image": "https://samyotech.com/assets/Images/fintechBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/fintechBanner.avif",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Fintech Solutions by Samyotech"
+        "imageAlt": "Fintech Solutions by IT United"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "Fintech Solutions & Digital Banking - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "Fintech Solutions & Digital Banking - IT United",
         "description": "AI-driven fintech solutions with blockchain integration.",
-        "image": "https://samyotech.com/assets/Images/fintechBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/fintechBanner.avif",
         "imageAlt": "Fintech Solutions"
       },
       "schemas": [
@@ -1096,7 +1096,7 @@ export const industriesInternalPageData = {
       "The real estate landscape is evolving, with technology shaping how properties are managed, sold, and experienced. At IT United, we bridge the gap between traditional practices and modern expectations. From virtual property tours to smart building solutions, we help real estate businesses streamline operations, enhance customer engagement, and deliver exceptional experiences in an increasingly digital world.",
     image: "/assets/Images/realEstateBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1104,7 +1104,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Real Estate",
-      description: "Samyotech collaborates with real estate businesses to create tailored technology solutions that address industry-specific challenges.<br/><br/> Our expertise lies in simplifying property management, enhancing customer experiences, and enabling data-driven decision-making. By leveraging tools like AI, IoT, and AR/VR, we help businesses improve operational efficiency and deliver innovative services to their clients. <br/><br/>Whether it’s developing custom CRM systems or integrating smart building technologies, our solutions are designed to make real estate operations seamless and future-ready.",
+      description: "IT United collaborates with real estate businesses to create tailored technology solutions that address industry-specific challenges.<br/><br/> Our expertise lies in simplifying property management, enhancing customer experiences, and enabling data-driven decision-making. By leveraging tools like AI, IoT, and AR/VR, we help businesses improve operational efficiency and deliver innovative services to their clients. <br/><br/>Whether it’s developing custom CRM systems or integrating smart building technologies, our solutions are designed to make real estate operations seamless and future-ready.",
       itUnitedApproachDataList: [
         "Smart Property Management: Develop systems to simplify tenant communication, lease management, and maintenance tracking.",
         "Virtual Property Tours: Create immersive experiences using AR/VR to showcase properties remotely.",
@@ -1286,34 +1286,34 @@ export const industriesInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "Real Estate Software Solutions | Property Management & Smart Building Apps - Samyotech",
-        "description": "Samyotech delivers innovative real estate technology solutions including smart property management, virtual property tours, IoT-enabled buildings, and custom CRM platforms. Streamline operations, enhance client experience, and scale your real estate business efficiently.",
-        "keywords": "Real estate software, property management system, virtual property tours, smart building solutions, real estate CRM, AR/VR real estate apps, Samyotech real estate technology",
-        "canonical": "https://samyotech.com/industries/real-estate",
+        "title": "Real Estate Software Solutions | Property Management & Smart Building Apps - IT United",
+        "description": "IT United delivers innovative real estate technology solutions including smart property management, virtual property tours, IoT-enabled buildings, and custom CRM platforms. Streamline operations, enhance client experience, and scale your real estate business efficiently.",
+        "keywords": "Real estate software, property management system, virtual property tours, smart building solutions, real estate CRM, AR/VR real estate apps, IT United real estate technology",
+        "canonical": "https://www.theitunited.com/industries/real-estate",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/industries/real-estate",
-        "siteName": "Samyotech",
-        "title": "Real Estate Software Solutions | Property Management & Smart Building Apps - Samyotech",
+        "url": "https://www.theitunited.com/industries/real-estate",
+        "siteName": "IT United",
+        "title": "Real Estate Software Solutions | Property Management & Smart Building Apps - IT United",
         "description": "Innovative real estate technology solutions for modern property management.",
-        "image": "https://samyotech.com/assets/Images/realEstateBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/realEstateBanner.avif",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Real Estate Solutions by Samyotech"
+        "imageAlt": "Real Estate Solutions by IT United"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "Real Estate Software Solutions - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "Real Estate Software Solutions - IT United",
         "description": "Smart property management and virtual tours.",
-        "image": "https://samyotech.com/assets/Images/realEstateBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/realEstateBanner.avif",
         "imageAlt": "Real Estate Solutions"
       },
       "schemas": [
@@ -1368,7 +1368,7 @@ export const industriesInternalPageData = {
       "Retail is no longer just about products—it’s about experiences. At IT United, we harness technology to help retailers stay ahead in a dynamic marketplace. From personalized shopping apps to inventory management systems, we design solutions that enhance customer engagement, streamline operations, and enable data-driven strategies to boost growth and customer loyalty.",
     image: "/assets/Images/retailBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1376,7 +1376,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Retail",
-      description: "Samyotech helps retail businesses navigate the digital era with tailored technology solutions. We understand the need for personalized shopping experiences, efficient inventory systems, and seamless operations.<br/><br/> By integrating advanced tools like AI, IoT, and mobile-first designs, we ensure retailers can adapt to changing consumer demands. Our solutions empower businesses to optimize processes, enhance customer loyalty, and stay competitive. <br/><br/>Whether it’s creating e-commerce platforms or automating inventory, we provide scalable, secure, and user-friendly technologies to transform retail operations.",
+      description: "IT United helps retail businesses navigate the digital era with tailored technology solutions. We understand the need for personalized shopping experiences, efficient inventory systems, and seamless operations.<br/><br/> By integrating advanced tools like AI, IoT, and mobile-first designs, we ensure retailers can adapt to changing consumer demands. Our solutions empower businesses to optimize processes, enhance customer loyalty, and stay competitive. <br/><br/>Whether it’s creating e-commerce platforms or automating inventory, we provide scalable, secure, and user-friendly technologies to transform retail operations.",
       itUnitedApproachDataList: [
         "E-Commerce Platforms: Develop feature-rich platforms to expand your online presence and boost sales.",
         "Inventory Management Systems: Automate stock tracking to ensure optimal inventory levels and reduce waste.",
@@ -1558,34 +1558,34 @@ export const industriesInternalPageData = {
 
     "seoData": {
       "metadata": {
-        "title": "Retail Technology Solutions | E-Commerce & Inventory Management - Samyotech",
-        "description": "Samyotech provides innovative retail technology solutions including e-commerce platforms, personalized shopping apps, smart inventory management, AI-driven insights, and POS integration. Enhance customer engagement, streamline operations, and drive retail growth.",
-        "keywords": "Retail technology, e-commerce development, inventory management system, personalized shopping apps, AI retail analytics, POS integration, Samyotech retail solutions",
-        "canonical": "https://samyotech.com/industries/retail",
+        "title": "Retail Technology Solutions | E-Commerce & Inventory Management - IT United",
+        "description": "IT United provides innovative retail technology solutions including e-commerce platforms, personalized shopping apps, smart inventory management, AI-driven insights, and POS integration. Enhance customer engagement, streamline operations, and drive retail growth.",
+        "keywords": "Retail technology, e-commerce development, inventory management system, personalized shopping apps, AI retail analytics, POS integration, IT United retail solutions",
+        "canonical": "https://www.theitunited.com/industries/retail",
         "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         "language": "en-US",
-        "author": "Samyotech Technologies",
-        "publisher": "Samyotech"
+        "author": "IT United Technologies",
+        "publisher": "IT United"
       },
       "openGraph": {
         "type": "website",
         "locale": "en_US",
-        "url": "https://samyotech.com/industries/retail",
-        "siteName": "Samyotech",
-        "title": "Retail Technology Solutions | E-Commerce & Inventory Management - Samyotech",
+        "url": "https://www.theitunited.com/industries/retail",
+        "siteName": "IT United",
+        "title": "Retail Technology Solutions | E-Commerce & Inventory Management - IT United",
         "description": "Transform retail with innovative technology solutions.",
-        "image": "https://samyotech.com/assets/Images/retailBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/retailBanner.avif",
         "imageWidth": "1200",
         "imageHeight": "630",
-        "imageAlt": "Retail Technology Solutions by Samyotech"
+        "imageAlt": "Retail Technology Solutions by IT United"
       },
       "twitter": {
         "card": "summary_large_image",
-        "site": "@samyotech",
-        "creator": "@samyotech",
-        "title": "Retail Technology Solutions - Samyotech",
+        "site": "@theitunited",
+        "creator": "@theitunited",
+        "title": "Retail Technology Solutions - IT United",
         "description": "E-commerce platforms and smart inventory management.",
-        "image": "https://samyotech.com/assets/Images/retailBanner.avif",
+        "image": "https://www.theitunited.com/assets/Images/retailBanner.avif",
         "imageAlt": "Retail Technology Solutions"
       },
       "schemas": [
@@ -1639,7 +1639,7 @@ export const industriesInternalPageData = {
       "The travel and hospitality industry thrives on delivering seamless experiences, and technology is at the heart of this transformation. At IT United, we design innovative solutions that streamline bookings, enhance guest experiences, and improve operational efficiency. From custom booking platforms to smart hotel systems, we help businesses create memorable journeys that keep travelers coming back.",
     image: "/assets/Images/travelBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -1647,7 +1647,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Travel & Hospitality",
-      description: "Samyotech collaborates with travel and hospitality businesses to create tech solutions that enhance customer satisfaction and operational efficiency. <br/><br/>We specialize in designing booking systems, customer loyalty platforms, and smart management tools tailored to your unique needs. By leveraging technologies like AI, IoT, and mobile apps, we help you personalize guest experiences, manage resources efficiently, and drive customer loyalty. <br/><br/>Whether it’s integrating smart devices in hotel rooms or automating travel bookings, our solutions ensure your business delivers convenience and memorable experiences.",
+      description: "IT United collaborates with travel and hospitality businesses to create tech solutions that enhance customer satisfaction and operational efficiency. <br/><br/>We specialize in designing booking systems, customer loyalty platforms, and smart management tools tailored to your unique needs. By leveraging technologies like AI, IoT, and mobile apps, we help you personalize guest experiences, manage resources efficiently, and drive customer loyalty. <br/><br/>Whether it’s integrating smart devices in hotel rooms or automating travel bookings, our solutions ensure your business delivers convenience and memorable experiences.",
       itUnitedApproachDataList: [
         "Custom Booking Systems: Create tailored platforms for easy, fast, and user-friendly bookings across devices.",
         "Smart Hotel Solutions: Integrate IoT for automated room controls, energy management, and personalized guest experiences.",
@@ -1828,10 +1828,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Travel & Hospitality Software Solutions | Booking & Smart Hotel Systems - Samyotech",
-      "description": "Samyotech delivers innovative travel and hospitality technology solutions including custom booking platforms, smart hotel systems, customer loyalty apps, travel analytics, and automation tools. Enhance guest experiences, streamline operations, and boost customer satisfaction.",
-      "keywords": "Travel technology, Hospitality software, Booking platform development, Smart hotel systems, Customer loyalty apps, Travel analytics, Samyotech travel solutions",
-      "canonical": "https://samyotech.com/industries/travel-and-hospitality",
+      "title": "Travel & Hospitality Software Solutions | Booking & Smart Hotel Systems - IT United",
+      "description": "IT United delivers innovative travel and hospitality technology solutions including custom booking platforms, smart hotel systems, customer loyalty apps, travel analytics, and automation tools. Enhance guest experiences, streamline operations, and boost customer satisfaction.",
+      "keywords": "Travel technology, Hospitality software, Booking platform development, Smart hotel systems, Customer loyalty apps, Travel analytics, IT United travel solutions",
+      "canonical": "https://www.theitunited.com/industries/travel-and-hospitality",
       "ogImage": "/assets/Images/travelBanner.avif"
     }
 
@@ -1843,7 +1843,7 @@ export const industriesInternalPageData = {
       "The logistics industry demands precision, efficiency, and adaptability—and technology is the key to meeting these needs. At IT United, we design innovative solutions that optimize supply chains, enhance fleet management, and improve tracking capabilities. From real-time analytics to automated processes, we empower logistics businesses to streamline operations and deliver excellence at every step.",
     image: "/assets/Images/logisticsBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -2032,10 +2032,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Logistics Software Solutions | Supply Chain & Fleet Management - Samyotech",
-      "description": "Samyotech delivers innovative logistics technology solutions including supply chain automation, real-time fleet tracking, warehouse management systems, predictive analytics, and customer portals. Optimize operations, improve efficiency, and enhance visibility across your logistics business.",
-      "keywords": "Logistics software, Supply chain management, Fleet tracking, Warehouse management systems, Predictive analytics, Customer portals, Samyotech logistics solutions",
-      "canonical": "https://samyotech.com/industries/logistics",
+      "title": "Logistics Software Solutions | Supply Chain & Fleet Management - IT United",
+      "description": "IT United delivers innovative logistics technology solutions including supply chain automation, real-time fleet tracking, warehouse management systems, predictive analytics, and customer portals. Optimize operations, improve efficiency, and enhance visibility across your logistics business.",
+      "keywords": "Logistics software, Supply chain management, Fleet tracking, Warehouse management systems, Predictive analytics, Customer portals, IT United logistics solutions",
+      "canonical": "https://www.theitunited.com/industries/logistics",
       "ogImage": "/assets/Images/logisticsBanner.avif"
     }
 
@@ -2048,7 +2048,7 @@ export const industriesInternalPageData = {
       "The food and restaurant industry thrives on delivering exceptional experiences, both on and off the table. At IT United, we craft technology solutions that optimize operations, enhance customer engagement, and streamline processes. From digital ordering systems to advanced analytics, we help businesses improve efficiency, reduce costs, and delight customers with innovative services.",
     image: "/assets/Images/foodBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -2056,7 +2056,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Food & Restaurant",
-      description: "Samyotech partners with food and restaurant businesses to create tailored tech solutions that simplify operations and elevate customer experiences. <br/><br/>Our expertise ranges from designing digital ordering platforms to implementing smart inventory systems and customer loyalty programs. By integrating AI, IoT, and mobile apps, we help you personalize services, optimize workflows, and reduce operational inefficiencies.<br/><br/>Whether you’re managing a single restaurant or a franchise network, our solutions are designed to meet your unique needs and grow with your business.",
+      description: "IT United partners with food and restaurant businesses to create tailored tech solutions that simplify operations and elevate customer experiences. <br/><br/>Our expertise ranges from designing digital ordering platforms to implementing smart inventory systems and customer loyalty programs. By integrating AI, IoT, and mobile apps, we help you personalize services, optimize workflows, and reduce operational inefficiencies.<br/><br/>Whether you’re managing a single restaurant or a franchise network, our solutions are designed to meet your unique needs and grow with your business.",
       itUnitedApproachDataList: [
         "Digital Ordering Systems: Simplify order placement with user-friendly mobile and web platforms.",
         "Smart Inventory Management: Monitor stock levels and reduce waste with automated tracking systems.",
@@ -2237,10 +2237,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Food & Restaurant Software Solutions | Online Ordering & Restaurant Management - Samyotech",
-      "description": "Samyotech delivers innovative food and restaurant technology solutions including online ordering systems, smart inventory tools, loyalty program apps, table reservation platforms, and kitchen automation. Enhance efficiency, engage customers, and streamline restaurant operations with our tailored solutions.",
-      "keywords": "Food software, Restaurant management, Online ordering systems, Inventory management, Loyalty apps, Table reservation, Kitchen automation, Samyotech food solutions",
-      "canonical": "https://samyotech.com/industries/food-and-restaurant",
+      "title": "Food & Restaurant Software Solutions | Online Ordering & Restaurant Management - IT United",
+      "description": "IT United delivers innovative food and restaurant technology solutions including online ordering systems, smart inventory tools, loyalty program apps, table reservation platforms, and kitchen automation. Enhance efficiency, engage customers, and streamline restaurant operations with our tailored solutions.",
+      "keywords": "Food software, Restaurant management, Online ordering systems, Inventory management, Loyalty apps, Table reservation, Kitchen automation, IT United food solutions",
+      "canonical": "https://www.theitunited.com/industries/food-and-restaurant",
       "ogImage": "/assets/Images/foodBanner.avif"
     }
 
@@ -2252,7 +2252,7 @@ export const industriesInternalPageData = {
       "Gaming is more than entertainment—it’s an immersive experience that blends creativity, technology, and engagement. At IT United, we design cutting-edge gaming solutions that captivate players and drive innovation. From dynamic game development to robust analytics platforms, we provide the tools needed to create unforgettable gaming experiences for audiences of all ages.",
     image: "/assets/Images/gamingBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -2260,7 +2260,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Gaming",
-      description: "Samyotech helps gaming businesses turn ideas into engaging experiences with innovative and tailored tech solutions. Whether it’s building immersive games, integrating advanced graphics, or creating platforms for seamless monetization, we focus on delivering value. <br/><br/> By leveraging AI, AR/VR, and real-time analytics, we help developers optimize performance, enhance user engagement, and adapt to changing market trends. <br/><br/> Our solutions empower you to create games that are entertaining, scalable, and profitable.",
+      description: "IT United helps gaming businesses turn ideas into engaging experiences with innovative and tailored tech solutions. Whether it’s building immersive games, integrating advanced graphics, or creating platforms for seamless monetization, we focus on delivering value. <br/><br/> By leveraging AI, AR/VR, and real-time analytics, we help developers optimize performance, enhance user engagement, and adapt to changing market trends. <br/><br/> Our solutions empower you to create games that are entertaining, scalable, and profitable.",
       itUnitedApproachDataList: [
         "Game Development: Build visually captivating and technically robust games for various platforms.",
         "AR/VR Integration: Add immersive elements to enhance player experiences.",
@@ -2441,10 +2441,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Gaming Software & Game Development Solutions | Samyotech",
-      "description": "Samyotech delivers innovative gaming solutions including immersive game development, AR/VR integration, real-time analytics, monetization platforms, and multiplayer connectivity. Enhance player engagement, optimize performance, and create unforgettable gaming experiences with our tailored solutions.",
-      "keywords": "Gaming software, Game development, AR VR games, Multiplayer games, Player analytics, Monetization platforms, Samyotech gaming solutions",
-      "canonical": "https://samyotech.com/industries/gaming",
+      "title": "Gaming Software & Game Development Solutions | IT United",
+      "description": "IT United delivers innovative gaming solutions including immersive game development, AR/VR integration, real-time analytics, monetization platforms, and multiplayer connectivity. Enhance player engagement, optimize performance, and create unforgettable gaming experiences with our tailored solutions.",
+      "keywords": "Gaming software, Game development, AR VR games, Multiplayer games, Player analytics, Monetization platforms, IT United gaming solutions",
+      "canonical": "https://www.theitunited.com/industries/gaming",
       "ogImage": "/assets/Images/gamingBanner.avif"
     }
 
@@ -2457,7 +2457,7 @@ export const industriesInternalPageData = {
       "The entertainment industry is rapidly evolving with digital-first experiences taking center stage. At IT United, we create technology solutions that redefine content delivery, enhance audience engagement, and streamline production workflows. From interactive platforms to advanced analytics, our innovations help entertainment businesses captivate audiences and stay ahead in this ever-changing landscape.",
     image: "/assets/Images/entertainmentBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -2465,7 +2465,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Entertainment",
-      description: "Samyotech empowers entertainment businesses with tailored technology solutions that address the challenges of a highly competitive industry. <br/><br/> We specialize in creating platforms for content streaming, audience engagement, and efficient production management. By integrating AI, AR/VR, and cloud computing, we deliver scalable, secure solutions that meet evolving consumer demands. <br/><br/> Our focus is on optimizing operations, enhancing user experiences, and providing actionable insights to drive success. Whether it’s building a streaming app or integrating advanced analytics, we ensure your content reaches the right audience at the right time.",
+      description: "IT United empowers entertainment businesses with tailored technology solutions that address the challenges of a highly competitive industry. <br/><br/> We specialize in creating platforms for content streaming, audience engagement, and efficient production management. By integrating AI, AR/VR, and cloud computing, we deliver scalable, secure solutions that meet evolving consumer demands. <br/><br/> Our focus is on optimizing operations, enhancing user experiences, and providing actionable insights to drive success. Whether it’s building a streaming app or integrating advanced analytics, we ensure your content reaches the right audience at the right time.",
       itUnitedApproachDataList: [
         "Content Streaming Platforms: Deliver high-quality streaming experiences with seamless video playback and intuitive interfaces.",
         "Audience Engagement Tools: Create interactive platforms to boost audience involvement and loyalty.",
@@ -2646,10 +2646,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Entertainment Software & Digital Solutions | Samyotech",
-      "description": "Samyotech delivers innovative entertainment solutions including content streaming platforms, interactive engagement tools, production workflow management, analytics, and immersive AR/VR experiences. Enhance audience engagement, optimize content delivery, and streamline media production with our tailored technology solutions.",
-      "keywords": "Entertainment software, Streaming platforms, Interactive media, AR VR solutions, Content analytics, Production management, Samyotech entertainment solutions",
-      "canonical": "https://samyotech.com/industries/entertainment",
+      "title": "Entertainment Software & Digital Solutions | IT United",
+      "description": "IT United delivers innovative entertainment solutions including content streaming platforms, interactive engagement tools, production workflow management, analytics, and immersive AR/VR experiences. Enhance audience engagement, optimize content delivery, and streamline media production with our tailored technology solutions.",
+      "keywords": "Entertainment software, Streaming platforms, Interactive media, AR VR solutions, Content analytics, Production management, IT United entertainment solutions",
+      "canonical": "https://www.theitunited.com/industries/entertainment",
       "ogImage": "/assets/Images/entertainmentBanner.avif"
     }
 
@@ -2662,7 +2662,7 @@ export const industriesInternalPageData = {
       "The on-demand economy thrives on convenience and speed, reshaping industries from delivery to healthcare. At IT United, we design technology solutions that empower businesses to meet real-time demands. From intuitive apps to automated logistics, our tailored innovations ensure seamless user experiences, optimized operations, and scalable platforms that adapt to ever-changing customer expectations.",
     image: "/assets/Images/ondemandBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -2670,7 +2670,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to On-Demand",
-      description: "Samyotech helps businesses unlock the potential of the on-demand economy by crafting tech solutions tailored for instant services.  <br/><br/> We design intuitive platforms, integrate automation tools, and enable real-time tracking to optimize user experiences and backend operations. With expertise in mobile app development, AI, and cloud-based systems, we build scalable solutions that ensure reliability and efficiency. <br/><br/> Whether you’re launching a delivery service or an on-demand healthcare app, we help you create platforms that are user-friendly, secure, and adaptable to growing customer needs.",
+      description: "IT United helps businesses unlock the potential of the on-demand economy by crafting tech solutions tailored for instant services.  <br/><br/> We design intuitive platforms, integrate automation tools, and enable real-time tracking to optimize user experiences and backend operations. With expertise in mobile app development, AI, and cloud-based systems, we build scalable solutions that ensure reliability and efficiency. <br/><br/> Whether you’re launching a delivery service or an on-demand healthcare app, we help you create platforms that are user-friendly, secure, and adaptable to growing customer needs.",
       itUnitedApproachDataList: [
         "Custom On-Demand Apps: Develop apps tailored for instant booking, real-time tracking, and seamless user experiences.",
         "Automated Logistics: Streamline delivery processes with optimized routing and tracking solutions.",
@@ -2851,10 +2851,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "On-Demand App Development & Solutions | Samyotech",
-      "description": "Samyotech delivers innovative on-demand solutions including custom apps, real-time tracking platforms, smart logistics tools, cloud-based infrastructure, and analytics dashboards. Enhance operational efficiency, optimize user experience, and scale your on-demand business with our tailored technology solutions.",
-      "keywords": "On-demand app development, Real-time tracking, Logistics solutions, Cloud-based platforms, Analytics dashboards, Instant booking apps, Samyotech on-demand solutions",
-      "canonical": "https://samyotech.com/industries/on-demand",
+      "title": "On-Demand App Development & Solutions | IT United",
+      "description": "IT United delivers innovative on-demand solutions including custom apps, real-time tracking platforms, smart logistics tools, cloud-based infrastructure, and analytics dashboards. Enhance operational efficiency, optimize user experience, and scale your on-demand business with our tailored technology solutions.",
+      "keywords": "On-demand app development, Real-time tracking, Logistics solutions, Cloud-based platforms, Analytics dashboards, Instant booking apps, IT United on-demand solutions",
+      "canonical": "https://www.theitunited.com/industries/on-demand",
       "ogImage": "/assets/Images/ondemandBanner.avif"
     }
 
@@ -2866,7 +2866,7 @@ export const industriesInternalPageData = {
       "Sports and technology are a powerful combination, transforming how games are played, managed, and experienced. At IT United, we craft solutions that enhance athlete performance, streamline event management, and engage fans like never before. From smart wearables to interactive platforms, we help sports organizations embrace innovation to drive better outcomes on and off the field.",
     image: "/assets/Images/sportsBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -2874,7 +2874,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Sports",
-      description: "Samyotech partners with sports organizations to integrate technology that elevates performance, improves fan engagement, and simplifies operations. By leveraging tools like IoT, AI, and mobile apps, we create solutions that enhance athlete training, enable real-time analytics, and deliver interactive experiences. <br/><br/> From developing wearable technology for performance tracking to building fan-focused platforms, we ensure your sports business stays ahead of the competition. <br/><br/>  Whether you manage athletes, organize events, or engage fans, our scalable and secure solutions are designed to meet your unique needs.",
+      description: "IT United partners with sports organizations to integrate technology that elevates performance, improves fan engagement, and simplifies operations. By leveraging tools like IoT, AI, and mobile apps, we create solutions that enhance athlete training, enable real-time analytics, and deliver interactive experiences. <br/><br/> From developing wearable technology for performance tracking to building fan-focused platforms, we ensure your sports business stays ahead of the competition. <br/><br/>  Whether you manage athletes, organize events, or engage fans, our scalable and secure solutions are designed to meet your unique needs.",
       itUnitedApproachDataList: [
         "Athlete Performance Tracking: Use wearables and analytics to monitor and enhance player performance.",
         "Fan Engagement Platforms: Create interactive apps to keep fans connected and involved during and beyond the games.",
@@ -3055,10 +3055,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Sports Technology Solutions & App Development | Samyotech",
-      "description": "Samyotech delivers innovative sports technology solutions including wearable performance systems, fan engagement apps, event management software, AI-powered analytics, and smart stadium integration. Enhance athlete performance, streamline operations, and engage fans with our tailored technology platforms.",
-      "keywords": "Sports technology, Athlete performance tracking, Fan engagement apps, Event management software, Smart stadium solutions, AI sports analytics, Samyotech sports solutions",
-      "canonical": "https://samyotech.com/industries/sports",
+      "title": "Sports Technology Solutions & App Development | IT United",
+      "description": "IT United delivers innovative sports technology solutions including wearable performance systems, fan engagement apps, event management software, AI-powered analytics, and smart stadium integration. Enhance athlete performance, streamline operations, and engage fans with our tailored technology platforms.",
+      "keywords": "Sports technology, Athlete performance tracking, Fan engagement apps, Event management software, Smart stadium solutions, AI sports analytics, IT United sports solutions",
+      "canonical": "https://www.theitunited.com/industries/sports",
       "ogImage": "/assets/Images/sportsBanner.avif"
     }
 
@@ -3071,7 +3071,7 @@ export const industriesInternalPageData = {
       "Agriculture is embracing technology to improve productivity, sustainability, and efficiency. At IT United, we design solutions that empower farmers and agribusinesses to optimize operations. From precision farming tools to IoT-enabled monitoring systems, we provide technologies that drive better yields, reduce costs, and ensure sustainable practices for the future of farming.",
     image: "/assets/Images/agricultureBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -3079,7 +3079,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Agriculture",
-      description: "Samyotech collaborates with agricultural businesses to address their unique challenges using advanced technology.  <br/><br/> We create systems that optimize farming processes, improve resource management, and enable data-driven decisions. Leveraging tools like IoT, AI, and satellite imagery, our solutions ensure precision in crop monitoring, irrigation, and pest control. By automating workflows and providing real-time insights, we help farmers maximize yields and profitability. <br/><br/> Whether you’re managing small-scale farms or large agribusinesses, our scalable solutions ensure sustainable growth and efficiency in agriculture.",
+      description: "IT United collaborates with agricultural businesses to address their unique challenges using advanced technology.  <br/><br/> We create systems that optimize farming processes, improve resource management, and enable data-driven decisions. Leveraging tools like IoT, AI, and satellite imagery, our solutions ensure precision in crop monitoring, irrigation, and pest control. By automating workflows and providing real-time insights, we help farmers maximize yields and profitability. <br/><br/> Whether you’re managing small-scale farms or large agribusinesses, our scalable solutions ensure sustainable growth and efficiency in agriculture.",
       itUnitedApproachDataList: [
         "IoT-Based Monitoring Systems: Real-time insights into soil, weather, and crop health to improve productivity.",
         "Precision Farming Tools: Enable accurate planting, fertilization, and irrigation to optimize resources.",
@@ -3260,10 +3260,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "Agriculture Technology Solutions & Precision Farming Apps | Samyotech",
-      "description": "Samyotech provides innovative agriculture technology solutions including IoT crop monitoring, precision farming tools, smart irrigation systems, AI-powered analytics, and automated machinery integration. Optimize farm operations, improve yields, and implement sustainable practices with our tailored digital solutions.",
-      "keywords": "Agriculture technology, IoT crop monitoring, Precision farming tools, Smart irrigation systems, AI analytics in agriculture, Automated farm equipment, Samyotech agriculture solutions",
-      "canonical": "https://samyotech.com/industries/agriculture",
+      "title": "Agriculture Technology Solutions & Precision Farming Apps | IT United",
+      "description": "IT United provides innovative agriculture technology solutions including IoT crop monitoring, precision farming tools, smart irrigation systems, AI-powered analytics, and automated machinery integration. Optimize farm operations, improve yields, and implement sustainable practices with our tailored digital solutions.",
+      "keywords": "Agriculture technology, IoT crop monitoring, Precision farming tools, Smart irrigation systems, AI analytics in agriculture, Automated farm equipment, IT United agriculture solutions",
+      "canonical": "https://www.theitunited.com/industries/agriculture",
       "ogImage": "/assets/Images/agricultureBanner.avif"
     }
 
@@ -3276,7 +3276,7 @@ export const industriesInternalPageData = {
       "Government operations are evolving to meet the needs of modern citizens, and technology plays a crucial role in this transformation. At IT United, we create secure, scalable, and user-friendly solutions that simplify governance, enhance public services, and promote transparency. From digital portals to smart city systems, we enable governments to connect better with their citizens.",
     image: "/assets/Images/governmentBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -3284,7 +3284,7 @@ export const industriesInternalPageData = {
 
     itUnitedApproachData: {
       heading: "IT United Approach to Government",
-      description: "Samyotech partners with government agencies to streamline processes and improve service delivery through technology.  <br/><br/> We develop digital solutions that enhance citizen engagement, optimize resource allocation, and ensure secure operations. Leveraging technologies like IoT, AI, and blockchain, we create scalable systems for public services, data management, and infrastructure monitoring. Our focus is on making governance efficient, transparent, and accessible.  <br/><br/> Whether it’s building citizen portals or automating administrative tasks, our solutions empower governments to address challenges effectively while enhancing the overall citizen experience.",
+      description: "IT United partners with government agencies to streamline processes and improve service delivery through technology.  <br/><br/> We develop digital solutions that enhance citizen engagement, optimize resource allocation, and ensure secure operations. Leveraging technologies like IoT, AI, and blockchain, we create scalable systems for public services, data management, and infrastructure monitoring. Our focus is on making governance efficient, transparent, and accessible.  <br/><br/> Whether it’s building citizen portals or automating administrative tasks, our solutions empower governments to address challenges effectively while enhancing the overall citizen experience.",
       itUnitedApproachDataList: [
         "Citizen Portals: Develop digital platforms for seamless access to public services and information.",
         "Smart City Solutions: Create IoT-enabled systems to monitor infrastructure and improve urban management.",
@@ -3464,10 +3464,10 @@ export const industriesInternalPageData = {
       ]
     },
     "seo": {
-      "title": "Government Technology Solutions & Smart Citizen Portals | Samyotech",
-      "description": "Samyotech provides secure and scalable government technology solutions including digital citizen portals, smart city management systems, AI-driven resource allocation, automated administrative tools, and secure data platforms. Enhance governance, streamline public services, and improve citizen engagement with our tailored digital solutions.",
-      "keywords": "Government technology, Citizen portals, Smart city solutions, AI for public services, Secure data management, Administrative automation, Samyotech government solutions",
-      "canonical": "https://samyotech.com/industries/government",
+      "title": "Government Technology Solutions & Smart Citizen Portals | IT United",
+      "description": "IT United provides secure and scalable government technology solutions including digital citizen portals, smart city management systems, AI-driven resource allocation, automated administrative tools, and secure data platforms. Enhance governance, streamline public services, and improve citizen engagement with our tailored digital solutions.",
+      "keywords": "Government technology, Citizen portals, Smart city solutions, AI for public services, Secure data management, Administrative automation, IT United government solutions",
+      "canonical": "https://www.theitunited.com/industries/government",
       "ogImage": "/assets/Images/governmentBanner.avif"
     }
 
@@ -3477,10 +3477,10 @@ export const industriesInternalPageData = {
   "sailpoint-solutions-consultancy": {
     title: "Sailpoint Solutions",
     description:
-      "Simplify identity governance with Samyotech’s SailPoint Solutions Consultancy. We deliver end-to-end identity management services, from implementation to customisation and ongoing support, ensuring security, compliance, and efficiency for your business. Our certified experts tailor SailPoint solutions to your unique needs, helping organisations automate access control, improve risk management, and achieve seamless identity governance across systems.",
+      "Simplify identity governance with IT United’s SailPoint Solutions Consultancy. We deliver end-to-end identity management services, from implementation to customisation and ongoing support, ensuring security, compliance, and efficiency for your business. Our certified experts tailor SailPoint solutions to your unique needs, helping organisations automate access control, improve risk management, and achieve seamless identity governance across systems.",
     image: "/assets/Images/sailpointBanner.avif",
     stats: [
-      { label: "Years of Experience", value: "12+" },
+      { label: "Years of Experience", value: "5+" },
       { label: "Apps Delivered", value: "850+" },
       { label: "Remote Developers", value: "120+" },
       { label: "Passionate Delivery", value: "100%" },
@@ -3669,10 +3669,10 @@ export const industriesInternalPageData = {
     },
 
     "seo": {
-      "title": "SailPoint Solutions Consultancy & Identity Governance Services | Samyotech",
-      "description": "Simplify identity governance with Samyotech’s SailPoint Solutions Consultancy. Our certified experts provide end-to-end SailPoint services, including IdentityNow and IdentityIQ implementation, application onboarding, RBAC frameworks, IAM project management, and compliance support to ensure secure and efficient identity management.",
-      "keywords": "SailPoint consultancy, Identity governance, IdentityNow, IdentityIQ, Access management, RBAC, IAM project management, Samyotech SailPoint solutions",
-      "canonical": "https://samyotech.com/services/sailpoint-solutions-consultancy",
+      "title": "SailPoint Solutions Consultancy & Identity Governance Services | IT United",
+      "description": "Simplify identity governance with IT United’s SailPoint Solutions Consultancy. Our certified experts provide end-to-end SailPoint services, including IdentityNow and IdentityIQ implementation, application onboarding, RBAC frameworks, IAM project management, and compliance support to ensure secure and efficient identity management.",
+      "keywords": "SailPoint consultancy, Identity governance, IdentityNow, IdentityIQ, Access management, RBAC, IAM project management, IT United SailPoint solutions",
+      "canonical": "https://www.theitunited.com/services/sailpoint-solutions-consultancy",
       "ogImage": "/assets/Images/sailpointBanner.avif"
     }
 

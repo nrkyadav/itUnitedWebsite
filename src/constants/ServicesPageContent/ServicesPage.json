@@ -152,36 +152,36 @@
 
   "seoData": {
     "metadata": {
-      "title": "Samyotech Services | Software Development, App Development & AI Solutions",
-      "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
-      "keywords": "software development services, app development services, hardware integration, dedicated development teams, blockchain development, AI solutions, Samyotech",
-      "canonical": "https://samyotech.com/software-services-company",
+      "title": "IT United Services | Software Development, App Development & AI Solutions",
+      "description": "Discover IT United’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
+      "keywords": "software development services, app development services, hardware integration, dedicated development teams, blockchain development, AI solutions, IT United",
+      "canonical": "https://www.theitunited.com/software-services-company",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "language": "en-US",
-      "author": "Samyotech",
-      "publisher": "Samyotech",
+      "author": "IT United",
+      "publisher": "IT United",
       "viewport": "width=device-width, initial-scale=1"
     },
     "openGraph": {
       "type": "website",
       "locale": "en_US",
-      "url": "https://samyotech.com/software-services-company",
-      "siteName": "Samyotech",
-      "title": "Samyotech Services | Software Development, App Development & AI Solutions",
-      "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
-      "image": "https://samyotech.com/assets/Images/logo.svg",
+      "url": "https://www.theitunited.com/software-services-company",
+      "siteName": "IT United",
+      "title": "IT United Services | Software Development, App Development & AI Solutions",
+      "description": "Discover IT United’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
+      "image": "https://www.theitunited.com/assets/Images/logo.svg",
       "imageWidth": "1200",
       "imageHeight": "630",
-      "imageAlt": "Samyotech Services - Software, App, AI & Blockchain Solutions"
+      "imageAlt": "IT United Services - Software, App, AI & Blockchain Solutions"
     },
     "twitter": {
       "card": "summary_large_image",
-      "site": "@samyotech",
-      "creator": "@samyotech",
-      "title": "Samyotech Services | Software Development, App Development & AI Solutions",
-      "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
-      "image": "https://samyotech.com/assets/Images/logo.svg",
-      "imageAlt": "Samyotech Services"
+      "site": "@theitunited",
+      "creator": "@theitunited",
+      "title": "IT United Services | Software Development, App Development & AI Solutions",
+      "description": "Discover IT United’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions. Transform your business with innovative, scalable, and AI-powered solutions.",
+      "image": "https://www.theitunited.com/assets/Images/logo.svg",
+      "imageAlt": "IT United Services"
     },
     "schemas": [
       {
@@ -192,13 +192,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://samyotech.com"
+            "item": "https://www.theitunited.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Software Services",
-            "item": "https://samyotech.com/software-services-company"
+            "item": "https://www.theitunited.com/software-services-company"
           }
         ]
       },
@@ -208,26 +208,26 @@
         "serviceType": "Software Development Services",
         "provider": {
           "@type": "Organization",
-          "name": "Samyotech",
-          "url": "https://samyotech.com",
+          "name": "IT United",
+          "url": "https://www.theitunited.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://samyotech.com/assets/Images/logo.svg",
+            "url": "https://www.theitunited.com/assets/Images/logo.svg",
             "width": "250",
             "height": "60"
           },
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91 786 999 8739",
+            "telephone": "+91 747 707 5407",
             "contactType": "Sales",
             "areaServed": "Worldwide",
             "availableLanguage": ["English"]
           },
           "sameAs": [
-            "https://www.facebook.com/samyotech",
-            "https://www.linkedin.com/company/samyotech",
-            "https://twitter.com/samyotech",
-            "https://www.instagram.com/samyotech"
+            "https://www.facebook.com/theitunited",
+            "https://www.linkedin.com/company/theitunited",
+            "https://twitter.com/theitunited",
+            "https://www.instagram.com/theitunited"
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -246,11 +246,11 @@
         },
         "availableChannel": {
           "@type": "ServiceChannel",
-          "serviceUrl": "https://samyotech.com/software-services-company"
+          "serviceUrl": "https://www.theitunited.com/software-services-company"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Samyotech Services Catalog",
+          "name": "IT United Services Catalog",
           "itemListElement": [
             {
               "@type": "Offer",
@@ -298,38 +298,38 @@
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Samyotech Services",
-        "url": "https://samyotech.com/software-services-company",
-        "description": "Discover Samyotech’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions.",
+        "name": "IT United Services",
+        "url": "https://www.theitunited.com/software-services-company",
+        "description": "Discover IT United’s full suite of services including Software Development, App Development, Hardware Integration, Dedicated Development Teams, and Blockchain Solutions.",
         "inLanguage": "en-US",
         "isPartOf": {
           "@type": "WebSite",
-          "name": "Samyotech",
-          "url": "https://samyotech.com"
+          "name": "IT United",
+          "url": "https://www.theitunited.com"
         }
       },
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Samyotech",
-        "url": "https://samyotech.com",
+        "name": "IT United",
+        "url": "https://www.theitunited.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://samyotech.com/assets/Images/logo.svg"
+          "url": "https://www.theitunited.com/assets/Images/logo.svg"
         },
         "description": "Leading software development company specializing in MVP development, mobile apps, and web applications with 850+ successful projects delivered.",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+91 786 999 8739",
+          "telephone": "+91 747 707 5407",
           "contactType": "Customer Service",
           "areaServed": "Worldwide",
           "availableLanguage": ["English"]
         },
         "sameAs": [
-          "https://www.facebook.com/samyotech",
-          "https://www.linkedin.com/company/samyotech",
-          "https://twitter.com/samyotech",
-          "https://www.instagram.com/samyotech"
+          "https://www.facebook.com/theitunited",
+          "https://www.linkedin.com/company/theitunited",
+          "https://twitter.com/theitunited",
+          "https://www.instagram.com/theitunited"
         ]
       },
       {
@@ -338,10 +338,10 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What services does Samyotech offer?",
+            "name": "What services does IT United offer?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Samyotech offers a comprehensive suite of software services including Software Development, Mobile App Development, Web App Development, Hardware Integration, Blockchain Development, and AI Automation Solutions."
+              "text": "IT United offers a comprehensive suite of software services including Software Development, Mobile App Development, Web App Development, Hardware Integration, Blockchain Development, and AI Automation Solutions."
             }
           },
           {
@@ -382,11 +382,11 @@
     "alternateLanguages": [
       {
         "hreflang": "en",
-        "href": "https://samyotech.com/software-services-company"
+        "href": "https://www.theitunited.com/software-services-company"
       },
       {
         "hreflang": "x-default",
-        "href": "https://samyotech.com/software-services-company"
+        "href": "https://www.theitunited.com/software-services-company"
       }
     ],
     "additionalMetaTags": [

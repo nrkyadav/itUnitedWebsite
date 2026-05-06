@@ -1,5 +1,5 @@
 .bannerSection {
-  background: #002c22;
+  background: #000000;
   min-height: 10vh;
   display: flex;
   align-items: center;
@@ -26,18 +26,18 @@
 }
 
 .card {
-  background-color: #002c22;
+  background-color: #000000;
   border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 6px 20px rgba(0, 44, 34, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 44, 34, 0.25);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
 .imageWrapper {

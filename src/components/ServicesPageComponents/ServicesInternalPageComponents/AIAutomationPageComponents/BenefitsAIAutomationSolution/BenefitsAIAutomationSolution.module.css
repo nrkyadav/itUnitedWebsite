@@ -32,14 +32,14 @@
   .smallHeading {
     font-size: 18px;
     font-weight: 600;
-    color: #002c22;
+    color: #000000;
     margin-bottom: 15px;
   }
   
   .largeHeading {
     font-size: 36px;
     font-weight: 700;
-    color: #002c22;
+    color: #000000;
     margin-bottom: 40px;
   }
   
@@ -64,7 +64,7 @@
   }
   
   .cardBox {
-    background: #002c22;
+    background: #000000;
     color: #fff;
     padding: 22px;
     margin-top: 12px;

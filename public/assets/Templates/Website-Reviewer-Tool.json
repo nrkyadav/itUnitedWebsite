@@ -9,12 +9,12 @@
           "values": [
             {
               "fieldLabel": "Landing Page Url",
-              "placeholder": "https://samyotech-uk-zp1v.vercel.app/",
+              "placeholder": "https://www.theitunited.com",
               "requiredField": true
             },
             {
               "fieldLabel": "Email ",
-              "placeholder": "samyotech@gmail.com"
+              "placeholder": "info@theitunited.com"
             }
           ]
         },

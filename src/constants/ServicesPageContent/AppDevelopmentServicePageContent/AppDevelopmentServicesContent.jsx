@@ -4,7 +4,7 @@ export const appDevelopmentServicesContent = {
         "description": "Bring your ideas to life with IT United’s Mobile App Development services. From engaging user interfaces to robust functionality, we craft apps for iOS, Android, and cross-platforms. Our apps combine intuitive design with cutting-edge technology to drive user engagement, improve accessibility, and deliver exceptional experiences.",
         "image": "/assets/Images/mobileappdevelopmentBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -296,7 +296,7 @@ export const appDevelopmentServicesContent = {
         "description": "Revolutionize user experiences with IT United’s Web App Development services. We craft dynamic, responsive web applications that are fast, reliable, and tailored to your business needs. Combining innovative design with robust functionality, our web apps drive engagement, streamline operations, and deliver scalable solutions for businesses across industries.",
         "image": "/assets/Images/webappdevelopmentBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -588,7 +588,7 @@ export const appDevelopmentServicesContent = {
         "description": "Simplify development and maximize reach with IT United’s Cross-Platform App Development services. We build apps that deliver consistent performance across iOS, Android, and web platforms. With faster development cycles and reduced costs, our cross-platform solutions help businesses launch quickly without compromising quality or user experience.",
         "image": "/assets/Images/crossPlatformAppDevelopmentBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -879,7 +879,7 @@ export const appDevelopmentServicesContent = {
         "description": "Boost your sales and customer engagement with IT United’s E-Commerce App Development services. We build feature-rich, secure, and user-friendly e-commerce apps tailored to your business. From seamless payment integrations to personalized shopping experiences, our solutions empower your brand to thrive in the competitive online marketplace.",
         "image": "/assets/Images/ecommercedevelopmentBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1171,7 +1171,7 @@ export const appDevelopmentServicesContent = {
         "description": "Streamline your operations with IT United’s Enterprise App Development services. We design robust, scalable applications that improve collaboration, automate workflows, and enhance productivity. Tailored for your organization’s unique needs, our enterprise apps empower teams, optimize resources, and drive efficiency at every level.",
         "image": "/assets/Images/enterpriseappdevelopmentBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1463,7 +1463,7 @@ export const appDevelopmentServicesContent = {
         "description": "Turn your unique ideas into reality with IT United’s Custom App Development services. We craft tailor-made applications designed to address specific business needs. Whether it’s enhancing operations or improving customer engagement, our solutions are scalable, secure, and built to deliver measurable results, helping you stay ahead in today’s competitive market.",
         "image": "/assets/Images/webappdevelopmentBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -1754,7 +1754,7 @@ export const appDevelopmentServicesContent = {
         "description": "Ensure your apps remain efficient, secure, and up-to-date with IT United’s App Maintenance and Support services. From bug fixes to performance enhancements, we offer comprehensive solutions to keep your applications running smoothly, delivering value over time while adapting to technological changes and user needs.",
         "image": "/assets/Images/appmaintenanceBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }
@@ -2045,7 +2045,7 @@ export const appDevelopmentServicesContent = {
         "description": "Breathe new life into outdated apps with IT United’s App Modernization Services. We upgrade legacy systems, improve functionality, and integrate cutting-edge technologies to keep your applications relevant, scalable, and aligned with modern user expectations.",
         "image": "/assets/Images/appmodernBanner.webp",
         "stats": [
-            { "label": "Years of Experience", "value": "12+" },
+            { "label": "Years of Experience", "value": "5+" },
             { "label": "Apps Delivered", "value": "850+" },
             { "label": "Remote Developers", "value": "120+" },
             { "label": "Passionate Delivery", "value": "100%" }

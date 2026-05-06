@@ -1,5 +1,5 @@
 .engagementSection {
-    background: rgb(0, 44, 34);
+    background: rgb(0, 0, 0);
     padding: 80px 5% 50px 5%;
     text-align: center;
     color: #ffffff;
@@ -64,14 +64,14 @@
     align-items: center;
     font-size: 0.95rem;
     font-weight: 700;
-    color: #002c22;
+    color: #000000;
     text-align: left;
   }
   
   .icon {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #002c22;
+    color: #000000;
   }
   
   .accordionContent {
@@ -89,7 +89,7 @@
   
   .accordionContent p {
     margin: 0;
-    color: #002c22;
+    color: #000000;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
